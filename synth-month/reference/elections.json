@@ -1,0 +1,42 @@
+[
+  {
+    "property_no": "LX/840/P",
+    "election": "consent",
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/857/P",
+    "election": "consent",
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/874/P",
+    "election": "consent",
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/891/P",
+    "election": "consent",
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/908/P",
+    "election": "consent",
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/925/P",
+    "election": "consent",
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/908/P",
+    "election": "nonconsent",
+    "effective": "2025-03-01"
+  },
+  {
+    "property_no": "LX/925/P",
+    "election": "nonconsent",
+    "effective": "2025-07-09"
+  }
+]

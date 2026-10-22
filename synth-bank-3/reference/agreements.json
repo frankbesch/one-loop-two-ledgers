@@ -1,0 +1,507 @@
+[
+  {
+    "borrower_id": "b01",
+    "borrower": "Thornquill Valve Corp.",
+    "agreement_date": "2022-06-15",
+    "max_leverage": 4.5,
+    "min_interest_coverage": 2.5,
+    "permitted_categories": [
+      "restructuring_charges",
+      "transaction_costs",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.15,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "Chief Executive Officer",
+      "Chief Financial Officer",
+      "Treasurer"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 95000000
+      },
+      {
+        "lender": "Ellesmere Mutual Trust",
+        "amount": 100000000
+      },
+      {
+        "lender": "Copperline Federal Savings",
+        "amount": 87500000
+      },
+      {
+        "lender": "Marrowgate Direct Lending Fund, L.P.",
+        "amount": 77500000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b02",
+    "borrower": "Mirefield Specialty Foods Co.",
+    "agreement_date": "2023-03-08",
+    "max_leverage": 4.0,
+    "min_interest_coverage": 2.75,
+    "permitted_categories": [
+      "restructuring_charges",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.2,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "President and Chief Executive Officer",
+      "Chief Financial Officer",
+      "Vice President of Finance"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 75000000
+      },
+      {
+        "lender": "Marrowgate Direct Lending Fund, L.P.",
+        "amount": 60000000
+      },
+      {
+        "lender": "Northgill Specialty Finance LLC",
+        "amount": 45000000
+      },
+      {
+        "lender": "Ellesmere Mutual Trust",
+        "amount": 45000000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b03",
+    "borrower": "Quayside Polymer Compounds Corp.",
+    "agreement_date": "2021-11-19",
+    "max_leverage": 5.0,
+    "min_interest_coverage": 2.0,
+    "permitted_categories": [
+      "restructuring_charges",
+      "transaction_costs",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.2,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "Chief Executive Officer",
+      "Executive Vice President and Chief Financial Officer",
+      "Chief Accounting Officer",
+      "Treasurer"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 160000000
+      },
+      {
+        "lender": "Marrowgate Direct Lending Fund, L.P.",
+        "amount": 167500000
+      },
+      {
+        "lender": "Ellesmere Mutual Trust",
+        "amount": 127500000
+      },
+      {
+        "lender": "Copperline Federal Savings",
+        "amount": 155000000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b04",
+    "borrower": "Larkspur Lane Logistics Co.",
+    "agreement_date": "2023-09-26",
+    "max_leverage": 3.75,
+    "min_interest_coverage": 3.0,
+    "permitted_categories": [
+      "restructuring_charges",
+      "transaction_costs",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.15,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "Chief Executive Officer",
+      "Chief Financial Officer",
+      "Controller"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 65000000
+      },
+      {
+        "lender": "Copperline Federal Savings",
+        "amount": 35000000
+      },
+      {
+        "lender": "Northgill Specialty Finance LLC",
+        "amount": 45000000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b05",
+    "borrower": "Corvane Dental Distribution Corp.",
+    "agreement_date": "2022-12-02",
+    "max_leverage": 4.25,
+    "min_interest_coverage": 2.5,
+    "permitted_categories": [
+      "restructuring_charges",
+      "transaction_costs",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.2,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "Chief Executive Officer",
+      "Senior Vice President, Finance",
+      "Treasurer",
+      "Chief Accounting Officer"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 97500000
+      },
+      {
+        "lender": "Marrowgate Direct Lending Fund, L.P.",
+        "amount": 72500000
+      },
+      {
+        "lender": "Northgill Specialty Finance LLC",
+        "amount": 65000000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b06",
+    "borrower": "Saltmarsh Printing & Labels Co.",
+    "agreement_date": "2023-05-10",
+    "max_leverage": 3.5,
+    "min_interest_coverage": 3.25,
+    "permitted_categories": [
+      "restructuring_charges",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.15,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "President",
+      "Chief Financial Officer",
+      "Treasurer"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 100000000
+      },
+      {
+        "lender": "Northgill Specialty Finance LLC",
+        "amount": 87500000
+      },
+      {
+        "lender": "Copperline Federal Savings",
+        "amount": 87500000
+      },
+      {
+        "lender": "Ellesmere Mutual Trust",
+        "amount": 100000000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b07",
+    "borrower": "Kilnworth Ceramics Corp.",
+    "agreement_date": "2022-08-30",
+    "max_leverage": 4.75,
+    "min_interest_coverage": 2.25,
+    "permitted_categories": [
+      "restructuring_charges",
+      "transaction_costs",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.2,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "Chief Executive Officer",
+      "Chief Financial Officer",
+      "Vice President, Treasury",
+      "Controller"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 50000000
+      },
+      {
+        "lender": "Ellesmere Mutual Trust",
+        "amount": 45000000
+      },
+      {
+        "lender": "Northgill Specialty Finance LLC",
+        "amount": 45000000
+      },
+      {
+        "lender": "Copperline Federal Savings",
+        "amount": 40000000
+      },
+      {
+        "lender": "Marrowgate Direct Lending Fund, L.P.",
+        "amount": 45000000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b08",
+    "borrower": "Brimscombe Fastener Holdings, L.P.",
+    "agreement_date": "2021-05-27",
+    "max_leverage": 4.0,
+    "min_interest_coverage": 3.0,
+    "permitted_categories": [
+      "restructuring_charges",
+      "transaction_costs",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.2,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "Chief Executive Officer",
+      "Chief Financial Officer",
+      "Treasurer",
+      "Controller"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 255000000
+      },
+      {
+        "lender": "Northgill Specialty Finance LLC",
+        "amount": 177500000
+      },
+      {
+        "lender": "Copperline Federal Savings",
+        "amount": 262500000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b09",
+    "borrower": "Harrowmere Veterinary Partners Corp.",
+    "agreement_date": "2023-01-18",
+    "max_leverage": 4.5,
+    "min_interest_coverage": 2.25,
+    "permitted_categories": [
+      "restructuring_charges",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.15,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "Chief Executive Officer",
+      "Chief Financial Officer",
+      "Vice President, Finance"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 77500000
+      },
+      {
+        "lender": "Ellesmere Mutual Trust",
+        "amount": 62500000
+      },
+      {
+        "lender": "Copperline Federal Savings",
+        "amount": 55000000
+      },
+      {
+        "lender": "Northgill Specialty Finance LLC",
+        "amount": 57500000
+      },
+      {
+        "lender": "Marrowgate Direct Lending Fund, L.P.",
+        "amount": 62500000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b10",
+    "borrower": "Gannet Point Marine Hardware Co.",
+    "agreement_date": "2024-04-11",
+    "max_leverage": 3.25,
+    "min_interest_coverage": 3.5,
+    "permitted_categories": [
+      "restructuring_charges",
+      "transaction_costs",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.2,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "President",
+      "Chief Financial Officer",
+      "Treasurer"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 30000000
+      },
+      {
+        "lender": "Ellesmere Mutual Trust",
+        "amount": 30000000
+      },
+      {
+        "lender": "Marrowgate Direct Lending Fund, L.P.",
+        "amount": 25000000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b11",
+    "borrower": "Westerhope Plastics Molding Corp.",
+    "agreement_date": "2022-03-24",
+    "max_leverage": 4.75,
+    "min_interest_coverage": 2.0,
+    "permitted_categories": [
+      "restructuring_charges",
+      "transaction_costs",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.15,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "Chief Executive Officer",
+      "Chief Financial Officer",
+      "Chief Accounting Officer",
+      "Treasurer"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 157500000
+      },
+      {
+        "lender": "Copperline Federal Savings",
+        "amount": 122500000
+      },
+      {
+        "lender": "Ellesmere Mutual Trust",
+        "amount": 142500000
+      },
+      {
+        "lender": "Marrowgate Direct Lending Fund, L.P.",
+        "amount": 107500000
+      }
+    ]
+  },
+  {
+    "borrower_id": "b12",
+    "borrower": "Pinecastle HVAC Services Holdings Corp.",
+    "agreement_date": "2023-07-12",
+    "max_leverage": 3.0,
+    "min_interest_coverage": 3.5,
+    "permitted_categories": [
+      "restructuring_charges",
+      "non_cash_compensation",
+      "cost_savings",
+      "non_recurring_losses"
+    ],
+    "cost_savings_cap_pct": 0.2,
+    "cost_savings_window_months": 18,
+    "cure_max": 4,
+    "cure_no_consecutive": true,
+    "responsible_officer_titles": [
+      "Chief Executive Officer",
+      "Chief Financial Officer",
+      "Treasurer",
+      "Vice President, Finance"
+    ],
+    "delivery_days": 45,
+    "delivery_days_q4": 90,
+    "commitments": [
+      {
+        "lender": "Halberd Moor Trust Company",
+        "amount": 227500000
+      },
+      {
+        "lender": "Northgill Specialty Finance LLC",
+        "amount": 217500000
+      },
+      {
+        "lender": "Ellesmere Mutual Trust",
+        "amount": 165000000
+      }
+    ]
+  }
+]

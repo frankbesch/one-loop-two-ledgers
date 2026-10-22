@@ -1,0 +1,27 @@
+{
+ "arm": "C-cascade-live-m1-20261008T210155Z",
+ "backend": "jev+claude",
+ "mode": "live",
+ "months": {
+  "m1": {
+   "lines": 210,
+   "held": 29,
+   "silent": 7,
+   "false_hold": 0,
+   "drift_held": 0,
+   "right": 203,
+   "claim_targets": 14,
+   "claim_held": 14,
+   "money_targets": 24,
+   "money_caught": 17,
+   "money_right_reason": 16,
+   "supported_clean": 5,
+   "supported_clean_held": 0,
+   "money_dollars_caught": 975.82,
+   "money_dollars_total": 1279.69,
+   "dollars_caught_share": 0.7625,
+   "audit_n": null,
+   "audit_estimate_silent": null
+  }
+ }
+}

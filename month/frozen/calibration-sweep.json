@@ -1,0 +1,566 @@
+{
+ "policy": "Step 4 of the step 6 build order: set floors and choose the model per question on the calibration months.\n\n  set_floors_m.py --claude <run dir> --jev <run dir> [--months 1 2] --out month/frozen/\n\nReplays logged answers only; no model call. For every assignment of Claude or Jev to Q2, Q5, Q7, Q9 (Q6 is a\nnote to the person and never changes an outcome; it goes to the cheaper model), floors are set by coordinate\ndescent over 0.40..0.95 under the policy fixed before the sweep:\n  1. fewest silent lines (posted while the key holds them);\n  2. then fewest lines held for a person;\n  3. then the highest floors (the most conservative point of a tie).\nF4 (Frank, 10-08): per question, the cheapest model that passes. \"Passes\" = the calibration months meet the\narm D marks: at most 2 silent lines per month and at least 90% of planted dollars caught. Among passing\nassignments the one with the most Jev questions wins (Jev is metered at about $0.015 per month; Claude costs\nsubscription minutes); then fewer lines held. A line a replay cannot simulate (a question the logged run never\nasked) counts as held, and the count is reported.\n",
+ "results": [
+  {
+   "sources": {
+    "Q2": "jev",
+    "Q5": "jev",
+    "Q7": "jev",
+    "Q9": "jev",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.75,
+    "Q5": 0.95,
+    "Q7": 0.95,
+    "Q9": 0.95,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 74,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 4
+  },
+  {
+   "sources": {
+    "Q2": "jev",
+    "Q5": "jev",
+    "Q7": "jev",
+    "Q9": "claude",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.75,
+    "Q5": 0.95,
+    "Q7": 0.95,
+    "Q9": 0.9,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 74,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 3
+  },
+  {
+   "sources": {
+    "Q2": "jev",
+    "Q5": "jev",
+    "Q7": "claude",
+    "Q9": "jev",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.75,
+    "Q5": 0.95,
+    "Q7": 0.95,
+    "Q9": 0.95,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 74,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 3
+  },
+  {
+   "sources": {
+    "Q2": "jev",
+    "Q5": "jev",
+    "Q7": "claude",
+    "Q9": "claude",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.75,
+    "Q5": 0.95,
+    "Q7": 0.95,
+    "Q9": 0.9,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 74,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 2
+  },
+  {
+   "sources": {
+    "Q2": "jev",
+    "Q5": "claude",
+    "Q7": "jev",
+    "Q9": "jev",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.75,
+    "Q5": 0.9,
+    "Q7": 0.95,
+    "Q9": 0.95,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 74,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 3
+  },
+  {
+   "sources": {
+    "Q2": "jev",
+    "Q5": "claude",
+    "Q7": "jev",
+    "Q9": "claude",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.75,
+    "Q5": 0.9,
+    "Q7": 0.95,
+    "Q9": 0.9,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 74,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 2
+  },
+  {
+   "sources": {
+    "Q2": "jev",
+    "Q5": "claude",
+    "Q7": "claude",
+    "Q9": "jev",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.75,
+    "Q5": 0.9,
+    "Q7": 0.95,
+    "Q9": 0.95,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 74,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 2
+  },
+  {
+   "sources": {
+    "Q2": "jev",
+    "Q5": "claude",
+    "Q7": "claude",
+    "Q9": "claude",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.75,
+    "Q5": 0.9,
+    "Q7": 0.95,
+    "Q9": 0.9,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 74,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 37,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 1
+  },
+  {
+   "sources": {
+    "Q2": "claude",
+    "Q5": "jev",
+    "Q7": "jev",
+    "Q9": "jev",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.7,
+    "Q5": 0.95,
+    "Q7": 0.95,
+    "Q9": 0.95,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 72,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 3
+  },
+  {
+   "sources": {
+    "Q2": "claude",
+    "Q5": "jev",
+    "Q7": "jev",
+    "Q9": "claude",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.7,
+    "Q5": 0.95,
+    "Q7": 0.95,
+    "Q9": 0.9,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 72,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 2
+  },
+  {
+   "sources": {
+    "Q2": "claude",
+    "Q5": "jev",
+    "Q7": "claude",
+    "Q9": "jev",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.7,
+    "Q5": 0.95,
+    "Q7": 0.95,
+    "Q9": 0.95,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 72,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 2
+  },
+  {
+   "sources": {
+    "Q2": "claude",
+    "Q5": "jev",
+    "Q7": "claude",
+    "Q9": "claude",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.7,
+    "Q5": 0.95,
+    "Q7": 0.95,
+    "Q9": 0.9,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 72,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 1
+  },
+  {
+   "sources": {
+    "Q2": "claude",
+    "Q5": "claude",
+    "Q7": "jev",
+    "Q9": "jev",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.7,
+    "Q5": 0.9,
+    "Q7": 0.95,
+    "Q9": 0.95,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 72,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 2
+  },
+  {
+   "sources": {
+    "Q2": "claude",
+    "Q5": "claude",
+    "Q7": "jev",
+    "Q9": "claude",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.7,
+    "Q5": 0.9,
+    "Q7": 0.95,
+    "Q9": 0.9,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 72,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 1
+  },
+  {
+   "sources": {
+    "Q2": "claude",
+    "Q5": "claude",
+    "Q7": "claude",
+    "Q9": "jev",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.7,
+    "Q5": 0.9,
+    "Q7": 0.95,
+    "Q9": 0.95,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 72,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 1
+  },
+  {
+   "sources": {
+    "Q2": "claude",
+    "Q5": "claude",
+    "Q7": "claude",
+    "Q9": "claude",
+    "Q6": "jev"
+   },
+   "floors": {
+    "Q2": 0.7,
+    "Q5": 0.9,
+    "Q7": 0.95,
+    "Q9": 0.9,
+    "Q6": 0.6
+   },
+   "silent": 0,
+   "held": 72,
+   "passes": true,
+   "per_month": {
+    "1": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    },
+    "2": {
+     "silent": 0,
+     "held": 36,
+     "dollars_share": 1.0
+    }
+   },
+   "unsimulated": 0,
+   "jev_questions": 0
+  }
+ ],
+ "pick": {
+  "sources": {
+   "Q2": "jev",
+   "Q5": "jev",
+   "Q7": "jev",
+   "Q9": "jev",
+   "Q6": "jev"
+  },
+  "floors": {
+   "Q2": 0.75,
+   "Q5": 0.95,
+   "Q7": 0.95,
+   "Q9": 0.95,
+   "Q6": 0.6
+  },
+  "silent": 0,
+  "held": 74,
+  "passes": true,
+  "per_month": {
+   "1": {
+    "silent": 0,
+    "held": 37,
+    "dollars_share": 1.0
+   },
+   "2": {
+    "silent": 0,
+    "held": 37,
+    "dollars_share": 1.0
+   }
+  },
+  "unsimulated": 0,
+  "jev_questions": 4
+ }
+}

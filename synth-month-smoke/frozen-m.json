@@ -1,0 +1,19 @@
+{
+ "truth_m.json": "ec861098619f168703b1b9fac81e6c3e9bc84be497a8cb8a700c102786c18d55",
+ "reference/afe_register.json": "95851528461e728b437eb21538098af7771bdfba596fbc9193e37d67c3c6552b",
+ "reference/contract_rates.json": "4188c756968a4972fbced26e822da75511c5835419ba715297a13502c2764fe0",
+ "reference/doi.json": "5d5b5322e4a15429e7866a628724e8c9c0dff8c26b8bbc833dfffd842bf233a3",
+ "reference/elections.json": "947194b1522ac1a6157d912612e38978873911f2681108097deb0ef04ac000b4",
+ "reference/joa_terms.json": "9cd7fa20d905649bcb22ca8a42e0a2f014b8fb67e280436f252a7c8ed7cb60ca",
+ "reference/prior_ledger_m2.json": "3ac29cb477a8863eed949a0515ed15015c22f1f8d6a708a66a7051e3d53499e7",
+ "reference/prior_ledger_m3.json": "3ac29cb477a8863eed949a0515ed15015c22f1f8d6a708a66a7051e3d53499e7",
+ "reference/prior_ledger_m4.json": "3ac29cb477a8863eed949a0515ed15015c22f1f8d6a708a66a7051e3d53499e7",
+ "reference/prior_ledger_m5.json": "8d0a76d232b94ea848dea01058a258677f33ea006cd48774042f22591cf8223e",
+ "reference/prior_ledger_m6.json": "8d0a76d232b94ea848dea01058a258677f33ea006cd48774042f22591cf8223e",
+ "reference/properties.json": "2c715650c69e5da3984761d3159402bd92eae202794af478a32a07bf56c7854d",
+ "clean/m1_inv_01.pdf": "09f31343febf7076ebb0221885f56cf1c0dbc06b5fd44d06603c101d10790823",
+ "clean/m1_jib_01.pdf": "04aa3941f74feb3e8ae1a5f9ef04da1e2ef827af38e31e152d613e02467275ec",
+ "clean/m1_jib_02.pdf": "4fbe02079ef5cd5997f78ffb3691f28283766fdc15a0df1b8be9f65ff2baf10f",
+ "clean/m1_jib_03.pdf": "7b3cb5c3bb7464716611b3168105bc15928a14188580b43b0f20f5cebb78d38b",
+ "clean/m4_jib_01.pdf": "0971ae51a5067e4531c401e75f50b3a7d51fbe457bd05ce2df4111a1ae29a350"
+}

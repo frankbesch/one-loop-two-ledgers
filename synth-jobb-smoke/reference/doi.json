@@ -1,0 +1,25 @@
+{
+  "owner": "Branthyxa",
+  "properties": [
+    {
+      "name": "Istrum",
+      "property_no": "PX/381",
+      "owner_decimal": 0.1875
+    },
+    {
+      "name": "Yavrix",
+      "property_no": "PX/527",
+      "owner_decimal": 0.1875
+    },
+    {
+      "name": "Kelduma",
+      "property_no": "PX/694",
+      "owner_decimal": 0.1875
+    },
+    {
+      "name": "Wespryn",
+      "property_no": "PX/862",
+      "owner_decimal": 0.1875
+    }
+  ]
+}

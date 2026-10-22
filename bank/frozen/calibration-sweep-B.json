@@ -1,0 +1,56 @@
+{
+ "policy": "Step 7: set arm D's floors on the calibration quarters (Q1-Q2). Configured from month/set_floors_m.py.\n\n  set_floors_b.py --calls runs/bank/<calibration run>/calls.jsonl --out bank/frozen/floors-B.json\nReplays the logged answers only (no model call). Policy fixed before the sweep, as in step 6: the fewest silent\nunits, then the fewest held, then the highest floors in a tie. Coordinate descent over 0.40..0.95, two passes.\nOne model (R3), so no per-question model choice.\n",
+ "floors": {
+  "QC": 0.8,
+  "QR": 0.85,
+  "QX": 0.95
+ },
+ "calibration": {
+  "quarters": [
+   1,
+   2
+  ],
+  "silent": 0,
+  "held": 42,
+  "key_holds": 42,
+  "unsimulated": 0
+ },
+ "trace": [
+  {
+   "question": "QC",
+   "floor": 0.8,
+   "silent": 0,
+   "held": 42
+  },
+  {
+   "question": "QR",
+   "floor": 0.85,
+   "silent": 0,
+   "held": 42
+  },
+  {
+   "question": "QX",
+   "floor": 0.95,
+   "silent": 0,
+   "held": 42
+  },
+  {
+   "question": "QC",
+   "floor": 0.8,
+   "silent": 0,
+   "held": 42
+  },
+  {
+   "question": "QR",
+   "floor": 0.85,
+   "silent": 0,
+   "held": 42
+  },
+  {
+   "question": "QX",
+   "floor": 0.95,
+   "silent": 0,
+   "held": 42
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "frozen_at": "2026-10-08T20:28Z",
+ "ruling": "Frank: \"start One Loop step 6\", build order steps 1-4 (via session 37cd60bd); F4 cheapest-that-passes; promotion rule 10-08",
+ "arm_D": {
+  "sources": {
+   "Q2": "jev",
+   "Q5": "jev",
+   "Q7": "jev",
+   "Q9": "jev",
+   "Q6": "jev"
+  },
+  "model_jev": "jev-1.13.0",
+  "model_claude": "claude-sonnet-5-5"
+ },
+ "floors_file": "floors-D.json",
+ "floors": {
+  "Q2": 0.75,
+  "Q5": 0.95,
+  "Q7": 0.95,
+  "Q9": 0.95,
+  "Q6": 0.6
+ },
+ "calibration": {
+  "months": [
+   1,
+   2
+  ],
+  "silent": 0,
+  "held": 74,
+  "key_holds": 72,
+  "per_month": {
+   "1": {
+    "silent": 0,
+    "held": 37,
+    "dollars_share": 1.0
+   },
+   "2": {
+    "silent": 0,
+    "held": 37,
+    "dollars_share": 1.0
+   }
+  }
+ },
+ "calibration_runs": {
+  "claude": "runs/month/D-claude-live-m12-20261008T192719Z",
+  "jev": "runs/month/D-jev-live-m12-20261008T202436Z"
+ },
+ "promotion_rule": "auto when strictly better on every past month (0 new silent on labelled lines, no more held, fewer held in total)",
+ "marks": "publishing 03-full-month-brief.md section 6",
+ "hashes": {
+  "../munits.py": "1dca81b06a7ddc9ee3c1f1bb3e0d5eb7b9ec0547f199ce66a24eff5522fe2191",
+  "../mcode.py": "5038c770a1043e931e629e80ef6d385ab36acaaee7f6ed816ebf9e7f2e7baff3",
+  "../mquestions.py": "8ea5f7aa1000a8031539b8a44f1fd5cb8b2f9d2e5dcba06eb246f331440f7f98",
+  "../run_month.py": "e0d615d4949107718e777e1f60709053fa6f0a35bc8f6326bbeab188e2ca714c",
+  "../loop.py": "39f55329f6b55e2d4c422aec1322d8fe618979a537e983ddf632dd07ebe0f448",
+  "../score_month.py": "f7d008c01b0b50b6289695cda82080be36d167c93314fd61b40834b89656af16",
+  "../set_floors_m.py": "98b6e41c8ad5848bd9f70f765626345c9c273617611d0ff74c5a80b08ce2ed6f",
+  "../formats_known.json": "67e7fe5217b5fa936ecd45d0298f418dcd90eb53e9f12c693ab009a19cd0a210",
+  "../person_maps_B.json": "73b00ed8b905a861d088927a4412880cba1ea95fd247a05f35cc98bc07485f3f",
+  "floors-D.json": "f7105f3da348b04642b51bdf5117321f4426ec376dffb4f774862ebfbee2d107",
+  "calibration-sweep.json": "34b6a2993ffae18b98d3a19fa0fc0a9e26edcc1458ff17d84e8ad55a73ece160",
+  "../../jobb/codelayer.py": "7e918c7cbdc609426395d943be3bfb52568c9989ad4907a0abf939bd523c5d38",
+  "../../jobb/questions.py": "4e3a56fa46f193a1456e49453e091be982e7c0988bdbf2fb03f500803ee15fcc",
+  "../../jobb/units.py": "08c7ea97ee54cb9592ff4d91f83dd13c0267af0315ab944f49a6edb442eb062c",
+  "../../jobb/run_b.py": "ae9d17c37689ef919c31492e7da25bab7c223c28201f1398b83bccdefd30b86c",
+  "../../typed/jev_backend.py": "7d794c20d5ac58f035db7ad785270b22d0aca1ab176a50fd9d3282f216437674",
+  "../../synth-month/frozen-m.json": "8a2f9f601205bbfc411bb6cb43832715a8dba610a88ef92625f5211dfbab3355",
+  "../../synth-month/truth_m.json": "872964ec747bb802b7310bd157ccd2c5034d698b2b0c057fac22cae695e0f94f",
+  "../../synth-month/case_spec_m.json": "9f302b3d76d11c13504cb66beedc49410eb70a5458731570b510e71ae9b98368",
+  "../../../../../publishing/one-loop-two-ledgers/03-full-month-brief.md": "f344a0ff8243f0b72cd08bec1909338df6b85b485f71b7d8ada2450af501ab84",
+  "../../../../../publishing/one-loop-two-ledgers/05-replication-plan.md": "c34f154ac4d07611a7d3e8f9ae217dd17a8c701c69abdc56614115e6f2b368fc"
+ },
+ "refreezes": [
+  {
+   "at": "2026-10-08T21:40Z",
+   "files": [
+    "../../../../../publishing/one-loop-two-ledgers/03-full-month-brief.md",
+    "../../../../../publishing/one-loop-two-ledgers/05-replication-plan.md"
+   ],
+   "previous_brief_sha256": "35167174346e1b1a435e9ae40a6d2e1b32c7bbc0d1a314748cbf1afb1cacf3e3",
+   "reason": "brief edited after step 5 (Frank missed-mark wording db62532; clean-run figures 8eecc76); replication plan added (Frank: \"replicate first; re-freeze and re-run B and D\"). Code, data, floors unchanged."
+  }
+ ]
+}

@@ -1,0 +1,2021 @@
+{
+  "spec_sha256": "9f302b3d76d11c13504cb66beedc49410eb70a5458731570b510e71ae9b98368",
+  "documents": [
+    {
+      "doc_id": "m1_inv_01",
+      "month": 1,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_inv_01.html",
+      "pdf": "clean/m1_inv_01.pdf",
+      "source_sha256": "89794395ae4fef38d1871cc34ff55785edd79331b5e3fad0f707fbb026926c3a",
+      "totals": {
+        "gross": "2859.59",
+        "net_amount": "530.18"
+      }
+    },
+    {
+      "doc_id": "m1_inv_02",
+      "month": 1,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m1_inv_02.html",
+      "pdf": "clean/m1_inv_02.pdf",
+      "source_sha256": "ad4a342fa86966cf702104c4de8143a9ef32b615378e4b2da14e185e2a2d1b76",
+      "totals": {
+        "gross": "2739.72",
+        "net_amount": "552.05"
+      }
+    },
+    {
+      "doc_id": "m1_inv_03",
+      "month": 1,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_inv_03.html",
+      "pdf": "clean/m1_inv_03.pdf",
+      "source_sha256": "dfe1f26b7cc29b2b5a4a5fbda3614e82cb6ca251fb6f452633fda9105eab52f4",
+      "totals": {
+        "gross": "2158.96",
+        "net_amount": "398.03"
+      }
+    },
+    {
+      "doc_id": "m1_inv_04",
+      "month": 1,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_inv_04.html",
+      "pdf": "clean/m1_inv_04.pdf",
+      "source_sha256": "f238b0439155ae9d77a3821f3475e74413c28643f329511a8f811bb27a0b6add",
+      "totals": {
+        "gross": "2318.96",
+        "net_amount": "362.31"
+      }
+    },
+    {
+      "doc_id": "m1_inv_05",
+      "month": 1,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m1_inv_05.html",
+      "pdf": "clean/m1_inv_05.pdf",
+      "source_sha256": "bf274658e86f8d2a6f0de4fb54bc4f717fa70d095b703e2cdebaf828d1d4c979",
+      "totals": {
+        "gross": "3968.22",
+        "net_amount": "964.74"
+      }
+    },
+    {
+      "doc_id": "m1_inv_06",
+      "month": 1,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_inv_06.html",
+      "pdf": "clean/m1_inv_06.pdf",
+      "source_sha256": "2bf8fc7d258d5aa22257723810e63dd4cebbd2f36e605383e2cf1c0cef9edd43",
+      "totals": {
+        "gross": "4169.59",
+        "net_amount": "1013.20"
+      }
+    },
+    {
+      "doc_id": "m1_jib_01",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_01.html",
+      "pdf": "clean/m1_jib_01.pdf",
+      "source_sha256": "e3a36ffc2509ea0ef3f7e6a32bba8e3ae2d67c90ba8d7c7f6e08e2b68f938322",
+      "totals": {
+        "gross": "3606.96",
+        "net_amount": "653.02"
+      }
+    },
+    {
+      "doc_id": "m1_jib_02",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m1_jib_02.html",
+      "pdf": "clean/m1_jib_02.pdf",
+      "source_sha256": "eaf12a3a3bee29bb5e111bd2663c92005367f7cc2d4ea78d856f96ed769a4784",
+      "totals": {
+        "gross": "3511.59",
+        "net_amount": "636.79"
+      }
+    },
+    {
+      "doc_id": "m1_jib_03",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_03.html",
+      "pdf": "clean/m1_jib_03.pdf",
+      "source_sha256": "05b49383c58de99a8d1d5cd2e94e665b8b9ec3a2452cfd362cb6e501b2e9cd51",
+      "totals": {
+        "gross": "3513.33",
+        "net_amount": "669.25"
+      }
+    },
+    {
+      "doc_id": "m1_jib_04",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_04.html",
+      "pdf": "clean/m1_jib_04.pdf",
+      "source_sha256": "a1e5c4666abff8cab004887559be64124668c6dd134f997848979f3cd133616f",
+      "totals": {
+        "gross": "4135.59",
+        "net_amount": "797.14"
+      }
+    },
+    {
+      "doc_id": "m1_jib_05",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m1_jib_05.html",
+      "pdf": "clean/m1_jib_05.pdf",
+      "source_sha256": "0d7f9c84e9e7eaa2bcb77cd582b3060d582ac1907833ede28ed054c89525adff",
+      "totals": {
+        "gross": "4238.96",
+        "net_amount": "792.92"
+      }
+    },
+    {
+      "doc_id": "m1_jib_06",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_06.html",
+      "pdf": "clean/m1_jib_06.pdf",
+      "source_sha256": "3efc530f1d5e63c0895ec4bc0d7956946e49be97153582f6112efb1c9a441c59",
+      "totals": {
+        "gross": "3900.96",
+        "net_amount": "901.30"
+      }
+    },
+    {
+      "doc_id": "m1_jib_07",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_07.html",
+      "pdf": "clean/m1_jib_07.pdf",
+      "source_sha256": "90b62fdc57fea517d94bc3121d34a7113d8e31e9192d2f5152e8c02d445e9b02",
+      "totals": {
+        "gross": "5298.96",
+        "net_amount": "1115.02"
+      }
+    },
+    {
+      "doc_id": "m1_jib_08",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m1_jib_08.html",
+      "pdf": "clean/m1_jib_08.pdf",
+      "source_sha256": "d8f906615e24e78dc70ce311840d06cdb59e5140b89876c5575bafa702d633b9",
+      "totals": {
+        "gross": "4516.59",
+        "net_amount": "904.00"
+      }
+    },
+    {
+      "doc_id": "m1_jib_09",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_09.html",
+      "pdf": "clean/m1_jib_09.pdf",
+      "source_sha256": "002aedd0d77858d6b296a768019f6ceab165f83feab4dab710d8194731f8f381",
+      "totals": {
+        "gross": "5076.59",
+        "net_amount": "846.25"
+      }
+    },
+    {
+      "doc_id": "m1_jib_10",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_10.html",
+      "pdf": "clean/m1_jib_10.pdf",
+      "source_sha256": "71fd6fa0af1810f59675033654dc3f95f7eb7147beea01791c83eb1881b60977",
+      "totals": {
+        "gross": "4614.33",
+        "net_amount": "781.98"
+      }
+    },
+    {
+      "doc_id": "m1_jib_11",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m1_jib_11.html",
+      "pdf": "clean/m1_jib_11.pdf",
+      "source_sha256": "307964e70f626d428bcbbd0ab7ca5ced3697e9b0b23ebb20f57379fe908a4629",
+      "totals": {
+        "gross": "4606.96",
+        "net_amount": "1006.21"
+      }
+    },
+    {
+      "doc_id": "m1_jib_12",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_12.html",
+      "pdf": "clean/m1_jib_12.pdf",
+      "source_sha256": "f4e4498a7342d246556687ad25e76f14bdee7031f165c1f679f6e76e1e2a90e7",
+      "totals": {
+        "gross": "5133.33",
+        "net_amount": "877.24"
+      }
+    },
+    {
+      "doc_id": "m1_jib_13",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_13.html",
+      "pdf": "clean/m1_jib_13.pdf",
+      "source_sha256": "78f8c50ab8ef5388f1f5319a594a55e8248b81fac452eca8a010080b4573e4c2",
+      "totals": {
+        "gross": "5092.46",
+        "net_amount": "980.32"
+      }
+    },
+    {
+      "doc_id": "m1_jib_14",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m1_jib_14.html",
+      "pdf": "clean/m1_jib_14.pdf",
+      "source_sha256": "b012016e6be2675c271711a4f146939bc405d491eab3a7f9cd5a6f176f215222",
+      "totals": {
+        "gross": "5685.96",
+        "net_amount": "1250.86"
+      }
+    },
+    {
+      "doc_id": "m1_jib_15",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_15.html",
+      "pdf": "clean/m1_jib_15.pdf",
+      "source_sha256": "694113d2651f8e320154f5cce3e144e245118d1d671c789aafb63d0045641e68",
+      "totals": {
+        "gross": "5845.96",
+        "net_amount": "1132.99"
+      }
+    },
+    {
+      "doc_id": "m1_jib_16",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_16.html",
+      "pdf": "clean/m1_jib_16.pdf",
+      "source_sha256": "c70d8c77981e33801fcf53f4c1c754db279ed7e85631902b70d49ffed3895af7",
+      "totals": {
+        "gross": "6071.59",
+        "net_amount": "956.25"
+      }
+    },
+    {
+      "doc_id": "m1_jib_17",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m1_jib_17.html",
+      "pdf": "clean/m1_jib_17.pdf",
+      "source_sha256": "5fa3fbe21909fc28a9df723c7c1069af7ad9d30638a723e0ee1bbbc6e6371a62",
+      "totals": {
+        "gross": "5963.59",
+        "net_amount": "1477.23"
+      }
+    },
+    {
+      "doc_id": "m1_jib_18",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_18.html",
+      "pdf": "clean/m1_jib_18.pdf",
+      "source_sha256": "1e0a8a3549528ba9fc523068b75ff58dc5d9044cdc4ca80569d9a75ff783018f",
+      "totals": {
+        "gross": "6139.59",
+        "net_amount": "1339.16"
+      }
+    },
+    {
+      "doc_id": "m2_inv_01",
+      "month": 2,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m2_inv_01.html",
+      "pdf": "clean/m2_inv_01.pdf",
+      "source_sha256": "e3685ab3ab80886b5ecb3f49147f7c687c0d38ceccb8fdcf6ddc460431a6d142",
+      "totals": {
+        "gross": "5121.94",
+        "net_amount": "979.34"
+      }
+    },
+    {
+      "doc_id": "m2_inv_02",
+      "month": 2,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_inv_02.html",
+      "pdf": "clean/m2_inv_02.pdf",
+      "source_sha256": "028b2eef7f4ac03ccdd513c21e04939a094ca50d24c36fe33773d277cb966c47",
+      "totals": {
+        "gross": "5841.92",
+        "net_amount": "1195.26"
+      }
+    },
+    {
+      "doc_id": "m2_inv_03",
+      "month": 2,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_inv_03.html",
+      "pdf": "clean/m2_inv_03.pdf",
+      "source_sha256": "860709616744a227156f04eb44bafd2af7d43a58c51f9ad8321bc4d413c5771f",
+      "totals": {
+        "gross": "6788.18",
+        "net_amount": "1487.86"
+      }
+    },
+    {
+      "doc_id": "m2_inv_04",
+      "month": 2,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m2_inv_04.html",
+      "pdf": "clean/m2_inv_04.pdf",
+      "source_sha256": "0cb5a6b24b7e868d0ee4132483df2c30226a64cf6a80811447250952dc7ea338",
+      "totals": {
+        "gross": "5669.18",
+        "net_amount": "1274.47"
+      }
+    },
+    {
+      "doc_id": "m2_inv_05",
+      "month": 2,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_inv_05.html",
+      "pdf": "clean/m2_inv_05.pdf",
+      "source_sha256": "625c626b49aae749faf8ace7a8b6e5a8dc5af9d6387f2a92874b0f598d7c3b9e",
+      "totals": {
+        "gross": "5996.18",
+        "net_amount": "910.50"
+      }
+    },
+    {
+      "doc_id": "m2_inv_06",
+      "month": 2,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_inv_06.html",
+      "pdf": "clean/m2_inv_06.pdf",
+      "source_sha256": "40601d9b6d5be5cdc5118d878cd5e0bb9c1b1c4aaa9300b5797794520e77f97e",
+      "totals": {
+        "gross": "7070.18",
+        "net_amount": "1581.32"
+      }
+    },
+    {
+      "doc_id": "m2_jib_01",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m2_jib_01.html",
+      "pdf": "clean/m2_jib_01.pdf",
+      "source_sha256": "2c5e6c15eebb480e4f02ef54e0fdfca8be71d1e6fc11ef9d4ce405a6106bb50a",
+      "totals": {
+        "gross": "7217.29",
+        "net_amount": "1230.66"
+      }
+    },
+    {
+      "doc_id": "m2_jib_02",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_02.html",
+      "pdf": "clean/m2_jib_02.pdf",
+      "source_sha256": "acc5446932898eaf5ff9441608f23debd3667baf24cb8c2a85cfc8c27670ca92",
+      "totals": {
+        "gross": "7656.66",
+        "net_amount": "1341.28"
+      }
+    },
+    {
+      "doc_id": "m2_jib_03",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_03.html",
+      "pdf": "clean/m2_jib_03.pdf",
+      "source_sha256": "8e389fe5f5b36c7aad93e21ec965a831d1c7edc38f458bbdfbb51d3a54368d61",
+      "totals": {
+        "gross": "7836.66",
+        "net_amount": "1424.83"
+      }
+    },
+    {
+      "doc_id": "m2_jib_04",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m2_jib_04.html",
+      "pdf": "clean/m2_jib_04.pdf",
+      "source_sha256": "12c86dba5dcbeae4f6780bdfef30f9c94649cfd8018c18cdcc5cc83c90cc05da",
+      "totals": {
+        "gross": "7924.92",
+        "net_amount": "1853.26"
+      }
+    },
+    {
+      "doc_id": "m2_jib_05",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_05.html",
+      "pdf": "clean/m2_jib_05.pdf",
+      "source_sha256": "c21bcebe4c875d4b2acc15d22492dfcf25258af86167882a492d9adaa4eb8fc5",
+      "totals": {
+        "gross": "8196.66",
+        "net_amount": "1446.30"
+      }
+    },
+    {
+      "doc_id": "m2_jib_06",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_06.html",
+      "pdf": "clean/m2_jib_06.pdf",
+      "source_sha256": "e89dcab3a1b2c1585c9e3069703bed5c54fca78fe52ce3d406abbabb2ac53318",
+      "totals": {
+        "gross": "7714.18",
+        "net_amount": "1490.69"
+      }
+    },
+    {
+      "doc_id": "m2_jib_07",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m2_jib_07.html",
+      "pdf": "clean/m2_jib_07.pdf",
+      "source_sha256": "b5ec2344eb26b2b6fa3c42f83ab6f7c9b56da136ba1d05b004ce40eb6b0d4ce0",
+      "totals": {
+        "gross": "7979.18",
+        "net_amount": "1141.39"
+      }
+    },
+    {
+      "doc_id": "m2_jib_08",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_08.html",
+      "pdf": "clean/m2_jib_08.pdf",
+      "source_sha256": "76ec2721fad6f86220c5d293446db3e1adafb9c8829a28f4060c4dba05044713",
+      "totals": {
+        "gross": "7979.81",
+        "net_amount": "1469.03"
+      }
+    },
+    {
+      "doc_id": "m2_jib_09",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_09.html",
+      "pdf": "clean/m2_jib_09.pdf",
+      "source_sha256": "f73e64425006f9ea1de22aebd512d333604d82c2a176b69fa1b457ce8c565c70",
+      "totals": {
+        "gross": "7824.68",
+        "net_amount": "1613.37"
+      }
+    },
+    {
+      "doc_id": "m2_jib_10",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m2_jib_10.html",
+      "pdf": "clean/m2_jib_10.pdf",
+      "source_sha256": "237f2febbe4843a9771cb9f62504bfc291f2ccbcbb50d50b3ac12e0de0e7f769",
+      "totals": {
+        "gross": "8376.18",
+        "net_amount": "1553.69"
+      }
+    },
+    {
+      "doc_id": "m2_jib_11",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_11.html",
+      "pdf": "clean/m2_jib_11.pdf",
+      "source_sha256": "5ae19d60af6a41407fd1b1f2f3cf65e6007bc4baf06118049ccebfb54c253c37",
+      "totals": {
+        "gross": "9276.66",
+        "net_amount": "1263.33"
+      }
+    },
+    {
+      "doc_id": "m2_jib_12",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_12.html",
+      "pdf": "clean/m2_jib_12.pdf",
+      "source_sha256": "5b2917372302e30badbcadae18bbbdc0ba2aed10593ef92c54b5b136b80f2d68",
+      "totals": {
+        "gross": "9456.66",
+        "net_amount": "1706.45"
+      }
+    },
+    {
+      "doc_id": "m2_jib_13",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m2_jib_13.html",
+      "pdf": "clean/m2_jib_13.pdf",
+      "source_sha256": "adc8f9e65179264604d3757538d3a68fdd98bccc603b941dbc230daf7d01ec65",
+      "totals": {
+        "gross": "8443.55",
+        "net_amount": "1778.97"
+      }
+    },
+    {
+      "doc_id": "m2_jib_14",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_14.html",
+      "pdf": "clean/m2_jib_14.pdf",
+      "source_sha256": "ea38a5acc773a629be1c6ac730a25f49f59d4cc5d9c7554799d3bbce7f8e07d9",
+      "totals": {
+        "gross": "8962.55",
+        "net_amount": "1859.65"
+      }
+    },
+    {
+      "doc_id": "m2_jib_15",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_15.html",
+      "pdf": "clean/m2_jib_15.pdf",
+      "source_sha256": "8a02075244d456366bac8271958a0eadf0902cd376c65ed6e9a15f591a9bbe86",
+      "totals": {
+        "gross": "10441.18",
+        "net_amount": "1894.52"
+      }
+    },
+    {
+      "doc_id": "m2_jib_16",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m2_jib_16.html",
+      "pdf": "clean/m2_jib_16.pdf",
+      "source_sha256": "2ed3268bbc627d4fbe48c2118958a0f5125857ae2b9ce24ef081dc750a8364f3",
+      "totals": {
+        "gross": "10293.92",
+        "net_amount": "1920.60"
+      }
+    },
+    {
+      "doc_id": "m2_jib_17",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_17.html",
+      "pdf": "clean/m2_jib_17.pdf",
+      "source_sha256": "51ee35fd296aa1abd87baecb199a4d9d96f358c371078d2e986130ca764466d1",
+      "totals": {
+        "gross": "10322.92",
+        "net_amount": "2319.73"
+      }
+    },
+    {
+      "doc_id": "m2_jib_18",
+      "month": 2,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m2_jib_18.html",
+      "pdf": "clean/m2_jib_18.pdf",
+      "source_sha256": "d63582c8a854e61fba78f69e5d510863d1a279255d5221d22ea8f83b6035f633",
+      "totals": {
+        "gross": "9767.92",
+        "net_amount": "1656.95"
+      }
+    },
+    {
+      "doc_id": "m3_inv_01",
+      "month": 3,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_inv_01.html",
+      "pdf": "clean/m3_inv_01.pdf",
+      "source_sha256": "a8dd736d554186e6dee45e3fb7ba6f298582cdfb5a9f111a2d33375a7d1306d1",
+      "totals": {
+        "gross": "9070.27",
+        "net_amount": "1537.49"
+      }
+    },
+    {
+      "doc_id": "m3_inv_02",
+      "month": 3,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_inv_02.html",
+      "pdf": "clean/m3_inv_02.pdf",
+      "source_sha256": "5f8d2c248a3028a0bfd5fb5ea09001f918bdc0f8e781065b3d90c470f7a3f0d1",
+      "totals": {
+        "gross": "9684.88",
+        "net_amount": "2224.73"
+      }
+    },
+    {
+      "doc_id": "m3_inv_03",
+      "month": 3,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m3_inv_03.html",
+      "pdf": "clean/m3_inv_03.pdf",
+      "source_sha256": "b5d93534d96d300c2e86e4bf44210c3d910d9618567b47d02d1a07ce87ffbc29",
+      "totals": {
+        "gross": "9314.77",
+        "net_amount": "1570.75"
+      }
+    },
+    {
+      "doc_id": "m3_inv_04",
+      "month": 3,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_inv_04.html",
+      "pdf": "clean/m3_inv_04.pdf",
+      "source_sha256": "b16663b67130102d820d9086fb24f4645eecc6b9cc1d28f0390bec10905f1dfe",
+      "totals": {
+        "gross": "9035.77",
+        "net_amount": "1783.16"
+      }
+    },
+    {
+      "doc_id": "m3_inv_05",
+      "month": 3,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_inv_05.html",
+      "pdf": "clean/m3_inv_05.pdf",
+      "source_sha256": "ad69f3ebd16ae778aa774b832b89a8320d60ab180d9d0cc394be3a0c8cc4ddc2",
+      "totals": {
+        "gross": "10164.88",
+        "net_amount": "1715.86"
+      }
+    },
+    {
+      "doc_id": "m3_inv_06",
+      "month": 3,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m3_inv_06.html",
+      "pdf": "clean/m3_inv_06.pdf",
+      "source_sha256": "b1d8afdf6b9f4d7376d862600d329722f526570766ef741b4897f10ddf7ff210",
+      "totals": {
+        "gross": "9499.77",
+        "net_amount": "1652.38"
+      }
+    },
+    {
+      "doc_id": "m3_jib_01",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_01.html",
+      "pdf": "clean/m3_jib_01.pdf",
+      "source_sha256": "3cd168d2f9f52a8ace80a63e2473e0fcf24254a7f2ca26b50cb74f72a88e07ac",
+      "totals": {
+        "gross": "10891.88",
+        "net_amount": "2239.09"
+      }
+    },
+    {
+      "doc_id": "m3_jib_02",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_02.html",
+      "pdf": "clean/m3_jib_02.pdf",
+      "source_sha256": "0ad26b80a24a1f95c84b1004b8585a90d979eac16ae29d68c6af1bb8633c5444",
+      "totals": {
+        "gross": "11135.38",
+        "net_amount": "1801.01"
+      }
+    },
+    {
+      "doc_id": "m3_jib_03",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m3_jib_03.html",
+      "pdf": "clean/m3_jib_03.pdf",
+      "source_sha256": "5d0d6673fd5f3de9381a5e83ccbcde3b4d980b84b079a7e22de3117a46df3bea",
+      "totals": {
+        "gross": "11822.62",
+        "net_amount": "2102.57"
+      }
+    },
+    {
+      "doc_id": "m3_jib_04",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_04.html",
+      "pdf": "clean/m3_jib_04.pdf",
+      "source_sha256": "f72052d348b94d398a91a73073fe6bc9a8cb375067f90fa32fadcf09c337aeaf",
+      "totals": {
+        "gross": "12089.88",
+        "net_amount": "2036.23"
+      }
+    },
+    {
+      "doc_id": "m3_jib_05",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_05.html",
+      "pdf": "clean/m3_jib_05.pdf",
+      "source_sha256": "913b88fa1269320a2c42c249c942fac6795270c9cb35f78071c23a1b9ae32a51",
+      "totals": {
+        "gross": "11629.88",
+        "net_amount": "2389.29"
+      }
+    },
+    {
+      "doc_id": "m3_jib_06",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m3_jib_06.html",
+      "pdf": "clean/m3_jib_06.pdf",
+      "source_sha256": "59a8ea6632e2dde82070a8c71b7b12abd8d98664acf3d1182901987421c28c01",
+      "totals": {
+        "gross": "11151.77",
+        "net_amount": "1702.44"
+      }
+    },
+    {
+      "doc_id": "m3_jib_07",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_07.html",
+      "pdf": "clean/m3_jib_07.pdf",
+      "source_sha256": "090fbe0bbaa102f9c4cea0639f9bcbc3be58901df88c76e4d50c8fdb473e66b0",
+      "totals": {
+        "gross": "12826.51",
+        "net_amount": "3216.46"
+      }
+    },
+    {
+      "doc_id": "m3_jib_08",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_08.html",
+      "pdf": "clean/m3_jib_08.pdf",
+      "source_sha256": "73edc4afb381610274422e6c9b4d7fbce48417b91d8140762ec155fa2751b72d",
+      "totals": {
+        "gross": "12540.88",
+        "net_amount": "2077.44"
+      }
+    },
+    {
+      "doc_id": "m3_jib_09",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m3_jib_09.html",
+      "pdf": "clean/m3_jib_09.pdf",
+      "source_sha256": "d43736130fd0929f2d3430ae246886a77085c429229a35dcc0d89c9d62bb3858",
+      "totals": {
+        "gross": "13020.88",
+        "net_amount": "1704.01"
+      }
+    },
+    {
+      "doc_id": "m3_jib_10",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_10.html",
+      "pdf": "clean/m3_jib_10.pdf",
+      "source_sha256": "e7425c90e2f1e96ff4e5ded4536a05d4baafb06738350d22418a65f8a0391cdc",
+      "totals": {
+        "gross": "11385.40",
+        "net_amount": "1971.39"
+      }
+    },
+    {
+      "doc_id": "m3_jib_11",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_11.html",
+      "pdf": "clean/m3_jib_11.pdf",
+      "source_sha256": "19a23681c73b5db8381723b7ba28cbcb47d7a10a56ea7c6ebe30f0567111aeb6",
+      "totals": {
+        "gross": "12484.88",
+        "net_amount": "1921.52"
+      }
+    },
+    {
+      "doc_id": "m3_jib_12",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m3_jib_12.html",
+      "pdf": "clean/m3_jib_12.pdf",
+      "source_sha256": "7744ee23716ba868241eb237b5ed7777cd6570d3cdf2df1225015f96a1f8d58c",
+      "totals": {
+        "gross": "12601.51",
+        "net_amount": "2001.86"
+      }
+    },
+    {
+      "doc_id": "m3_jib_13",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_13.html",
+      "pdf": "clean/m3_jib_13.pdf",
+      "source_sha256": "7c216a92348b4b8c6bdd7833b02eeb4ae1931b472702bd4e8fb0a7045431c522",
+      "totals": {
+        "gross": "13204.88",
+        "net_amount": "1853.50"
+      }
+    },
+    {
+      "doc_id": "m3_jib_14",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_14.html",
+      "pdf": "clean/m3_jib_14.pdf",
+      "source_sha256": "a20e75f2ca4abb6d537cb5ad2d60b146443a41e6830adae3d7df038941f2de6a",
+      "totals": {
+        "gross": "13370.88",
+        "net_amount": "2332.84"
+      }
+    },
+    {
+      "doc_id": "m3_jib_15",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m3_jib_15.html",
+      "pdf": "clean/m3_jib_15.pdf",
+      "source_sha256": "d33ec5dd77b63f17a23c0bdd3cfdf49ce43f06adea4824b5aba148afdad1c4d6",
+      "totals": {
+        "gross": "10370.66",
+        "net_amount": "1757.00"
+      }
+    },
+    {
+      "doc_id": "m3_jib_16",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_16.html",
+      "pdf": "clean/m3_jib_16.pdf",
+      "source_sha256": "45688a93b5c74176d8072fd542a3617d79d46b418be4d243cf03e3f74b1126dd",
+      "totals": {
+        "gross": "14499.99",
+        "net_amount": "2556.85"
+      }
+    },
+    {
+      "doc_id": "m3_jib_17",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m3_jib_17.html",
+      "pdf": "clean/m3_jib_17.pdf",
+      "source_sha256": "4ff305ac209f9b39f206df78471ca7a120cf45a3c8c3e7f51349af809ec71e68",
+      "totals": {
+        "gross": "14439.88",
+        "net_amount": "2310.35"
+      }
+    },
+    {
+      "doc_id": "m3_jib_18",
+      "month": 3,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m3_jib_18.html",
+      "pdf": "clean/m3_jib_18.pdf",
+      "source_sha256": "7127c9aa0f8cec7c9edfa3f4f06b8cf389b3b70e4625bb257f2c9bdbea4aa049",
+      "totals": {
+        "gross": "14744.88",
+        "net_amount": "2713.52"
+      }
+    },
+    {
+      "doc_id": "m4_inv_01",
+      "month": 4,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_inv_01.html",
+      "pdf": "clean/m4_inv_01.pdf",
+      "source_sha256": "9cc60aa1b26c50e774151fd8dde22f29b37824ddb4a11f87aa3d98925ec87b74",
+      "totals": {
+        "gross": "11995.36",
+        "net_amount": "2602.79"
+      }
+    },
+    {
+      "doc_id": "m4_inv_02",
+      "month": 4,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m4_inv_02.html",
+      "pdf": "clean/m4_inv_02.pdf",
+      "source_sha256": "915afa47c11436d4fc3281514e2d222db5a136d2912ca3d949fdafdfc2501688",
+      "totals": {
+        "gross": "13527.84",
+        "net_amount": "3106.89"
+      }
+    },
+    {
+      "doc_id": "m4_inv_03",
+      "month": 4,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_inv_03.html",
+      "pdf": "clean/m4_inv_03.pdf",
+      "source_sha256": "f21d8aefca7aa808b4ff94ee6e430fd0f90b855ce1347c3f4d92bda7c00c4556",
+      "totals": {
+        "gross": "12464.86",
+        "net_amount": "1542.49"
+      }
+    },
+    {
+      "doc_id": "m4_inv_04",
+      "month": 4,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_inv_04.html",
+      "pdf": "clean/m4_inv_04.pdf",
+      "source_sha256": "9587fbf5a01b8915b727aa21ac772aedee4abde194ae31063120eaa7476ca868",
+      "totals": {
+        "gross": "13847.84",
+        "net_amount": "1947.24"
+      }
+    },
+    {
+      "doc_id": "m4_inv_05",
+      "month": 4,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m4_inv_05.html",
+      "pdf": "clean/m4_inv_05.pdf",
+      "source_sha256": "db066e22d803e6529bc8dd9dd7db384b25d71a5dde485fbd17f71ac02ed6cfbd",
+      "totals": {
+        "gross": "14007.84",
+        "net_amount": "2735.09"
+      }
+    },
+    {
+      "doc_id": "m4_inv_06",
+      "month": 4,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_inv_06.html",
+      "pdf": "clean/m4_inv_06.pdf",
+      "source_sha256": "9369de63994cb7b23822d3a74662f57884967dfe85e5a016dac99403d0696b61",
+      "totals": {
+        "gross": "14167.84",
+        "net_amount": "3076.83"
+      }
+    },
+    {
+      "doc_id": "m4_jib_01",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_01.html",
+      "pdf": "clean/m4_jib_01.pdf",
+      "source_sha256": "e1c216c815dd612f99d2d8ce9d9736fe91e1ea1a8b3f9aa6cf75592d561c2269",
+      "totals": {
+        "gross": "14045.36",
+        "net_amount": "1832.56"
+      }
+    },
+    {
+      "doc_id": "m4_jib_02",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m4_jib_02.html",
+      "pdf": "clean/m4_jib_02.pdf",
+      "source_sha256": "a78fb77e6c4feb3dac6590647080528e2b07a36105ec864529f847e7d2cde179",
+      "totals": {
+        "gross": "15748.84",
+        "net_amount": "3347.72"
+      }
+    },
+    {
+      "doc_id": "m4_jib_03",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_03.html",
+      "pdf": "clean/m4_jib_03.pdf",
+      "source_sha256": "2275c180e96ec80c61f458d75402fa5743984099bdb3813123c8eb72babb00f8",
+      "totals": {
+        "gross": "16136.95",
+        "net_amount": "3441.49"
+      }
+    },
+    {
+      "doc_id": "m4_jib_04",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_04.html",
+      "pdf": "clean/m4_jib_04.pdf",
+      "source_sha256": "a6fe023c33026b33ba747f8740e6638216e5e79f7877a348cff20fa0df29a0e1",
+      "totals": {
+        "gross": "16663.32",
+        "net_amount": "3286.43"
+      }
+    },
+    {
+      "doc_id": "m4_jib_05",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m4_jib_05.html",
+      "pdf": "clean/m4_jib_05.pdf",
+      "source_sha256": "7c05cd61caa8500bff1110e4643fef4b068df5dce1502b9990b63cecad8afc62",
+      "totals": {
+        "gross": "15025.36",
+        "net_amount": "3298.18"
+      }
+    },
+    {
+      "doc_id": "m4_jib_06",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_06.html",
+      "pdf": "clean/m4_jib_06.pdf",
+      "source_sha256": "b5afff8f39376e3a465d3310ee6cf504ab0c90181fd631700100b1ac5c40e60d",
+      "totals": {
+        "gross": "15551.84",
+        "net_amount": "2812.52"
+      }
+    },
+    {
+      "doc_id": "m4_jib_07",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_07.html",
+      "pdf": "clean/m4_jib_07.pdf",
+      "source_sha256": "d8007b9e21f3625630ff44bae8e2cbc0617a45bc81646731ac5c0b1d9362bbfc",
+      "totals": {
+        "gross": "13909.99",
+        "net_amount": "2444.30"
+      }
+    },
+    {
+      "doc_id": "m4_jib_08",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m4_jib_08.html",
+      "pdf": "clean/m4_jib_08.pdf",
+      "source_sha256": "4aedf2994aca6d6c0f02fbee908f5a92c26bb63680b924eaa384ef17930f6083",
+      "totals": {
+        "gross": "15461.36",
+        "net_amount": "2757.19"
+      }
+    },
+    {
+      "doc_id": "m4_jib_09",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_09.html",
+      "pdf": "clean/m4_jib_09.pdf",
+      "source_sha256": "58eaa8d5acaad9746fdf0ea0f102f70d5c4eaf602e6af6989190feae860ab870",
+      "totals": {
+        "gross": "16594.84",
+        "net_amount": "2744.94"
+      }
+    },
+    {
+      "doc_id": "m4_jib_10",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_10.html",
+      "pdf": "clean/m4_jib_10.pdf",
+      "source_sha256": "17d5eafefbcf4f95ca47b1235f2a1e2ebc1e87cc7655fe6c2f3ccdc1e9250500",
+      "totals": {
+        "gross": "16569.84",
+        "net_amount": "2566.43"
+      }
+    },
+    {
+      "doc_id": "m4_jib_11",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m4_jib_11.html",
+      "pdf": "clean/m4_jib_11.pdf",
+      "source_sha256": "d147154e686b6540df7a55595926016ec393e3b992999ec817cb59ad54a375ae",
+      "totals": {
+        "gross": "17760.84",
+        "net_amount": "3971.12"
+      }
+    },
+    {
+      "doc_id": "m4_jib_12",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_12.html",
+      "pdf": "clean/m4_jib_12.pdf",
+      "source_sha256": "3cd7b8a38aeff4b323415c8b1afc727b6150325f239ee51d09f3fec6f0fcabf9",
+      "totals": {
+        "gross": "14893.88",
+        "net_amount": "2857.49"
+      }
+    },
+    {
+      "doc_id": "m4_jib_13",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_13.html",
+      "pdf": "clean/m4_jib_13.pdf",
+      "source_sha256": "3c7189fbaead8bd3376643123673738b15d4dd8a21cd28a14990c17370821296",
+      "totals": {
+        "gross": "16861.84",
+        "net_amount": "3362.37"
+      }
+    },
+    {
+      "doc_id": "m4_jib_14",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m4_jib_14.html",
+      "pdf": "clean/m4_jib_14.pdf",
+      "source_sha256": "69dbf09370257c628128cf6bcae7d51b148c736f4583c3db62cac046be2d50e8",
+      "totals": {
+        "gross": "18463.32",
+        "net_amount": "3949.64"
+      }
+    },
+    {
+      "doc_id": "m4_jib_15",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_15.html",
+      "pdf": "clean/m4_jib_15.pdf",
+      "source_sha256": "6c1557095dc9c9081b7999d03dac971e6573976a88d3a6030d8f532fab930bf4",
+      "totals": {
+        "gross": "17482.84",
+        "net_amount": "4321.82"
+      }
+    },
+    {
+      "doc_id": "m4_jib_16",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_16.html",
+      "pdf": "clean/m4_jib_16.pdf",
+      "source_sha256": "03d1bb9ff6e9729c18490b441730f1ba6ad142079cc5f05f47427ae7a021b3cd",
+      "totals": {
+        "gross": "17468.34",
+        "net_amount": "3549.69"
+      }
+    },
+    {
+      "doc_id": "m4_jib_17",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m4_jib_17.html",
+      "pdf": "clean/m4_jib_17.pdf",
+      "source_sha256": "a92be1378e27cb516fbec266a683dc21a74ff3e4ca19c9083288666b057b319b",
+      "totals": {
+        "gross": "15011.99",
+        "net_amount": "3130.44"
+      }
+    },
+    {
+      "doc_id": "m4_jib_18",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_18.html",
+      "pdf": "clean/m4_jib_18.pdf",
+      "source_sha256": "14bd7ae91e1477d2b43fce14ece590d37f5e56b266f6dfa48fc87a65a97ba832",
+      "totals": {
+        "gross": "16776.47",
+        "net_amount": "2253.99"
+      }
+    },
+    {
+      "doc_id": "m5_inv_01",
+      "month": 5,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m5_inv_01.html",
+      "pdf": "clean/m5_inv_01.pdf",
+      "source_sha256": "a038ed18b8ce7c6aed1f7e3f398ef445a0e480b7d85d43017d157bb39da19652",
+      "totals": {
+        "gross": "15557.95",
+        "net_amount": "2046.23"
+      }
+    },
+    {
+      "doc_id": "m5_inv_02",
+      "month": 5,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_inv_02.html",
+      "pdf": "clean/m5_inv_02.pdf",
+      "source_sha256": "b4c419a9f7aec07884d328f90e7346eba16bb6aab14085e11062d145793f4251",
+      "totals": {
+        "gross": "16072.95",
+        "net_amount": "2812.22"
+      }
+    },
+    {
+      "doc_id": "m5_inv_03",
+      "month": 5,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_inv_03.html",
+      "pdf": "clean/m5_inv_03.pdf",
+      "source_sha256": "2900493436684239b92647e647c7dd1098c3595e197a0fc6462955981b19e682",
+      "totals": {
+        "gross": "17530.80",
+        "net_amount": "3232.66"
+      }
+    },
+    {
+      "doc_id": "m5_inv_04",
+      "month": 5,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m5_inv_04.html",
+      "pdf": "clean/m5_inv_04.pdf",
+      "source_sha256": "599e2ff3c7d7f8b0364c4e9e3df292fe00a6d238f7a04fae4d1cd4d91bbea819",
+      "totals": {
+        "gross": "15471.60",
+        "net_amount": "3690.76"
+      }
+    },
+    {
+      "doc_id": "m5_inv_05",
+      "month": 5,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_inv_05.html",
+      "pdf": "clean/m5_inv_05.pdf",
+      "source_sha256": "e352ea424593c6e0a5d955851b227e1c2f6e46d34dde5ad39ac0feb27d2f5d59",
+      "totals": {
+        "gross": "16329.95",
+        "net_amount": "3736.80"
+      }
+    },
+    {
+      "doc_id": "m5_inv_06",
+      "month": 5,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_inv_06.html",
+      "pdf": "clean/m5_inv_06.pdf",
+      "source_sha256": "ddf5a854b43a6610b48dcc0a5e6319ad853d533adbe5648f17f632aa85d4eef5",
+      "totals": {
+        "gross": "16686.95",
+        "net_amount": "3023.41"
+      }
+    },
+    {
+      "doc_id": "m5_jib_01",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m5_jib_01.html",
+      "pdf": "clean/m5_jib_01.pdf",
+      "source_sha256": "e223c28b7718ab57e0f9b6c7228c8863a9c4985d4bebb1745f72701539e78106",
+      "totals": {
+        "gross": "17861.45",
+        "net_amount": "2998.43"
+      }
+    },
+    {
+      "doc_id": "m5_jib_02",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_02.html",
+      "pdf": "clean/m5_jib_02.pdf",
+      "source_sha256": "aef04ca7552c7b0dedeb7f6ec6ed7285a8d9c914456195724dbd9686115c7ad9",
+      "totals": {
+        "gross": "18634.43",
+        "net_amount": "3045.90"
+      }
+    },
+    {
+      "doc_id": "m5_jib_03",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_03.html",
+      "pdf": "clean/m5_jib_03.pdf",
+      "source_sha256": "0b4520ed255182969adc08a9b1a2592cbcdcd0816aac3a609b894b73d31faae6",
+      "totals": {
+        "gross": "20806.65",
+        "net_amount": "3409.93"
+      }
+    },
+    {
+      "doc_id": "m5_jib_04",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m5_jib_04.html",
+      "pdf": "clean/m5_jib_04.pdf",
+      "source_sha256": "2cf7e12891207a00ae48d3e99335fa788e355ce5fb10b6f8f34c73f4641babd4",
+      "totals": {
+        "gross": "20518.80",
+        "net_amount": "3153.62"
+      }
+    },
+    {
+      "doc_id": "m5_jib_05",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_05.html",
+      "pdf": "clean/m5_jib_05.pdf",
+      "source_sha256": "ed366144b403254a4fb1a6e255f90e37fcfcaee322d5850d721a2c4609dbbd05",
+      "totals": {
+        "gross": "19118.80",
+        "net_amount": "3093.24"
+      }
+    },
+    {
+      "doc_id": "m5_jib_06",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_06.html",
+      "pdf": "clean/m5_jib_06.pdf",
+      "source_sha256": "7ba542701a760cb8785103b283c430423290334e9467d4e7c4db595c001c0a3b",
+      "totals": {
+        "gross": "17423.58",
+        "net_amount": "3822.24"
+      }
+    },
+    {
+      "doc_id": "m5_jib_07",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m5_jib_07.html",
+      "pdf": "clean/m5_jib_07.pdf",
+      "source_sha256": "f73e5adf0f88e6c94be1364916241cd4ed6f4156ab9bcfa519f94ee76660c379",
+      "totals": {
+        "gross": "19534.80",
+        "net_amount": "4065.30"
+      }
+    },
+    {
+      "doc_id": "m5_jib_08",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_08.html",
+      "pdf": "clean/m5_jib_08.pdf",
+      "source_sha256": "b1fd634d74ce817d6a11c7eaf935d0e341cb5022d6ef988854154afae8ec6865",
+      "totals": {
+        "gross": "21706.65",
+        "net_amount": "3287.03"
+      }
+    },
+    {
+      "doc_id": "m5_jib_09",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_09.html",
+      "pdf": "clean/m5_jib_09.pdf",
+      "source_sha256": "71b20e06168cb6a497c51f878c61fc4822e5f41d5c7f99b3be613466d1b459ed",
+      "totals": {
+        "gross": "19073.95",
+        "net_amount": "2244.38"
+      }
+    },
+    {
+      "doc_id": "m5_jib_10",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m5_jib_10.html",
+      "pdf": "clean/m5_jib_10.pdf",
+      "source_sha256": "7bb921b143cdc1edb41d614e988a644c41aecd5ef1b21843c4329c0d220467f2",
+      "totals": {
+        "gross": "22066.65",
+        "net_amount": "4536.95"
+      }
+    },
+    {
+      "doc_id": "m5_jib_11",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_11.html",
+      "pdf": "clean/m5_jib_11.pdf",
+      "source_sha256": "837c3c258e9889d75231bdddd148eb916ff3fa4bec1f7ca186de4136f4ac541c",
+      "totals": {
+        "gross": "20173.80",
+        "net_amount": "2630.35"
+      }
+    },
+    {
+      "doc_id": "m5_jib_12",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_12.html",
+      "pdf": "clean/m5_jib_12.pdf",
+      "source_sha256": "f8b4da84c357cc9dba3f8a638731a89db62d908bee4fc295581fee420541f6b5",
+      "totals": {
+        "gross": "20226.80",
+        "net_amount": "4426.82"
+      }
+    },
+    {
+      "doc_id": "m5_jib_13",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m5_jib_13.html",
+      "pdf": "clean/m5_jib_13.pdf",
+      "source_sha256": "627feaf5b76841cb5ef9fc58074509ea38d1e544fc53ac795255e96f4fc536dd",
+      "totals": {
+        "gross": "20895.80",
+        "net_amount": "3429.17"
+      }
+    },
+    {
+      "doc_id": "m5_jib_14",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_14.html",
+      "pdf": "clean/m5_jib_14.pdf",
+      "source_sha256": "9a4e319afe58e86b190001c4ca4244096655467ea3f44e933a90593ce31c07dc",
+      "totals": {
+        "gross": "18466.08",
+        "net_amount": "3592.96"
+      }
+    },
+    {
+      "doc_id": "m5_jib_15",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_15.html",
+      "pdf": "clean/m5_jib_15.pdf",
+      "source_sha256": "30cc70da41ec8cd2292dc033cf97b081f9af4a07a74f1030627d0217011eb5af",
+      "totals": {
+        "gross": "19783.43",
+        "net_amount": "3949.70"
+      }
+    },
+    {
+      "doc_id": "m5_jib_16",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m5_jib_16.html",
+      "pdf": "clean/m5_jib_16.pdf",
+      "source_sha256": "751760dfdc8b9208983af9dd7eb3f1ec26f7eb6d7655422cdb1eda7a3690bd37",
+      "totals": {
+        "gross": "23146.65",
+        "net_amount": "3631.32"
+      }
+    },
+    {
+      "doc_id": "m5_jib_17",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_17.html",
+      "pdf": "clean/m5_jib_17.pdf",
+      "source_sha256": "c4e7970884846388200a26306450770665506314f0aa3b9b66920a866af48cae",
+      "totals": {
+        "gross": "22129.80",
+        "net_amount": "4175.14"
+      }
+    },
+    {
+      "doc_id": "m5_jib_18",
+      "month": 5,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m5_jib_18.html",
+      "pdf": "clean/m5_jib_18.pdf",
+      "source_sha256": "bf3e320caeeae7783693dd644202cdce130fb2268a113d52985b819dac25a47e",
+      "totals": {
+        "gross": "21295.80",
+        "net_amount": "3291.79"
+      }
+    },
+    {
+      "doc_id": "m6_inv_01",
+      "month": 6,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_inv_01.html",
+      "pdf": "clean/m6_inv_01.pdf",
+      "source_sha256": "451a43958f8b09a2e9de27087a47eda0494151aff247b17332ad01853ba6fbbd",
+      "totals": {
+        "gross": "18924.54",
+        "net_amount": "4827.11"
+      }
+    },
+    {
+      "doc_id": "m6_inv_02",
+      "month": 6,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_inv_02.html",
+      "pdf": "clean/m6_inv_02.pdf",
+      "source_sha256": "ea515e5dad7b99181a535e29fde5dfaa551b08ede889525dbd2397870c97197c",
+      "totals": {
+        "gross": "21213.76",
+        "net_amount": "4640.67"
+      }
+    },
+    {
+      "doc_id": "m6_inv_03",
+      "month": 6,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m6_inv_03.html",
+      "pdf": "clean/m6_inv_03.pdf",
+      "source_sha256": "fa8fdf122caec3f9d7d27b9f439ec18a7d9329ff220b57e65de04bcc6a070d83",
+      "totals": {
+        "gross": "21373.76",
+        "net_amount": "5543.33"
+      }
+    },
+    {
+      "doc_id": "m6_inv_04",
+      "month": 6,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_inv_04.html",
+      "pdf": "clean/m6_inv_04.pdf",
+      "source_sha256": "b48ac9369fcf07a8350f811d5542bb382105ce41f8084915f16b2a034b2649f0",
+      "totals": {
+        "gross": "20520.04",
+        "net_amount": "4584.61"
+      }
+    },
+    {
+      "doc_id": "m6_inv_05",
+      "month": 6,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_inv_05.html",
+      "pdf": "clean/m6_inv_05.pdf",
+      "source_sha256": "6ca15f858efc9b73100847e61a589019d72d97040c62d05875bafd65a1714359",
+      "totals": {
+        "gross": "20373.54",
+        "net_amount": "2698.89"
+      }
+    },
+    {
+      "doc_id": "m6_inv_06",
+      "month": 6,
+      "type": "vendor_invoice",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m6_inv_06.html",
+      "pdf": "clean/m6_inv_06.pdf",
+      "source_sha256": "e1dafa4651c5532586ae92d1bc487120867d69169f2b657fbc4b887f3946e23d",
+      "totals": {
+        "gross": "20050.54",
+        "net_amount": "4305.90"
+      }
+    },
+    {
+      "doc_id": "m6_jib_01",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_01.html",
+      "pdf": "clean/m6_jib_01.pdf",
+      "source_sha256": "d8985a945679204cb3fa22caff56e51036466b82b760de86f13a8e7a37a60f5a",
+      "totals": {
+        "gross": "24361.61",
+        "net_amount": "4827.13"
+      }
+    },
+    {
+      "doc_id": "m6_jib_02",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_02.html",
+      "pdf": "clean/m6_jib_02.pdf",
+      "source_sha256": "43c8a7496c34b424ea4cd7bc2ed7b2097e73e9fec80381959f5a3f992e025d8b",
+      "totals": {
+        "gross": "20445.04",
+        "net_amount": "3101.56"
+      }
+    },
+    {
+      "doc_id": "m6_jib_03",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m6_jib_03.html",
+      "pdf": "clean/m6_jib_03.pdf",
+      "source_sha256": "96f9f4d524e557355ed84615e0048e9d294ac77dd2e69b21bb1fba42b7c41619",
+      "totals": {
+        "gross": "25129.98",
+        "net_amount": "4676.59"
+      }
+    },
+    {
+      "doc_id": "m6_jib_04",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_04.html",
+      "pdf": "clean/m6_jib_04.pdf",
+      "source_sha256": "9e98f5b0f0320277f03e0bb45102f6e62a71431b91124dff74ab79474457fb71",
+      "totals": {
+        "gross": "25309.98",
+        "net_amount": "3409.81"
+      }
+    },
+    {
+      "doc_id": "m6_jib_05",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_05.html",
+      "pdf": "clean/m6_jib_05.pdf",
+      "source_sha256": "2c2965254f6f836c09ed8eace856a6dce92bad2a07bedf24a7fd919968f91888",
+      "totals": {
+        "gross": "23875.76",
+        "net_amount": "4769.96"
+      }
+    },
+    {
+      "doc_id": "m6_jib_06",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m6_jib_06.html",
+      "pdf": "clean/m6_jib_06.pdf",
+      "source_sha256": "f3c5f8ff65c6263cf088b4c83c61aafd55c50cf5438cb96ec7ebca24c075974a",
+      "totals": {
+        "gross": "25669.98",
+        "net_amount": "4492.39"
+      }
+    },
+    {
+      "doc_id": "m6_jib_07",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_07.html",
+      "pdf": "clean/m6_jib_07.pdf",
+      "source_sha256": "24fa8a558eedad580065aa0fc35db8d23a8c84c7671d448c678ca0c17daee164",
+      "totals": {
+        "gross": "23333.39",
+        "net_amount": "4992.62"
+      }
+    },
+    {
+      "doc_id": "m6_jib_08",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_08.html",
+      "pdf": "clean/m6_jib_08.pdf",
+      "source_sha256": "9f40c7429a7ea0ea5f16ad178950afc9dce03a4017b60a4513727d9d7d4e92a0",
+      "totals": {
+        "gross": "23149.39",
+        "net_amount": "4211.48"
+      }
+    },
+    {
+      "doc_id": "m6_jib_09",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m6_jib_09.html",
+      "pdf": "clean/m6_jib_09.pdf",
+      "source_sha256": "c0963dea24766d9ce76ca125b986e898d874d438e288840b3ab0b7efcdcfcc62",
+      "totals": {
+        "gross": "23759.76",
+        "net_amount": "6229.27"
+      }
+    },
+    {
+      "doc_id": "m6_jib_10",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_10.html",
+      "pdf": "clean/m6_jib_10.pdf",
+      "source_sha256": "be62fa3dc1d551cd5bdf4c500f4c29e7b0ee22fe3ba9c01bfc70af732147e306",
+      "totals": {
+        "gross": "23982.76",
+        "net_amount": "4232.00"
+      }
+    },
+    {
+      "doc_id": "m6_jib_11",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_11.html",
+      "pdf": "clean/m6_jib_11.pdf",
+      "source_sha256": "ab4dc2b7141be0efb2171a61960b794fbc94e00788edb6f6a48b212630c96390",
+      "totals": {
+        "gross": "25474.76",
+        "net_amount": "5301.85"
+      }
+    },
+    {
+      "doc_id": "m6_jib_12",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m6_jib_12.html",
+      "pdf": "clean/m6_jib_12.pdf",
+      "source_sha256": "47664de78baa061c9da2ff3b544fd7f5d739891bc23c70c65140f583757dcb22",
+      "totals": {
+        "gross": "21962.04",
+        "net_amount": "3901.86"
+      }
+    },
+    {
+      "doc_id": "m6_jib_13",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_13.html",
+      "pdf": "clean/m6_jib_13.pdf",
+      "source_sha256": "ff7079d4315546e1c33b41d7a07806db290fdab986414c1577287d0265fd3d0f",
+      "totals": {
+        "gross": "24338.76",
+        "net_amount": "4421.83"
+      }
+    },
+    {
+      "doc_id": "m6_jib_14",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_14.html",
+      "pdf": "clean/m6_jib_14.pdf",
+      "source_sha256": "fb2151dfdc2e8badf16350ac4a9ca0bdbbec0c1db3d8566045a967f3ab3006be",
+      "totals": {
+        "gross": "25346.76",
+        "net_amount": "5064.05"
+      }
+    },
+    {
+      "doc_id": "m6_jib_15",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m6_jib_15.html",
+      "pdf": "clean/m6_jib_15.pdf",
+      "source_sha256": "e297e07319de4c576412ee4e6e25a3acf12f11770f76eb5a6bb468a59435ede6",
+      "totals": {
+        "gross": "24658.76",
+        "net_amount": "4052.94"
+      }
+    },
+    {
+      "doc_id": "m6_jib_16",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_16.html",
+      "pdf": "clean/m6_jib_16.pdf",
+      "source_sha256": "d62b2e1a26cf0d2fc968fcb3ecac3c0778d7e0530791de0c37956e9296b00f9d",
+      "totals": {
+        "gross": "22203.54",
+        "net_amount": "4801.36"
+      }
+    },
+    {
+      "doc_id": "m6_jib_17",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m6_jib_17.html",
+      "pdf": "clean/m6_jib_17.pdf",
+      "source_sha256": "aa6eff09274087b10c391ef1dee1995fafedd52408c593119c5a69faf67cf1fb",
+      "totals": {
+        "gross": "27649.98",
+        "net_amount": "6143.82"
+      }
+    },
+    {
+      "doc_id": "m6_jib_18",
+      "month": 6,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 1,
+      "source": "sources/m6_jib_18.html",
+      "pdf": "clean/m6_jib_18.pdf",
+      "source_sha256": "7b4ddec25ad82bb8f7a275d2abdea76bad58b44c4447d75546caa905da22b79a",
+      "totals": {
+        "gross": "24558.39",
+        "net_amount": "4030.81"
+      }
+    }
+  ]
+}

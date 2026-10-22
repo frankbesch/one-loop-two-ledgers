@@ -1,0 +1,58 @@
+[
+  {
+    "afe_number": "CE08421~K",
+    "property_no": "WQ814",
+    "scope": "Well maintenance, inspection, equipment repair, and site support",
+    "approved_amount": 100000,
+    "status": "approved",
+    "approved_on": "2024-01-01"
+  },
+  {
+    "afe_number": "CE08422~K",
+    "property_no": "WQ927",
+    "scope": "Well maintenance, inspection, equipment repair, and site support",
+    "approved_amount": 100000,
+    "status": "approved",
+    "approved_on": "2024-01-01"
+  },
+  {
+    "afe_number": "CE08423~K",
+    "property_no": "WQ365",
+    "scope": "Well maintenance, inspection, equipment repair, and site support",
+    "approved_amount": 100000,
+    "status": "approved",
+    "approved_on": "2024-01-01"
+  },
+  {
+    "afe_number": "CE08424~K",
+    "property_no": "WQ482",
+    "scope": "Well maintenance, inspection, equipment repair, and site support",
+    "approved_amount": 100000,
+    "status": "approved",
+    "approved_on": "2024-01-01"
+  },
+  {
+    "afe_number": "CE08425~K",
+    "property_no": "WQ156",
+    "scope": "Well maintenance, inspection, equipment repair, and site support",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2024-01-01"
+  },
+  {
+    "afe_number": "CE08426~K",
+    "property_no": "WQ739",
+    "scope": "Well maintenance, inspection, equipment repair, and site support",
+    "approved_amount": 100000,
+    "status": "approved",
+    "approved_on": "2024-01-01"
+  },
+  {
+    "afe_number": "CE08427~K",
+    "property_no": "WQ482",
+    "scope": "Meter cabinet replacement",
+    "approved_amount": 1800,
+    "status": "declined",
+    "approved_on": "2026-12-18"
+  }
+]

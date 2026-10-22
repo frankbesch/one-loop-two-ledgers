@@ -1,0 +1,35 @@
+{
+ "A": {
+  "headers": {
+   "line_no": "Entry sequence",
+   "property": "Lease designation",
+   "account": "Ledger classification",
+   "description": "Charge narrative",
+   "reference": "Expenditure file locator",
+   "vendor": "Supplier identity",
+   "invoice_no": "Supplier billing key",
+   "service_date": "Work performed on",
+   "quantity": "Billed units",
+   "unit_rate": "Price per unit",
+   "gross": "Whole-interest charge",
+   "decimal": "Participation fraction",
+   "net": "Owner allocation"
+  },
+  "column_order": [
+   "line_no",
+   "property",
+   "account",
+   "description",
+   "reference",
+   "vendor",
+   "invoice_no",
+   "service_date",
+   "quantity",
+   "unit_rate",
+   "gross",
+   "decimal",
+   "net"
+  ],
+  "afe_display": "BX:{serial:04d}:K"
+ }
+}

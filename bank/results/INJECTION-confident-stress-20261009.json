@@ -1,0 +1,1733 @@
+{
+ "note": "Confident-error injection (16-floor-lock-preregistration.md, H39-H40). No model call.\n\nFeeds the code the key's true answers on every certificate, then replaces one answer with a WRONG option that the\nmodel states with confidence between the learned floor and the locked floor (accepted, but below the lock), as the\nmodel did on step 7d's q3_b01 A3. Runs the runner's decision code under 'invariant' (step 7b, ignores the lock) and\n'invariant-lock'. Counts silent units OTHER than the injected line: a unit the code posts while the key holds it.\nThe injected line's own outcome rests on the wrong answer by design and is excluded; it is reported separately.\nWrong options: every other category on QC (a wrong cost_savings answer is tried with each realized and certified\nvalue); the other value on QR and QX.\n\n  injection_confident.py [--corpus ../synth-bank-3] [--out results/INJECTION-confident-....json]\n",
+ "results": {
+  "invariant": {
+   "injections": 1468,
+   "silent_other": 155,
+   "injections_with_silent_other": 155,
+   "extra_holds_other": 0,
+   "silent_own_line": 175
+  },
+  "invariant-lock": {
+   "injections": 1468,
+   "silent_other": 0,
+   "injections_with_silent_other": 0,
+   "extra_holds_other": 0,
+   "silent_own_line": 175
+  }
+ },
+ "silent_cases": {
+  "invariant": [
+   {
+    "cert_id": "q1_b01",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b01",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b01",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b01",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b01",
+    "line": 2,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b01",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 1,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 2,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b04",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b07",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b07",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b07",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b07",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b07",
+    "line": 1,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b07",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b08",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q1_b08",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q1_b08",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q1_b08",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "yes"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q1_b08",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "yes"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q1_b08",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q1_b10",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b10",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b10",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b10",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b10",
+    "line": 2,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q1_b10",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b01",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "ICR",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q2_b01",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "ICR",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q2_b01",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "ICR",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q2_b01",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "yes"
+    },
+    "unit": "ICR",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q2_b01",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "yes"
+    },
+    "unit": "ICR",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q2_b01",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "ICR",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q2_b02",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b02",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b02",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b02",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b02",
+    "line": 1,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b02",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b06",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b06",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b06",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b06",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b06",
+    "line": 2,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b06",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b07",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b07",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b07",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b07",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b07",
+    "line": 2,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b07",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 1,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "no"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 3,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 3,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 3,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 3,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 3,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q2_b08",
+    "line": 3,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 2,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "no"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 3,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 3,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 3,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 3,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 3,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b01",
+    "line": 3,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b05",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q3_b05",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q3_b05",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q3_b05",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "yes"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q3_b05",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "yes"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q3_b05",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q3_b06",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b06",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b06",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b06",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b06",
+    "line": 1,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b06",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b09",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A3",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b09",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A3",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b09",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A3",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b09",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A3",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b09",
+    "line": 1,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A3",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b09",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "no"
+    },
+    "unit": "A3",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b10",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b10",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b10",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b10",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b10",
+    "line": 2,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q3_b10",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 1,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 2,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b02",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b03",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b03",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b03",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b03",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b03",
+    "line": 2,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b03",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b04",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b04",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b04",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b04",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b04",
+    "line": 1,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b04",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A4",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 1,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "no"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 3,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 3,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 3,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 3,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 3,
+    "wrong": {
+     "category": "ordinary_operating",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b08",
+    "line": 3,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "no"
+    },
+    "unit": "A5",
+    "key_class": "cap_exceeded"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 1,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 1,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 1,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "yes"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 1,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "projected",
+     "certified": "yes"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 1,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 2,
+    "wrong": {
+     "category": "restructuring_charges",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 2,
+    "wrong": {
+     "category": "transaction_costs",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 2,
+    "wrong": {
+     "category": "non_cash_compensation",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 2,
+    "wrong": {
+     "category": "non_recurring_losses",
+     "realized": "n_a",
+     "certified": "n_a"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   },
+   {
+    "cert_id": "q4_b11",
+    "line": 2,
+    "wrong": {
+     "category": "cost_savings",
+     "realized": "realized",
+     "certified": "yes"
+    },
+    "unit": "LEV",
+    "key_class": "hidden_breach"
+   }
+  ],
+  "invariant-lock": []
+ },
+ "claims": {
+  "H39": "PASS",
+  "H39_detector": "PASS"
+ }
+}

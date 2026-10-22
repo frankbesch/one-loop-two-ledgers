@@ -1,0 +1,43 @@
+{
+ "share": 0.45,
+ "label": "assumed sampling rate",
+ "draws": 2000,
+ "quarters": {
+  "3": {
+   "certificates_reviewed": 5,
+   "silent": {
+    "mean": 12.26,
+    "p05": 11,
+    "p95": 13
+   },
+   "units_reviewed": {
+    "mean": 41.25
+   },
+   "seeded": [
+    "q3_b05",
+    "q3_b06",
+    "q3_b07",
+    "q3_b09",
+    "q3_b11"
+   ]
+  },
+  "4": {
+   "certificates_reviewed": 5,
+   "silent": {
+    "mean": 12.25,
+    "p05": 11,
+    "p95": 13
+   },
+   "units_reviewed": {
+    "mean": 41.24
+   },
+   "seeded": [
+    "q4_b01",
+    "q4_b04",
+    "q4_b05",
+    "q4_b09",
+    "q4_b10"
+   ]
+  }
+ }
+}

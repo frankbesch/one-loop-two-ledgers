@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Ashgrove Bend 3H",
+    "property_no": "PR6812",
+    "owner": "Alderfen Mineral Interests LLC",
+    "owner_decimal": 0.1875
+  },
+  {
+    "name": "Cedarwash Ridge 8H",
+    "property_no": "PR4937",
+    "owner": "Alderfen Mineral Interests LLC",
+    "owner_decimal": 0.1875
+  },
+  {
+    "name": "Morrowbank Creek 5H",
+    "property_no": "PR7524",
+    "owner": "Alderfen Mineral Interests LLC",
+    "owner_decimal": 0.1875
+  },
+  {
+    "name": "Juniper Hollow 11H",
+    "property_no": "PR2689",
+    "owner": "Alderfen Mineral Interests LLC",
+    "owner_decimal": 0.1875
+  }
+]

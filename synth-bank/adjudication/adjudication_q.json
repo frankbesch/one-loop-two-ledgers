@@ -1,0 +1,35 @@
+{
+  "keys": {
+    "truth_q": "truth_q.json",
+    "truth_blind": "truth-blind/<cert_id>.json"
+  },
+  "comparison_key": [
+    "cert_id",
+    "unit_id"
+  ],
+  "compared_units": 396,
+  "differences": [],
+  "quarter_counts": {
+    "Q1": {
+      "compared_units": 99,
+      "differences": 0,
+      "unresolved_differences": 0
+    },
+    "Q2": {
+      "compared_units": 99,
+      "differences": 0,
+      "unresolved_differences": 0
+    },
+    "Q3": {
+      "compared_units": 99,
+      "differences": 0,
+      "unresolved_differences": 0
+    },
+    "Q4": {
+      "compared_units": 99,
+      "differences": 0,
+      "unresolved_differences": 0
+    }
+  },
+  "note": "Both keys contain identical fields and values for every matched unit; no differences required page-image adjudication."
+}

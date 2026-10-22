@@ -1,0 +1,47 @@
+VOID: month 3 attempt 1: envelope has no modelUsage naming the pinned claude-sonnet-5-5 (error: Failed to authenticate: OAuth session expired and could not be refreshed)
+
+envelope:
+{
+ "duration_ms": 22,
+ "usage": {
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "input_tokens": 0,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 0,
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "",
+  "iterations": [],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_cost_usd": 0,
+ "modelUsage": {},
+ "num_turns": 1,
+ "error": "Failed to authenticate: OAuth session expired and could not be refreshed",
+ "attempt": 1,
+ "init": {
+  "tools": [
+   "mcp__calc__calculate"
+  ],
+  "mcp_servers": [
+   {
+    "name": "calc",
+    "status": "connected",
+    "source": "dynamic"
+   }
+  ]
+ },
+ "tool_uses": 0,
+ "calc_log": "calc-m3-a1.jsonl"
+}

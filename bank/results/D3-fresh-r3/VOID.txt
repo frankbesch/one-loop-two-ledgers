@@ -1,0 +1,1 @@
+VOID 2026-10-09 ~10:10 CT: one general-model call (Q2, q2_b06 addback 2, QC) returned truncated JSON ('model returned no JSON'); the answer failed closed to needs_review. Void rule (14-fresh-set-preregistration.md §4, as in step 7b): a call error that fails closed voids the run. The run was allowed to finish and is reported as void, not scored. Repeated as D3-fresh-r3-repeat.

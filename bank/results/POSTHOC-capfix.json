@@ -1,0 +1,41 @@
+{
+ "note": "POST-HOC (not pre-registered): replay arm D's logged answers through a corrected cap rule. No model call.\n\nFound on the scored quarters (D r1, q4_b07): an addback held for review (needs_review) was left out of the\ncost-savings bucket, so a later addback that the key puts over the cap was posted unseen. The frozen rule fails\nclosed on the doubted line but not on lines whose cap test depends on it.\nThe fix tested here: when any earlier cost-savings line in the certificate is under review, evaluate each later\ncost-savings line's cap test twice (the doubted line counted, and not counted); if the two disagree, hold the later\nline for review too. Everything else is the frozen code and the logged answers at each run's floors.\n\n  posthoc_capfix.py runs/bank/D-q1234-r1 [...]\n",
+ "runs": {
+  "bank/results/D-q1234-r1": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 21,
+    "4": 22
+   },
+   "silent_total": 0,
+   "held_total": 43
+  },
+  "bank/results/D-q1234-r2": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 22,
+    "4": 21
+   },
+   "silent_total": 0,
+   "held_total": 43
+  },
+  "bank/results/D-q1234-r3": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 21,
+    "4": 21
+   },
+   "silent_total": 0,
+   "held_total": 42
+  }
+ }
+}

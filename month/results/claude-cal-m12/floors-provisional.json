@@ -1,0 +1,27 @@
+{
+ "status": "PROVISIONAL: Claude answers only; the F4 per-question model choice waits for the Jev calibration run (D-300)",
+ "floors_claude": {
+  "Q2": 0.7,
+  "Q5": 0.9,
+  "Q7": 0.95,
+  "Q9": 0.9,
+  "Q6": 0.6
+ },
+ "calibration": {
+  "silent": 0,
+  "held": 72,
+  "per_month": {
+   "1": {
+    "silent": 0,
+    "held": 36,
+    "dollars_share": 1.0
+   },
+   "2": {
+    "silent": 0,
+    "held": 36,
+    "dollars_share": 1.0
+   }
+  }
+ },
+ "policy": "min silent, then min held, then highest floors in the tie (set_floors_m.py)"
+}

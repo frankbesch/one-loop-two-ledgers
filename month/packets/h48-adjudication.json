@@ -1,0 +1,10 @@
+{
+ "_rule": "18-packet-size-preregistration.md v2 section 3, H48 categories a-e; key = <run folder>:<doc_id>:<line_no>; adjudicated by hand 2026-10-15 from calls.jsonl month-3 worksheet rows and calc-m3-a1.jsonl; independent Codex recount checks the same rows",
+ "SIZE-d24-r2:m3_jib_12:1": "a",
+ "SIZE-d24-r4:m3_jib_12:1": "a",
+ "_evidence": {
+  "SIZE-d24-r2:m3_jib_12:1": "worksheet row m3_jib_12|1|LX/874/P|0.0875|0.0875|...: the printed-decimal cell holds 0.0875 (the in-force value) where the page prints 0.1125; no exception listed; no calculator call carries 1527.11*0.1125",
+  "SIZE-d24-r4:m3_jib_12:1": "same row shape: printed cell 0.0875, page 0.1125; no exception; no calculator call on this line",
+  "runs that caught it (r1, r3, r5)": "printed cell 0.1125 and exception wrong_decimal with evidence 0.1125 in all three; r1 and r5 also asked the calculator round(1527.11*0.1125,2)=171.80; r3's calculator log has no call on this line (corrected 2026-10-15 after the fact-check)"
+ }
+}

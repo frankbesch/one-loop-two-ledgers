@@ -1,0 +1,108 @@
+{
+ "arm": "jev-live-calibration-standard-20261008T170403Z",
+ "backend": "jev",
+ "mode": "live",
+ "vocab": "standard",
+ "lines": 210,
+ "correct": 197,
+ "needs_review": 13,
+ "sent_to_person": 127,
+ "marks": [
+  {
+   "mark": "M1 silent misses",
+   "targets": 99,
+   "value": 0,
+   "rule": "<= 2",
+   "verdict": "PASS"
+  },
+  {
+   "mark": "M2 false alarms on supported",
+   "targets": 45,
+   "value": "4/45 = 8.9%",
+   "rule": "<= 10%",
+   "verdict": "PASS"
+  },
+  {
+   "mark": "M3 value over code",
+   "targets": 75,
+   "value": "73/75 = 97.3% (right or routed: 75)",
+   "rule": ">= 80% right",
+   "verdict": "PASS"
+  }
+ ],
+ "per_question": {
+  "Q2": {
+   "asked": 210,
+   "needs_review": 4,
+   "errors": 0,
+   "q17_fail": 7,
+   "answered": 206,
+   "right": 205
+  },
+  "Q6": {
+   "asked": 18,
+   "needs_review": 1,
+   "errors": 0,
+   "q17_fail": 0,
+   "answered": 17,
+   "right": 17
+  },
+  "Q7": {
+   "asked": 132,
+   "needs_review": 1,
+   "errors": 0,
+   "q17_fail": 0,
+   "answered": 131,
+   "right": 131
+  },
+  "Q9": {
+   "asked": 98,
+   "needs_review": 0,
+   "errors": 0,
+   "q17_fail": 0
+  }
+ },
+ "confusion": {
+  "contradicted -> contradicted": 18,
+  "no_claim -> needs_review": 6,
+  "no_claim -> no_claim": 42,
+  "other_authority -> other_authority": 18,
+  "supported -> needs_review": 4,
+  "supported -> supported": 41,
+  "unsupported -> needs_review": 3,
+  "unsupported -> unsupported": 78
+ },
+ "cost": {
+  "requests": 506,
+  "live_calls": 506,
+  "spend_usd": 0.012952,
+  "spend_bound_usd": 0.027341,
+  "wall_s": 93.8,
+  "claude_version": null,
+  "claude_auth_method": null,
+  "model": "jev-1.13.0"
+ },
+ "label_swap": {
+  "base": "jev-live-calibration-standard-20261008T170403Z",
+  "other": "jev-live-calibration-alternate-20261008T170617Z",
+  "escalation_base": {
+   "Q2": 0.023255813953488372,
+   "Q7": 0.007575757575757576,
+   "Q9": 0.0,
+   "Q6": 0.05555555555555555
+  },
+  "escalation_other": {
+   "Q2": 0.04263565891472868,
+   "Q7": 0.0948905109489051,
+   "Q9": 0.0,
+   "Q6": 0.0
+  },
+  "points_moved": {
+   "Q2": 1.9,
+   "Q6": -5.6,
+   "Q7": 8.7,
+   "Q9": 0.0
+  },
+  "revisit": false
+ }
+}

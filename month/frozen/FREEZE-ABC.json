@@ -1,0 +1,33 @@
+{
+ "frozen_at": "2026-10-08T22:40Z",
+ "note": "Re-freeze 2026-10-08 for the arm B tool variant (07-b-tools-plan.md): calc_mcp.py added; arm_b.py gains worksheet-calc (system prompt naming the tool, stream-json tool logging); arms_common.claude_call gains an optional extra-args parameter (default unchanged). v1 and worksheet prompts byte-identical to 16 logged calls.",
+ "arms": {
+  "A": "calculation, share 0.45 (range 0.34, 0.56), 2,000 draws",
+  "B": "claude -p, one call a month, claude-sonnet-5-5",
+  "C": "jev-1.13.0 per document, threshold 0.80, Claude claude-sonnet-5-5 below it"
+ },
+ "hashes": {
+  "../arms_common.py": "3f98eddb5557130c00e8b731dd98f1eb112dd1600f04341580ad2023454fc424",
+  "../arm_a.py": "a3f9e12372650949bd202c8ea4bf3409594c4b43c9372ab2a1ada82ad8e782de",
+  "../arm_b.py": "6b8f6acaca92a40b78a8a6bcc441cc4eefdea694e4153d6ade718cfc6b384752",
+  "../arm_c.py": "8265021029ca8e92054827ef4ae76bb11b82f988010cdc825f07c8b86a217805",
+  "../compare_arms.py": "d02e1e8c2cc4ea1fb7799654cb0e0132a326e6d6231ccc7e503b990218f8e238",
+  "../score_month.py": "f7d008c01b0b50b6289695cda82080be36d167c93314fd61b40834b89656af16",
+  "../munits.py": "1dca81b06a7ddc9ee3c1f1bb3e0d5eb7b9ec0547f199ce66a24eff5522fe2191",
+  "../person_maps_B.json": "73b00ed8b905a861d088927a4412880cba1ea95fd247a05f35cc98bc07485f3f",
+  "../../jobb/units.py": "08c7ea97ee54cb9592ff4d91f83dd13c0267af0315ab944f49a6edb442eb062c",
+  "../../jobb/questions.py": "4e3a56fa46f193a1456e49453e091be982e7c0988bdbf2fb03f500803ee15fcc",
+  "../../jobb/codelayer.py": "7e918c7cbdc609426395d943be3bfb52568c9989ad4907a0abf939bd523c5d38",
+  "../../jobb/run_b.py": "ae9d17c37689ef919c31492e7da25bab7c223c28201f1398b83bccdefd30b86c",
+  "../../typed/jev_backend.py": "7d794c20d5ac58f035db7ad785270b22d0aca1ab176a50fd9d3282f216437674",
+  "../../synth-month/frozen-m.json": "8a2f9f601205bbfc411bb6cb43832715a8dba610a88ef92625f5211dfbab3355",
+  "../../synth-month/truth_m.json": "872964ec747bb802b7310bd157ccd2c5034d698b2b0c057fac22cae695e0f94f",
+  "../../synth-month/case_spec_m.json": "9f302b3d76d11c13504cb66beedc49410eb70a5458731570b510e71ae9b98368",
+  "../../../../../publishing/one-loop-two-ledgers/03-full-month-brief.md": "f344a0ff8243f0b72cd08bec1909338df6b85b485f71b7d8ada2450af501ab84",
+  "../../../../../publishing/one-loop-two-ledgers/04-arms-abc-as-built.md": "c5fa0e8cffab14764fc4d800b2e437829e94dd243fe65e17b77bf7ef9cc2a838",
+  "../../../../../publishing/one-loop-two-ledgers/05-replication-plan.md": "c34f154ac4d07611a7d3e8f9ae217dd17a8c701c69abdc56614115e6f2b368fc",
+  "../../../../../publishing/one-loop-two-ledgers/06-b-variant-plan.md": "cdabc2ca32001a021254842e0094c04d53ad840d958548a4958b93dbb707e8c0",
+  "../../../../../publishing/one-loop-two-ledgers/07-b-tools-plan.md": "9c39c261c9deafd6d84f66bada7586d0703b1d0dabb4e084f9bdb41f4ec15074",
+  "../calc_mcp.py": "7882ef86262fa93918a5945b651d4abcaf41b2b0863051f8d8023f944ded2404"
+ }
+}

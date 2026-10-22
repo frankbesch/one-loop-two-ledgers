@@ -1,0 +1,51 @@
+{
+ "backend": "jev",
+ "model": "jev-1.13.0",
+ "from_run": "jev-live-calibration-standard-20261008T170403Z+rescore",
+ "split": "calibration",
+ "policy": "min errors, then min needs_review, then highest floors",
+ "floors": {
+  "Q2": 0.6,
+  "Q6": 0.6,
+  "Q7": 0.6,
+  "Q9": 0.6
+ },
+ "at_floors": {
+  "errors": 0,
+  "needs_review": 7,
+  "unsimulated": 0
+ },
+ "at_prior_060": {
+  "errors": 0,
+  "needs_review": 7,
+  "unsimulated": 0
+ },
+ "tie_band": {
+  "Q2": [
+   0.55,
+   0.6
+  ],
+  "Q7": [
+   0.4,
+   0.6
+  ],
+  "Q9": [
+   0.4,
+   0.6
+  ]
+ },
+ "grid": [
+  0.4,
+  0.45,
+  0.5,
+  0.55,
+  0.6,
+  0.65,
+  0.7,
+  0.75,
+  0.8,
+  0.85,
+  0.9,
+  0.95
+ ]
+}

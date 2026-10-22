@@ -1,0 +1,47 @@
+{
+ "arm": "D-jev-live-m12-20261008T202436Z",
+ "backend": "jev",
+ "mode": "live",
+ "months": {
+  "m1": {
+   "lines": 210,
+   "held": 37,
+   "silent": 0,
+   "false_hold": 1,
+   "drift_held": 0,
+   "right": 209,
+   "claim_targets": 14,
+   "claim_held": 14,
+   "money_targets": 24,
+   "money_caught": 24,
+   "money_right_reason": 24,
+   "supported_clean": 5,
+   "supported_clean_held": 0,
+   "money_dollars_caught": 1279.69,
+   "money_dollars_total": 1279.69,
+   "dollars_caught_share": 1.0,
+   "audit_n": 9,
+   "audit_estimate_silent": 0.0
+  },
+  "m2": {
+   "lines": 210,
+   "held": 37,
+   "silent": 0,
+   "false_hold": 1,
+   "drift_held": 0,
+   "right": 209,
+   "money_targets": 24,
+   "money_caught": 24,
+   "money_right_reason": 24,
+   "claim_targets": 14,
+   "claim_held": 14,
+   "supported_clean": 6,
+   "supported_clean_held": 0,
+   "money_dollars_caught": 2025.88,
+   "money_dollars_total": 2025.88,
+   "dollars_caught_share": 1.0,
+   "audit_n": 9,
+   "audit_estimate_silent": 0.0
+  }
+ }
+}

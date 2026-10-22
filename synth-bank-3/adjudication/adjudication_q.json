@@ -1,0 +1,275 @@
+{
+  "differences": [
+    {
+      "cert_id": "q1_b01",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 2.5,
+      "truth_blind_value": "Minimum 2.50x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 2.50x\", and the numeric 2.5 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b01",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 4.5,
+      "truth_blind_value": "Maximum 4.50x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 4.50x\", and the numeric 4.5 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b02",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 2.75,
+      "truth_blind_value": "Minimum 2.75x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 2.75x\", and the numeric 2.75 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b02",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 4.5,
+      "truth_blind_value": "Maximum 4.50x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 4.50x\", and the numeric 4.5 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b03",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 2.0,
+      "truth_blind_value": "Minimum 2.00x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 2.00x\", and the numeric 2.0 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b03",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 5.0,
+      "truth_blind_value": "Maximum 5.00x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 5.00x\", and the numeric 5.0 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b04",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 3.0,
+      "truth_blind_value": "Minimum 3.00x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 3.00x\", and the numeric 3.0 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b04",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 3.75,
+      "truth_blind_value": "Maximum 3.75x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 3.75x\", and the numeric 3.75 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b05",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 2.5,
+      "truth_blind_value": "Minimum 2.50x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 2.50x\", and the numeric 2.5 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b05",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 4.25,
+      "truth_blind_value": "Maximum 4.25x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 4.25x\", and the numeric 4.25 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b06",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 3.25,
+      "truth_blind_value": "Minimum 3.25x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 3.25x\", and the numeric 3.25 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b06",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 3.5,
+      "truth_blind_value": "Maximum 3.50x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 3.50x\", and the numeric 3.5 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b07",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 2.25,
+      "truth_blind_value": "Minimum 2.25x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 2.25x\", and the numeric 2.25 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b07",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 4.75,
+      "truth_blind_value": "Maximum 4.75x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 4.75x\", and the numeric 4.75 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b08",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 3.0,
+      "truth_blind_value": "Minimum 3.00x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 3.00x\", and the numeric 3.0 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b08",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 4.0,
+      "truth_blind_value": "Maximum 4.00x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 4.00x\", and the numeric 4.0 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b09",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 2.25,
+      "truth_blind_value": "Minimum 2.25x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 2.25x\", and the numeric 2.25 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b09",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 4.5,
+      "truth_blind_value": "Maximum 4.50x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 4.50x\", and the numeric 4.5 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b10",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 3.5,
+      "truth_blind_value": "Minimum 3.50x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 3.50x\", and the numeric 3.5 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b10",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 3.25,
+      "truth_blind_value": "Maximum 3.25x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 3.25x\", and the numeric 3.25 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b11",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 2.0,
+      "truth_blind_value": "Minimum 2.00x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 2.00x\", and the numeric 2.0 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b11",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 4.75,
+      "truth_blind_value": "Maximum 4.75x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 4.75x\", and the numeric 4.75 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b12",
+      "unit_id": "ICR",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 3.5,
+      "truth_blind_value": "Minimum 3.50x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Minimum 3.50x\", and the numeric 3.5 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    },
+    {
+      "cert_id": "q1_b12",
+      "unit_id": "LEV",
+      "quarter": 1,
+      "field": "threshold_printed",
+      "truth_q_value": 3.0,
+      "truth_blind_value": "Maximum 3.00x",
+      "decision": "truth_q",
+      "resolved": true,
+      "reason": "The page prints \"Maximum 3.00x\", and the numeric 3.0 keyed in truth_q is that value in the format both keys use for threshold_printed in Q2\u2013Q4, so the blind key's text string is a format deviation, not a different reading."
+    }
+  ],
+  "unresolved_per_quarter": {
+    "Q1": 0,
+    "Q2": 0,
+    "Q3": 0,
+    "Q4": 0
+  },
+  "total_differences": 24
+}

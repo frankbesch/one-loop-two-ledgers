@@ -1,0 +1,62 @@
+[
+  {
+    "borrower_id": "b03",
+    "quarter_label": "2023-Q1",
+    "amount": 3400000
+  },
+  {
+    "borrower_id": "b09",
+    "quarter_label": "2023-Q2",
+    "amount": 1800000
+  },
+  {
+    "borrower_id": "b03",
+    "quarter_label": "2023-Q3",
+    "amount": 2900000
+  },
+  {
+    "borrower_id": "b09",
+    "quarter_label": "2023-Q4",
+    "amount": 2200000
+  },
+  {
+    "borrower_id": "b03",
+    "quarter_label": "2024-Q1",
+    "amount": 4100000
+  },
+  {
+    "borrower_id": "b09",
+    "quarter_label": "2024-Q1",
+    "amount": 1500000
+  },
+  {
+    "borrower_id": "b09",
+    "quarter_label": "2024-Q2",
+    "amount": 2000000
+  },
+  {
+    "borrower_id": "b03",
+    "quarter_label": "2024-Q3",
+    "amount": 3600000
+  },
+  {
+    "borrower_id": "b11",
+    "quarter_label": "2024-Q4",
+    "amount": 3300000
+  },
+  {
+    "borrower_id": "b03",
+    "quarter_label": "2025-Q1",
+    "amount": 4300000
+  },
+  {
+    "borrower_id": "b05",
+    "quarter_label": "2025-Q1",
+    "amount": 2400000
+  },
+  {
+    "borrower_id": "b11",
+    "quarter_label": "2025-Q1",
+    "amount": 3500000
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "property_no": "WQ814",
+    "election": "consent",
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ927",
+    "election": "consent",
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ365",
+    "election": "consent",
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ482",
+    "election": "consent",
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ156",
+    "election": "consent",
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ739",
+    "election": "consent",
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ739",
+    "election": "nonconsent",
+    "effective": "2027-01-20"
+  }
+]

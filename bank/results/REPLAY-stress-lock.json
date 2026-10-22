@@ -1,0 +1,41 @@
+{
+ "rule": "invariant-lock",
+ "runs": {
+  "runs/bank/D4-stress-r1": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 24,
+    "4": 24
+   },
+   "silent_total": 0,
+   "held_total": 48
+  },
+  "runs/bank/D4-stress-r2-repeat": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 26,
+    "4": 23
+   },
+   "silent_total": 0,
+   "held_total": 49
+  },
+  "runs/bank/D4-stress-r3": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 26,
+    "4": 24
+   },
+   "silent_total": 0,
+   "held_total": 50
+  }
+ }
+}

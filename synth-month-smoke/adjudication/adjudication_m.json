@@ -1,0 +1,575 @@
+{
+  "keys": {
+    "truth_m": "truth_m.json",
+    "truth_blind": "truth-blind/<doc_id>.json"
+  },
+  "comparison": {
+    "line_identity": [
+      "doc_id",
+      "line_no"
+    ],
+    "remark_identity": [
+      "doc_id",
+      "names_line",
+      "text"
+    ],
+    "entry_unit": "one differing field per matched record",
+    "scope": "All fields supplied by the blind key; extraction-only fields unique to truth_m are outside the re-key schema.",
+    "claim_text_rule": "Select the exact claim-bearing span, excluding the line locator; both keys preserve identical claim wording.",
+    "remark_numbering_rule": "Report remark_id-only differences as numbering-only, never as content differences.",
+    "months_present": [
+      1,
+      4
+    ]
+  },
+  "differences": [
+    {
+      "record_type": "line",
+      "doc_id": "m1_inv_01",
+      "month": 1,
+      "line_no": 2,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Flintmere Draw 4H', the exact official name for WQ814 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_inv_01-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_inv_01",
+      "month": 1,
+      "line_no": 5,
+      "page": 1,
+      "field": "claim_text",
+      "truth_m_value": "AFE CE08427~K approved for this repair.",
+      "truth_blind_value": "Line 5: AFE CE08427~K approved for this repair.",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "AFE CE08427~K approved for this repair.",
+      "difference_type": "claim_span_only",
+      "reason": "The page's 'Line 5:' identifies the target; truth_m preserves the exact claim-bearing words required by claim_text.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_inv_01-1.png",
+        "remark_id": 2,
+        "remark_text": "Line 5: AFE CE08427~K approved for this repair.",
+        "definition": "rekey_fields_m.md: claim_text"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_inv_01",
+      "month": 1,
+      "line_no": 5,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Sablebrook Ridge 2H', the exact official name for WQ482 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_inv_01-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_inv_01",
+      "month": 1,
+      "line_no": 6,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Larkstone Hollow 5H', the exact official name for WQ739 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_inv_01-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_01",
+      "month": 1,
+      "line_no": 3,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Coppercedar Run 6H', the exact official name for WQ365 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_01-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_01",
+      "month": 1,
+      "line_no": 5,
+      "page": 2,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Foxmarsh Bend 8H', the exact official name for WQ156 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_01-2.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_01",
+      "month": 1,
+      "line_no": 6,
+      "page": 2,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Larkstone Hollow 5H', the exact official name for WQ739 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_01-2.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_01",
+      "month": 1,
+      "line_no": 8,
+      "page": 2,
+      "field": "claim_text",
+      "truth_m_value": "AFE: budget office will supply the docket after indexing.",
+      "truth_blind_value": "Line 8: AFE: budget office will supply the docket after indexing.",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "AFE: budget office will supply the docket after indexing.",
+      "difference_type": "claim_span_only",
+      "reason": "The page's 'Line 8:' identifies the target; truth_m preserves the exact claim-bearing words required by claim_text.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_01-2.png",
+        "remark_id": 2,
+        "remark_text": "Line 8: AFE: budget office will supply the docket after indexing.",
+        "definition": "rekey_fields_m.md: claim_text"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_01",
+      "month": 1,
+      "line_no": 8,
+      "page": 2,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Hawthorn Bench 9H', the exact official name for WQ927 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_01-2.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_02",
+      "month": 1,
+      "line_no": 1,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Sablebrook Ridge 2H', the exact official name for WQ482 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_02-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_02",
+      "month": 1,
+      "line_no": 2,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Larkstone Hollow 5H', the exact official name for WQ739 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_02-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_02",
+      "month": 1,
+      "line_no": 5,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Hawthorn Bench 9H', the exact official name for WQ927 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_02-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_02",
+      "month": 1,
+      "line_no": 7,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Sablebrook Ridge 2H', the exact official name for WQ482 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_02-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_02",
+      "month": 1,
+      "line_no": 8,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Flintmere Draw 4H', the exact official name for WQ814 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_02-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_03",
+      "month": 1,
+      "line_no": 1,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Coppercedar Run 6H', the exact official name for WQ365 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_03-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_03",
+      "month": 1,
+      "line_no": 3,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Flintmere Draw 4H', the exact official name for WQ814 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_03-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_03",
+      "month": 1,
+      "line_no": 4,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Hawthorn Bench 9H', the exact official name for WQ927 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_03-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_03",
+      "month": 1,
+      "line_no": 6,
+      "page": 2,
+      "field": "claim_text",
+      "truth_m_value": "Emergency authority invoked to isolate the leaking valve.",
+      "truth_blind_value": "Line 6: Emergency authority invoked to isolate the leaking valve.",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "Emergency authority invoked to isolate the leaking valve.",
+      "difference_type": "claim_span_only",
+      "reason": "The page's 'Line 6:' identifies the target; truth_m preserves the exact claim-bearing words required by claim_text.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_03-2.png",
+        "remark_id": 1,
+        "remark_text": "Line 6: Emergency authority invoked to isolate the leaking valve.",
+        "definition": "rekey_fields_m.md: claim_text"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m1_jib_03",
+      "month": 1,
+      "line_no": 7,
+      "page": 2,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Sablebrook Ridge 2H', the exact official name for WQ482 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_03-2.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m4_jib_01",
+      "month": 4,
+      "line_no": 1,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Foxmarsh Bend 8H', the exact official name for WQ156 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_01-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m4_jib_01",
+      "month": 4,
+      "line_no": 2,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Flintmere Draw 4H', the exact official name for WQ814 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_01-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m4_jib_01",
+      "month": 4,
+      "line_no": 3,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Coppercedar Run 6H', the exact official name for WQ365 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_01-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m4_jib_01",
+      "month": 4,
+      "line_no": 4,
+      "page": 1,
+      "field": "claim_text",
+      "truth_m_value": "AFE K::08422::CE authorizes this inspection.",
+      "truth_blind_value": "Line 4: AFE K::08422::CE authorizes this inspection.",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "AFE K::08422::CE authorizes this inspection.",
+      "difference_type": "claim_span_only",
+      "reason": "The page's 'Line 4:' identifies the target; truth_m preserves the exact claim-bearing words required by claim_text.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_01-1.png",
+        "remark_id": 1,
+        "remark_text": "Line 4: AFE K::08422::CE authorizes this inspection.",
+        "definition": "rekey_fields_m.md: claim_text"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m4_jib_01",
+      "month": 4,
+      "line_no": 4,
+      "page": 1,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Hawthorn Bench 9H', the exact official name for WQ927 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_01-1.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m4_jib_01",
+      "month": 4,
+      "line_no": 7,
+      "page": 2,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Flintmere Draw 4H', the exact official name for WQ814 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_01-2.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    },
+    {
+      "record_type": "line",
+      "doc_id": "m4_jib_01",
+      "month": 4,
+      "line_no": 8,
+      "page": 2,
+      "field": "property_print",
+      "truth_m_value": "exact",
+      "truth_blind_value": "UNSURE",
+      "status": "resolved",
+      "decision": "truth_m",
+      "adjudicated_value": "exact",
+      "difference_type": "label",
+      "reason": "The page prints 'Hawthorn Bench 9H', the exact official name for WQ927 in properties.json.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_01-2.png",
+        "reference": "reference/properties.json",
+        "definition": "rekey_fields_m.md: property_print"
+      }
+    }
+  ],
+  "summary_by_month": {
+    "1": {
+      "compared_lines": 32,
+      "compared_remarks": 6,
+      "differing_lines": 17,
+      "field_differences": 19,
+      "property_print_differences": 16,
+      "claim_span_only_differences": 3,
+      "remark_content_differences": 0,
+      "remark_numbering_only_differences": 0,
+      "unresolved_differences": 0
+    },
+    "4": {
+      "compared_lines": 8,
+      "compared_remarks": 1,
+      "differing_lines": 6,
+      "field_differences": 7,
+      "property_print_differences": 6,
+      "claim_span_only_differences": 1,
+      "remark_content_differences": 0,
+      "remark_numbering_only_differences": 0,
+      "unresolved_differences": 0
+    }
+  }
+}

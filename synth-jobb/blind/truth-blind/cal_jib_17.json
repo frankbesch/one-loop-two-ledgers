@@ -1,0 +1,154 @@
+{
+  "doc_id": "cal_jib_17",
+  "lines": [
+    {
+      "doc_id": "cal_jib_17",
+      "page": 1,
+      "line_no": 1,
+      "property": "PR2689",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "page": 1,
+      "line_no": 2,
+      "property": "PR2689",
+      "claim_text": "AFE RWM/31003/OC approved for this charge",
+      "claim_type": "claims_afe",
+      "reference_kind": "exact",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "page": 1,
+      "line_no": 3,
+      "property": "PR4937",
+      "claim_text": "The approved project budget RWM/31001/OC includes this service.",
+      "claim_type": "claims_afe",
+      "reference_kind": "reworded",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "page": 1,
+      "line_no": 4,
+      "property": "PR4937",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "page": 1,
+      "line_no": 5,
+      "property": "PR2689",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "page": 1,
+      "line_no": 6,
+      "property": "PR6812",
+      "claim_text": "AFE RWM/31400/OC is approved for this charge.",
+      "claim_type": "claims_afe",
+      "reference_kind": "exact",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "contradicted",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "page": 1,
+      "line_no": 7,
+      "property": "PR6812",
+      "claim_text": "This service has approval within expenditure budget RWM/31000/OC.",
+      "claim_type": "claims_afe",
+      "reference_kind": "reworded",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "page": 1,
+      "line_no": 8,
+      "property": "PR2689",
+      "claim_text": "The charge uses the owner-approved authorization RWM/31003/OC.",
+      "claim_type": "claims_afe",
+      "reference_kind": "reworded",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "hard"
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "page": 1,
+      "line_no": 9,
+      "property": "PR6812",
+      "claim_text": "Approved AFE: TBD",
+      "claim_type": "claims_afe",
+      "reference_kind": "placeholder",
+      "placeholder_style": "literal",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "unsupported",
+      "difficulty": "hard"
+    }
+  ],
+  "remarks": [
+    {
+      "doc_id": "cal_jib_17",
+      "remark_id": 1,
+      "names_line": 8,
+      "text": "Line 8: The charge uses the owner-approved authorization RWM/31003/OC.",
+      "remark_role": "claim"
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "remark_id": 2,
+      "names_line": 9,
+      "text": "Line 9: Approved AFE: TBD",
+      "remark_role": "claim"
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "remark_id": 3,
+      "names_line": 4,
+      "text": "Line 4: Work ticket copy is attached for service-date verification.",
+      "remark_role": "no_claim"
+    }
+  ]
+}

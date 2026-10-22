@@ -1,0 +1,728 @@
+{
+  "seed": 831704629,
+  "spec_sha256": "1d84886b5a489c42986d8fbbbf770ef89043f80ccc428042e8f313912c09afb8",
+  "rounding": "ROUND_HALF_UP to cents per line; totals sum rounded line amounts",
+  "scan_status": "Not generated (D-286)",
+  "documents": [
+    {
+      "doc_id": "cal_jib_01",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_01.html",
+      "pdf": "clean/cal_jib_01.pdf",
+      "source_sha256": "ae2ee4e61af7a0e5126643f9c70d4512caa1a29a17db5e7a05d48b87d6b0a5ca",
+      "totals": {
+        "gross": "36,309.60",
+        "net_amount": "6,808.07"
+      }
+    },
+    {
+      "doc_id": "cal_jib_02",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_02.html",
+      "pdf": "clean/cal_jib_02.pdf",
+      "source_sha256": "f664d5289c1fe929c1099258ebb573d210e9d412f7bba1398631dbaf8bd3445c",
+      "totals": {
+        "gross": "42,327.93",
+        "net_amount": "7,936.50"
+      }
+    },
+    {
+      "doc_id": "cal_jib_03",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_03.html",
+      "pdf": "clean/cal_jib_03.pdf",
+      "source_sha256": "9ee71590417d3e83ffdd43cc1ca13a648b8a82acef0c6f4837568c36f7f5a21d",
+      "totals": {
+        "gross": "39,920.07",
+        "net_amount": "7,485.02"
+      }
+    },
+    {
+      "doc_id": "cal_jib_04",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 3,
+      "source": "sources/cal_jib_04.html",
+      "pdf": "clean/cal_jib_04.pdf",
+      "source_sha256": "7c743139b3d00f6a362e2a55278926d9304f8f33db7f20ed231985677bce1952",
+      "totals": {
+        "gross": "28,464.87",
+        "net_amount": "5,337.16"
+      }
+    },
+    {
+      "doc_id": "cal_jib_05",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/cal_jib_05.html",
+      "pdf": "clean/cal_jib_05.pdf",
+      "source_sha256": "1445e9abdcbb8ea8eedf64429498f9f201ebcd71feef01eeeb671832adc0a620",
+      "totals": {
+        "gross": "53,784.98",
+        "net_amount": "10,084.68"
+      }
+    },
+    {
+      "doc_id": "cal_jib_06",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/cal_jib_06.html",
+      "pdf": "clean/cal_jib_06.pdf",
+      "source_sha256": "de41117aac3035c5fa96e6179dbb8efc39335793567e56206eb2a45760f272b1",
+      "totals": {
+        "gross": "29,507.10",
+        "net_amount": "5,532.58"
+      }
+    },
+    {
+      "doc_id": "cal_jib_07",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_07.html",
+      "pdf": "clean/cal_jib_07.pdf",
+      "source_sha256": "0d31998ec8546d18fb342b55acea5b927a3ee2ff24a4869339d98d42e7140fed",
+      "totals": {
+        "gross": "38,283.25",
+        "net_amount": "7,178.10"
+      }
+    },
+    {
+      "doc_id": "cal_jib_08",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_08.html",
+      "pdf": "clean/cal_jib_08.pdf",
+      "source_sha256": "2ff8a7fdefa8f2dfcc4e9d02fe933f7616cc7fefb148f6ce4ca270434dbd95ce",
+      "totals": {
+        "gross": "43,821.70",
+        "net_amount": "8,216.59"
+      }
+    },
+    {
+      "doc_id": "cal_jib_09",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_09.html",
+      "pdf": "clean/cal_jib_09.pdf",
+      "source_sha256": "43c2d7f9a256e962a17d4cf0a218f1e06e56acb0e93ef4adef4d6876feb91e3a",
+      "totals": {
+        "gross": "38,933.55",
+        "net_amount": "7,300.05"
+      }
+    },
+    {
+      "doc_id": "cal_jib_10",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_10.html",
+      "pdf": "clean/cal_jib_10.pdf",
+      "source_sha256": "b54efd3186a9a8f5e5a41102754943cc9c9ba32679c9c26feca51466598bdb9e",
+      "totals": {
+        "gross": "40,467.19",
+        "net_amount": "7,587.60"
+      }
+    },
+    {
+      "doc_id": "cal_jib_11",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 3,
+      "source": "sources/cal_jib_11.html",
+      "pdf": "clean/cal_jib_11.pdf",
+      "source_sha256": "15a1d873ff2a8590aae2ce5c856af29ee0df4a676a86d2b05f21409788e58e18",
+      "totals": {
+        "gross": "29,949.15",
+        "net_amount": "5,615.47"
+      }
+    },
+    {
+      "doc_id": "cal_jib_12",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_12.html",
+      "pdf": "clean/cal_jib_12.pdf",
+      "source_sha256": "9ec98ad4a698801b5b728ec207635d0220a110f516e9b65a79b0b4a987cc6155",
+      "totals": {
+        "gross": "38,142.03",
+        "net_amount": "7,151.62"
+      }
+    },
+    {
+      "doc_id": "cal_jib_13",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 3,
+      "source": "sources/cal_jib_13.html",
+      "pdf": "clean/cal_jib_13.pdf",
+      "source_sha256": "04dba473b10f2b0ec6e614176e59afac975387a407a19881e27d0ccb91d0132d",
+      "totals": {
+        "gross": "48,613.74",
+        "net_amount": "9,115.07"
+      }
+    },
+    {
+      "doc_id": "cal_jib_14",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/cal_jib_14.html",
+      "pdf": "clean/cal_jib_14.pdf",
+      "source_sha256": "853a7da2595aeb48de403630083893ad9cbf1c2eb9e21c49a31bb28eec29978b",
+      "totals": {
+        "gross": "37,831.14",
+        "net_amount": "7,093.34"
+      }
+    },
+    {
+      "doc_id": "cal_jib_15",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_15.html",
+      "pdf": "clean/cal_jib_15.pdf",
+      "source_sha256": "fcc8eb55f518fe39754bd3b32569783179519d1dade87a1c654f8e9806f0accf",
+      "totals": {
+        "gross": "42,768.08",
+        "net_amount": "8,019.02"
+      }
+    },
+    {
+      "doc_id": "cal_jib_16",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_16.html",
+      "pdf": "clean/cal_jib_16.pdf",
+      "source_sha256": "7f3d7e1e8f3d7a0f1d0923e01ec7ea1fef1bc1f3005b5db6f41445cc68bd49ef",
+      "totals": {
+        "gross": "49,860.72",
+        "net_amount": "9,348.89"
+      }
+    },
+    {
+      "doc_id": "cal_jib_17",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 3,
+      "source": "sources/cal_jib_17.html",
+      "pdf": "clean/cal_jib_17.pdf",
+      "source_sha256": "4c8718d2cb727dbabbf70c114103085a50cc90b6b1e11d4ae909d0c177613b7e",
+      "totals": {
+        "gross": "38,552.49",
+        "net_amount": "7,228.61"
+      }
+    },
+    {
+      "doc_id": "cal_jib_18",
+      "split": "calibration",
+      "type": "jib_statement",
+      "pages": 1,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/cal_jib_18.html",
+      "pdf": "clean/cal_jib_18.pdf",
+      "source_sha256": "9af7ada949e424959154838861deb7b2c0ce1b0ba87c869e36e0e8cd1dffcece",
+      "totals": {
+        "gross": "41,443.31",
+        "net_amount": "7,770.62"
+      }
+    },
+    {
+      "doc_id": "cal_inv_01",
+      "split": "calibration",
+      "type": "vendor_invoice",
+      "pages": 2,
+      "line_count": 8,
+      "remark_count": 2,
+      "source": "sources/cal_inv_01.html",
+      "pdf": "clean/cal_inv_01.pdf",
+      "source_sha256": "2ee19b674e363a90b002f379e9aa695e4ac89f2a100e7577cdd01b6c0942543e",
+      "totals": {
+        "gross": "44,916.81",
+        "net_amount": "8,421.89"
+      }
+    },
+    {
+      "doc_id": "cal_inv_02",
+      "split": "calibration",
+      "type": "vendor_invoice",
+      "pages": 1,
+      "line_count": 8,
+      "remark_count": 2,
+      "source": "sources/cal_inv_02.html",
+      "pdf": "clean/cal_inv_02.pdf",
+      "source_sha256": "8ee53f9161c8be48153f5d3b83c19c1d3dede1610b1d7e8d27b74526ad11bdb0",
+      "totals": {
+        "gross": "36,214.46",
+        "net_amount": "6,790.21"
+      }
+    },
+    {
+      "doc_id": "cal_inv_03",
+      "split": "calibration",
+      "type": "vendor_invoice",
+      "pages": 1,
+      "line_count": 8,
+      "remark_count": 2,
+      "source": "sources/cal_inv_03.html",
+      "pdf": "clean/cal_inv_03.pdf",
+      "source_sha256": "db0dca7c470cf43625314bf529fa461bf89d320f6dcdcbd1b8e909a8357d2579",
+      "totals": {
+        "gross": "22,770.05",
+        "net_amount": "4,269.39"
+      }
+    },
+    {
+      "doc_id": "cal_inv_04",
+      "split": "calibration",
+      "type": "vendor_invoice",
+      "pages": 2,
+      "line_count": 8,
+      "remark_count": 2,
+      "source": "sources/cal_inv_04.html",
+      "pdf": "clean/cal_inv_04.pdf",
+      "source_sha256": "2a8b15314eac3658d3da04d0bb4589e009437eb876d66e2ae4b1817d77809b1a",
+      "totals": {
+        "gross": "51,395.68",
+        "net_amount": "9,636.69"
+      }
+    },
+    {
+      "doc_id": "cal_inv_05",
+      "split": "calibration",
+      "type": "vendor_invoice",
+      "pages": 1,
+      "line_count": 8,
+      "remark_count": 1,
+      "source": "sources/cal_inv_05.html",
+      "pdf": "clean/cal_inv_05.pdf",
+      "source_sha256": "cf6ed6a3b6a4439f530f2656300e1db6be78309b82635fb1fde77144823a2888",
+      "totals": {
+        "gross": "42,037.64",
+        "net_amount": "7,882.04"
+      }
+    },
+    {
+      "doc_id": "cal_inv_06",
+      "split": "calibration",
+      "type": "vendor_invoice",
+      "pages": 1,
+      "line_count": 8,
+      "remark_count": 2,
+      "source": "sources/cal_inv_06.html",
+      "pdf": "clean/cal_inv_06.pdf",
+      "source_sha256": "450bab49bf52de48d3f78a6b393fa386cbe3283ebc5100dcf12dadd729cc7eb4",
+      "totals": {
+        "gross": "50,623.63",
+        "net_amount": "9,491.93"
+      }
+    },
+    {
+      "doc_id": "sco_jib_01",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_jib_01.html",
+      "pdf": "clean/sco_jib_01.pdf",
+      "source_sha256": "f0bb18c257826f3df60f01b8edd210fa5dcd3f235df8732a3e9c611080ffc17d",
+      "totals": {
+        "gross": "34,160.04",
+        "net_amount": "6,404.99"
+      }
+    },
+    {
+      "doc_id": "sco_jib_02",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_jib_02.html",
+      "pdf": "clean/sco_jib_02.pdf",
+      "source_sha256": "3012b06e1506205ffd65d94aa17f1bd3f9f80567a1e5115467b4dbbd9c286034",
+      "totals": {
+        "gross": "24,952.63",
+        "net_amount": "4,678.62"
+      }
+    },
+    {
+      "doc_id": "sco_jib_03",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_jib_03.html",
+      "pdf": "clean/sco_jib_03.pdf",
+      "source_sha256": "dff36185652106f42d03d4a6013ba920a1149470ff374682a31a9233a2a7cd1b",
+      "totals": {
+        "gross": "34,900.17",
+        "net_amount": "6,543.79"
+      }
+    },
+    {
+      "doc_id": "sco_jib_04",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/sco_jib_04.html",
+      "pdf": "clean/sco_jib_04.pdf",
+      "source_sha256": "40c72edfb8bf49e3e8421c67041b5ab5e3d52c456477020d848eb0cf547839ef",
+      "totals": {
+        "gross": "31,379.74",
+        "net_amount": "5,883.71"
+      }
+    },
+    {
+      "doc_id": "sco_jib_05",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/sco_jib_05.html",
+      "pdf": "clean/sco_jib_05.pdf",
+      "source_sha256": "d9d2d11f85112437f75ef9d719f0e221d85637e67cd12e89594faef726b5deb5",
+      "totals": {
+        "gross": "49,957.33",
+        "net_amount": "9,367.01"
+      }
+    },
+    {
+      "doc_id": "sco_jib_06",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/sco_jib_06.html",
+      "pdf": "clean/sco_jib_06.pdf",
+      "source_sha256": "e6c56ce8ce4d3b538f2bffd3ddecea7dadd8ab579c39f3e4d2c7b34c9f6df84b",
+      "totals": {
+        "gross": "42,592.30",
+        "net_amount": "7,986.05"
+      }
+    },
+    {
+      "doc_id": "sco_jib_07",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_jib_07.html",
+      "pdf": "clean/sco_jib_07.pdf",
+      "source_sha256": "0c13c8165fc99604f7f02bc5aa745edd2eb86a9f1b9e1409488f46dd3f5f25ee",
+      "totals": {
+        "gross": "35,822.09",
+        "net_amount": "6,716.64"
+      }
+    },
+    {
+      "doc_id": "sco_jib_08",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_jib_08.html",
+      "pdf": "clean/sco_jib_08.pdf",
+      "source_sha256": "6245b5dd15cfa94bdce421418edc16851aa6c75941f0f5bcc528b58f7a8be4f6",
+      "totals": {
+        "gross": "32,935.82",
+        "net_amount": "6,175.47"
+      }
+    },
+    {
+      "doc_id": "sco_jib_09",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/sco_jib_09.html",
+      "pdf": "clean/sco_jib_09.pdf",
+      "source_sha256": "9573345cc2f9faa1929497523eaed1d284a9fde2caf57cced96c950902c856de",
+      "totals": {
+        "gross": "34,155.25",
+        "net_amount": "6,404.11"
+      }
+    },
+    {
+      "doc_id": "sco_jib_10",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_jib_10.html",
+      "pdf": "clean/sco_jib_10.pdf",
+      "source_sha256": "d9640b8bd3a2604a4615b4c3290d11dc6df6a9a5a208c1ba87a7b303bdf226d5",
+      "totals": {
+        "gross": "40,164.03",
+        "net_amount": "7,530.77"
+      }
+    },
+    {
+      "doc_id": "sco_jib_11",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 3,
+      "source": "sources/sco_jib_11.html",
+      "pdf": "clean/sco_jib_11.pdf",
+      "source_sha256": "6d50df42de2a35555afaea815ed33d435d96a7913f302f6fac7dc952c724611a",
+      "totals": {
+        "gross": "33,388.48",
+        "net_amount": "6,260.34"
+      }
+    },
+    {
+      "doc_id": "sco_jib_12",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 3,
+      "source": "sources/sco_jib_12.html",
+      "pdf": "clean/sco_jib_12.pdf",
+      "source_sha256": "4c9348081f46a410980db43d916f6b25b77ead37c010ce257f8f5ea599a3a65d",
+      "totals": {
+        "gross": "42,601.68",
+        "net_amount": "7,987.82"
+      }
+    },
+    {
+      "doc_id": "sco_jib_13",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/sco_jib_13.html",
+      "pdf": "clean/sco_jib_13.pdf",
+      "source_sha256": "2d7db2a003f517ca349615f24a0386a43260476866dfae1830e4d739fddae93b",
+      "totals": {
+        "gross": "34,182.95",
+        "net_amount": "6,409.30"
+      }
+    },
+    {
+      "doc_id": "sco_jib_14",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_jib_14.html",
+      "pdf": "clean/sco_jib_14.pdf",
+      "source_sha256": "f8506ab829c2c2fe0a24495094730360926b05362b52fd1ec90422070c812bd7",
+      "totals": {
+        "gross": "40,795.48",
+        "net_amount": "7,649.15"
+      }
+    },
+    {
+      "doc_id": "sco_jib_15",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_jib_15.html",
+      "pdf": "clean/sco_jib_15.pdf",
+      "source_sha256": "f09fb0f3eee2bdb0a7f08bd85aca5f33efb428305fac4e9e56a1efb09d2fb3ad",
+      "totals": {
+        "gross": "39,748.82",
+        "net_amount": "7,452.91"
+      }
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 3,
+      "source": "sources/sco_jib_16.html",
+      "pdf": "clean/sco_jib_16.pdf",
+      "source_sha256": "7f7fffaa5f24fffa2ed8065d6493d0ace8b81a757d43a8137076765483d52e41",
+      "totals": {
+        "gross": "31,600.16",
+        "net_amount": "5,925.04"
+      }
+    },
+    {
+      "doc_id": "sco_jib_17",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_jib_17.html",
+      "pdf": "clean/sco_jib_17.pdf",
+      "source_sha256": "b74505a8e1e37a281956420c876a21598890d02c6faf16a37499f93b391cc780",
+      "totals": {
+        "gross": "25,522.71",
+        "net_amount": "4,785.51"
+      }
+    },
+    {
+      "doc_id": "sco_jib_18",
+      "split": "scored",
+      "type": "jib_statement",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_jib_18.html",
+      "pdf": "clean/sco_jib_18.pdf",
+      "source_sha256": "425602754236ea529cc60b03a0d6b038d81025e63daf2ed90587fb9188a1cc9f",
+      "totals": {
+        "gross": "34,735.98",
+        "net_amount": "6,512.99"
+      }
+    },
+    {
+      "doc_id": "sco_inv_01",
+      "split": "scored",
+      "type": "vendor_invoice",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_inv_01.html",
+      "pdf": "clean/sco_inv_01.pdf",
+      "source_sha256": "1de0b163fbfe94bb3db77e2aaacf9c84cf185d3afb790e00af724feb48158283",
+      "totals": {
+        "gross": "39,255.18",
+        "net_amount": "7,360.35"
+      }
+    },
+    {
+      "doc_id": "sco_inv_02",
+      "split": "scored",
+      "type": "vendor_invoice",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/sco_inv_02.html",
+      "pdf": "clean/sco_inv_02.pdf",
+      "source_sha256": "ce36c2569c419bf1adfb58cacec80f25858f58f47e129bfc15a8622b4e54c1bf",
+      "totals": {
+        "gross": "31,736.40",
+        "net_amount": "5,950.59"
+      }
+    },
+    {
+      "doc_id": "sco_inv_03",
+      "split": "scored",
+      "type": "vendor_invoice",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 2,
+      "source": "sources/sco_inv_03.html",
+      "pdf": "clean/sco_inv_03.pdf",
+      "source_sha256": "5a11959ed58c6f1550e81448203d89f5ca45db0349f5a81d8830ac677bf86c5b",
+      "totals": {
+        "gross": "44,177.34",
+        "net_amount": "8,283.25"
+      }
+    },
+    {
+      "doc_id": "sco_inv_04",
+      "split": "scored",
+      "type": "vendor_invoice",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 3,
+      "source": "sources/sco_inv_04.html",
+      "pdf": "clean/sco_inv_04.pdf",
+      "source_sha256": "5831baf7ecb0d48e4eb2ce1b7117c1718dd7e105c6caa2d41e8575738b1628a3",
+      "totals": {
+        "gross": "37,560.27",
+        "net_amount": "7,042.55"
+      }
+    },
+    {
+      "doc_id": "sco_inv_05",
+      "split": "scored",
+      "type": "vendor_invoice",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/sco_inv_05.html",
+      "pdf": "clean/sco_inv_05.pdf",
+      "source_sha256": "bc5628cc4d15ecaf1a4ac13cca8eba233b35ad937ce5e181ed7dd02a072cece0",
+      "totals": {
+        "gross": "29,655.32",
+        "net_amount": "5,560.38"
+      }
+    },
+    {
+      "doc_id": "sco_inv_06",
+      "split": "scored",
+      "type": "vendor_invoice",
+      "pages": 2,
+      "line_count": 9,
+      "remark_count": 1,
+      "source": "sources/sco_inv_06.html",
+      "pdf": "clean/sco_inv_06.pdf",
+      "source_sha256": "b6be027525b8e8f1526bd662a3f6362c5adc55e751bc5995f1ebec7761b14b8a",
+      "totals": {
+        "gross": "43,866.73",
+        "net_amount": "8,225.01"
+      }
+    }
+  ]
+}

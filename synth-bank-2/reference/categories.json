@@ -1,0 +1,8 @@
+{
+  "restructuring_charges": "Cash charges for discrete closures, workforce reductions, or operational reorganizations.",
+  "transaction_costs": "Professional fees and closing expenses directly attributable to a specific acquisition or financing transaction.",
+  "non_cash_compensation": "Compensation expense settled in equity without a cash payment.",
+  "cost_savings": "Identifiable operating expense reductions achieved or projected from a specific action.",
+  "non_recurring_losses": "Losses from isolated events outside the normal recurring course of operations.",
+  "ordinary_operating": "Recurring costs of normal staffing, maintenance, supplies, insurance, and professional services."
+}

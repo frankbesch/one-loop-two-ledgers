@@ -1,0 +1,774 @@
+{
+  "keys": {
+    "truth_b": "truth_b.json",
+    "truth_blind": "truth-blind/<doc_id>.json"
+  },
+  "comparison_scope": {
+    "lines": 420,
+    "remarks": 96,
+    "fields": "All fields present in both keys, including property, text, links, and classification labels.",
+    "entry_unit": "One entry per differing line or remark; differing fields are grouped within the entry.",
+    "remark_id_convention": "Document reading order: ascending page, then top to bottom.",
+    "schema_only_fields": "Fields absent from one schema are not label disagreements."
+  },
+  "counts_per_split": {
+    "calibration": {
+      "differing_records": 11,
+      "differing_fields": 31,
+      "line_records": 1,
+      "remark_records": 10,
+      "truth_b_selected": 1,
+      "truth_blind_selected": 10,
+      "unresolved_records": 0,
+      "unresolved_fields": 0
+    },
+    "scored": {
+      "differing_records": 11,
+      "differing_fields": 25,
+      "line_records": 3,
+      "remark_records": 8,
+      "truth_b_selected": 3,
+      "truth_blind_selected": 8,
+      "unresolved_records": 0,
+      "unresolved_fields": 0
+    }
+  },
+  "adjudications": [
+    {
+      "split": "calibration",
+      "record_type": "line",
+      "doc_id": "cal_jib_01",
+      "line_no": 6,
+      "differing_fields": [
+        "property"
+      ],
+      "truth_b_values": {
+        "property": "PR2689"
+      },
+      "truth_blind_values": {
+        "property": "PR6812"
+      },
+      "page": 2,
+      "decision": "truth_b",
+      "adjudicated_values": {
+        "property": "PR2689"
+      },
+      "reason": "Page 2, line 6 prints PR2689; the register provides no basis to substitute PR6812.",
+      "register_check": {
+        "applicability": "No AFE claim on this line; the printed property controls."
+      },
+      "page_image": "page-images/clean/cal_jib_01-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "line",
+      "doc_id": "sco_jib_02",
+      "line_no": 2,
+      "differing_fields": [
+        "property"
+      ],
+      "truth_b_values": {
+        "property": "PR4937"
+      },
+      "truth_blind_values": {
+        "property": "PR6812"
+      },
+      "page": 1,
+      "decision": "truth_b",
+      "adjudicated_values": {
+        "property": "PR4937"
+      },
+      "reason": "Page 1, line 2 prints PR4937; the register provides no basis to substitute PR6812.",
+      "register_check": {
+        "applicability": "No AFE claim on this line; the printed property controls."
+      },
+      "page_image": "page-images/clean/sco_jib_02-1.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "line",
+      "doc_id": "sco_jib_16",
+      "line_no": 5,
+      "differing_fields": [
+        "property"
+      ],
+      "truth_b_values": {
+        "property": "PR6812"
+      },
+      "truth_blind_values": {
+        "property": "PR4937"
+      },
+      "page": 2,
+      "decision": "truth_b",
+      "adjudicated_values": {
+        "property": "PR6812"
+      },
+      "reason": "Page 2, line 5 prints PR6812; the register provides no basis to substitute PR4937.",
+      "register_check": {
+        "applicability": "No AFE claim on this line; the printed property controls."
+      },
+      "page_image": "page-images/clean/sco_jib_16-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "line",
+      "doc_id": "sco_inv_02",
+      "line_no": 2,
+      "differing_fields": [
+        "property"
+      ],
+      "truth_b_values": {
+        "property": "PR2689"
+      },
+      "truth_blind_values": {
+        "property": "PR6812"
+      },
+      "page": 1,
+      "decision": "truth_b",
+      "adjudicated_values": {
+        "property": "PR2689"
+      },
+      "reason": "Page 1, line 2 prints PR2689; the register provides no basis to substitute PR6812.",
+      "register_check": {
+        "applicability": "No AFE claim on this line; the printed property controls."
+      },
+      "page_image": "page-images/clean/sco_inv_02-1.png",
+      "unresolved": false
+    },
+    {
+      "split": "calibration",
+      "record_type": "remark",
+      "doc_id": "cal_jib_01",
+      "remark_id": 1,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 8,
+        "remark_role": "claim",
+        "text": "Line 8: This expense draws on approved spending plan RWM/31003/OC."
+      },
+      "truth_blind_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "page": 1,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "reason": "In document reading order, remark 1 appears on page 1, names line 1, and makes no approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/cal_jib_01-1.png",
+      "unresolved": false
+    },
+    {
+      "split": "calibration",
+      "record_type": "remark",
+      "doc_id": "cal_jib_01",
+      "remark_id": 2,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "truth_blind_values": {
+        "names_line": 8,
+        "remark_role": "claim",
+        "text": "Line 8: This expense draws on approved spending plan RWM/31003/OC."
+      },
+      "page": 2,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 8,
+        "remark_role": "claim",
+        "text": "Line 8: This expense draws on approved spending plan RWM/31003/OC."
+      },
+      "reason": "In document reading order, remark 2 appears on page 2, names line 8, and makes an approval claim.",
+      "register_check": {
+        "afe_number": "RWM/31003/OC",
+        "status": "approved",
+        "register_property": "PR2689",
+        "line_property": "PR2689",
+        "note": "Register support affects the line outcome, not whether the remark makes a claim."
+      },
+      "page_image": "page-images/clean/cal_jib_01-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "calibration",
+      "record_type": "remark",
+      "doc_id": "cal_jib_04",
+      "remark_id": 2,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: Approved AFE RWM/31801/OC covers this charge"
+      },
+      "truth_blind_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "page": 1,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "reason": "In document reading order, remark 2 appears on page 1, names line 1, and makes no approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/cal_jib_04-1.png",
+      "unresolved": false
+    },
+    {
+      "split": "calibration",
+      "record_type": "remark",
+      "doc_id": "cal_jib_04",
+      "remark_id": 3,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "truth_blind_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: Approved AFE RWM/31801/OC covers this charge"
+      },
+      "page": 2,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: Approved AFE RWM/31801/OC covers this charge"
+      },
+      "reason": "In document reading order, remark 3 appears on page 2, names line 7, and makes an approval claim.",
+      "register_check": {
+        "afe_number": "RWM/31801/OC",
+        "status": "absent",
+        "register_property": null,
+        "line_property": "PR6812",
+        "note": "Register support affects the line outcome, not whether the remark makes a claim."
+      },
+      "page_image": "page-images/clean/cal_jib_04-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "calibration",
+      "record_type": "remark",
+      "doc_id": "cal_jib_10",
+      "remark_id": 1,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: AFE RWM/31003/OC is approved for this charge."
+      },
+      "truth_blind_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "page": 1,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "reason": "In document reading order, remark 1 appears on page 1, names line 1, and makes no approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/cal_jib_10-1.png",
+      "unresolved": false
+    },
+    {
+      "split": "calibration",
+      "record_type": "remark",
+      "doc_id": "cal_jib_10",
+      "remark_id": 2,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "truth_blind_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: AFE RWM/31003/OC is approved for this charge."
+      },
+      "page": 2,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: AFE RWM/31003/OC is approved for this charge."
+      },
+      "reason": "In document reading order, remark 2 appears on page 2, names line 7, and makes an approval claim.",
+      "register_check": {
+        "afe_number": "RWM/31003/OC",
+        "status": "approved",
+        "register_property": "PR2689",
+        "line_property": "PR7524",
+        "note": "Register support affects the line outcome, not whether the remark makes a claim."
+      },
+      "page_image": "page-images/clean/cal_jib_10-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "calibration",
+      "record_type": "remark",
+      "doc_id": "cal_jib_13",
+      "remark_id": 2,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 8,
+        "remark_role": "claim",
+        "text": "Line 8: Spending authorization RWM/31001/OC covers this billed work."
+      },
+      "truth_blind_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "page": 1,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "reason": "In document reading order, remark 2 appears on page 1, names line 1, and makes no approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/cal_jib_13-1.png",
+      "unresolved": false
+    },
+    {
+      "split": "calibration",
+      "record_type": "remark",
+      "doc_id": "cal_jib_13",
+      "remark_id": 3,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "truth_blind_values": {
+        "names_line": 8,
+        "remark_role": "claim",
+        "text": "Line 8: Spending authorization RWM/31001/OC covers this billed work."
+      },
+      "page": 2,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 8,
+        "remark_role": "claim",
+        "text": "Line 8: Spending authorization RWM/31001/OC covers this billed work."
+      },
+      "reason": "In document reading order, remark 3 appears on page 2, names line 8, and makes an approval claim.",
+      "register_check": {
+        "afe_number": "RWM/31001/OC",
+        "status": "approved",
+        "register_property": "PR4937",
+        "line_property": "PR4937",
+        "note": "Register support affects the line outcome, not whether the remark makes a claim."
+      },
+      "page_image": "page-images/clean/cal_jib_13-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "calibration",
+      "record_type": "remark",
+      "doc_id": "cal_jib_16",
+      "remark_id": 1,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: The executed maintenance contract authorizes the tank level survey charge under local instruction 2."
+      },
+      "truth_blind_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "page": 1,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "reason": "In document reading order, remark 1 appears on page 1, names line 1, and makes no approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/cal_jib_16-1.png",
+      "unresolved": false
+    },
+    {
+      "split": "calibration",
+      "record_type": "remark",
+      "doc_id": "cal_jib_16",
+      "remark_id": 2,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "truth_blind_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: The executed maintenance contract authorizes the tank level survey charge under local instruction 2."
+      },
+      "page": 2,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: The executed maintenance contract authorizes the tank level survey charge under local instruction 2."
+      },
+      "reason": "In document reading order, remark 2 appears on page 2, names line 7, and makes an approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/cal_jib_16-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "remark",
+      "doc_id": "sco_jib_01",
+      "remark_id": 1,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 5,
+        "remark_role": "claim",
+        "text": "Line 5: AFE RWM/72401/OC is approved for this charge."
+      },
+      "truth_blind_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "page": 1,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "reason": "In document reading order, remark 1 appears on page 1, names line 1, and makes no approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/sco_jib_01-1.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "remark",
+      "doc_id": "sco_jib_01",
+      "remark_id": 2,
+      "differing_fields": [
+        "names_line",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 9,
+        "text": "Line 9: Approved AFE: Reference will be added once the filing team replies"
+      },
+      "truth_blind_values": {
+        "names_line": 5,
+        "text": "Line 5: AFE RWM/72401/OC is approved for this charge."
+      },
+      "page": 2,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 5,
+        "text": "Line 5: AFE RWM/72401/OC is approved for this charge."
+      },
+      "reason": "In document reading order, remark 2 appears on page 2, names line 5, and makes an approval claim.",
+      "register_check": {
+        "afe_number": "RWM/72401/OC",
+        "status": "declined",
+        "register_property": "PR4937",
+        "line_property": "PR4937",
+        "note": "Register support affects the line outcome, not whether the remark makes a claim."
+      },
+      "page_image": "page-images/clean/sco_jib_01-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "remark",
+      "doc_id": "sco_jib_01",
+      "remark_id": 3,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "truth_blind_values": {
+        "names_line": 9,
+        "remark_role": "claim",
+        "text": "Line 9: Approved AFE: Reference will be added once the filing team replies"
+      },
+      "page": 2,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 9,
+        "remark_role": "claim",
+        "text": "Line 9: Approved AFE: Reference will be added once the filing team replies"
+      },
+      "reason": "In document reading order, remark 3 appears on page 2, names line 9, and makes an approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/sco_jib_01-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "remark",
+      "doc_id": "sco_jib_10",
+      "remark_id": 1,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: This charge falls within the approved budget RWM/72002/OC."
+      },
+      "truth_blind_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "page": 1,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "reason": "In document reading order, remark 1 appears on page 1, names line 1, and makes no approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/sco_jib_10-1.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "remark",
+      "doc_id": "sco_jib_10",
+      "remark_id": 2,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "truth_blind_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: This charge falls within the approved budget RWM/72002/OC."
+      },
+      "page": 2,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: This charge falls within the approved budget RWM/72002/OC."
+      },
+      "reason": "In document reading order, remark 2 appears on page 2, names line 7, and makes an approval claim.",
+      "register_check": {
+        "afe_number": "RWM/72002/OC",
+        "status": "approved",
+        "register_property": "PR7524",
+        "line_property": "PR7524",
+        "note": "Register support affects the line outcome, not whether the remark makes a claim."
+      },
+      "page_image": "page-images/clean/sco_jib_10-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "remark",
+      "doc_id": "sco_jib_13",
+      "remark_id": 1,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 6,
+        "remark_role": "claim",
+        "text": "Line 6: The executed maintenance contract authorizes the flowline pressure test charge under local instruction 2."
+      },
+      "truth_blind_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "page": 1,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "reason": "In document reading order, remark 1 appears on page 1, names line 1, and makes no approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/sco_jib_13-1.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "remark",
+      "doc_id": "sco_jib_13",
+      "remark_id": 2,
+      "differing_fields": [
+        "names_line",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 7,
+        "text": "Line 7: Approved AFE RWM/72801/OC covers this charge"
+      },
+      "truth_blind_values": {
+        "names_line": 6,
+        "text": "Line 6: The executed maintenance contract authorizes the flowline pressure test charge under local instruction 2."
+      },
+      "page": 2,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 6,
+        "text": "Line 6: The executed maintenance contract authorizes the flowline pressure test charge under local instruction 2."
+      },
+      "reason": "In document reading order, remark 2 appears on page 2, names line 6, and makes an approval claim.",
+      "register_check": {
+        "applicability": "No AFE number appears; the printed wording determines the remark role."
+      },
+      "page_image": "page-images/clean/sco_jib_13-2.png",
+      "unresolved": false
+    },
+    {
+      "split": "scored",
+      "record_type": "remark",
+      "doc_id": "sco_jib_13",
+      "remark_id": 3,
+      "differing_fields": [
+        "names_line",
+        "remark_role",
+        "text"
+      ],
+      "truth_b_values": {
+        "names_line": 1,
+        "remark_role": "no_claim",
+        "text": "Line 1: Work ticket copy is attached for service-date verification."
+      },
+      "truth_blind_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: Approved AFE RWM/72801/OC covers this charge"
+      },
+      "page": 2,
+      "decision": "truth_blind",
+      "adjudicated_values": {
+        "names_line": 7,
+        "remark_role": "claim",
+        "text": "Line 7: Approved AFE RWM/72801/OC covers this charge"
+      },
+      "reason": "In document reading order, remark 3 appears on page 2, names line 7, and makes an approval claim.",
+      "register_check": {
+        "afe_number": "RWM/72801/OC",
+        "status": "absent",
+        "register_property": null,
+        "line_property": "PR7524",
+        "note": "Register support affects the line outcome, not whether the remark makes a claim."
+      },
+      "page_image": "page-images/clean/sco_jib_13-2.png",
+      "unresolved": false
+    }
+  ]
+}

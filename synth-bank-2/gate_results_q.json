@@ -1,0 +1,340 @@
+{
+  "results": {
+    "G1": "pass",
+    "G2": "pass",
+    "G3": "pass",
+    "G4": "pass",
+    "G5": "pass",
+    "G6": "pass",
+    "G7": "pass"
+  },
+  "failures": {
+    "G1": [],
+    "G2": [],
+    "G3": [],
+    "G4": [],
+    "G5": [],
+    "G6": [],
+    "G7": []
+  },
+  "quota_recounts": {
+    "1": {
+      "duplicate_addback": 2,
+      "cure_invalid": 2,
+      "category_not_permitted": 2,
+      "hidden_breach": 2,
+      "signer_not_officer": 2,
+      "cap_exceeded": 2,
+      "late_delivery": 2,
+      "window_expired": 2,
+      "ratio_arithmetic": 2,
+      "certification_missing": 2,
+      "valid_equity_cure": 1,
+      "realized_cost_savings_older_than_window": 1,
+      "different_addbacks_same_amount": 1,
+      "permitted_approval_word_addback": 1,
+      "abbreviated_officer_title": 1,
+      "honestly_reported_breach": 1,
+      "average_addbacks": 4.0
+    },
+    "2": {
+      "certification_missing": 2,
+      "hidden_breach": 2,
+      "cure_invalid": 2,
+      "signer_not_officer": 2,
+      "duplicate_addback": 2,
+      "category_not_permitted": 2,
+      "late_delivery": 2,
+      "cap_exceeded": 2,
+      "ratio_arithmetic": 2,
+      "window_expired": 2,
+      "valid_equity_cure": 1,
+      "realized_cost_savings_older_than_window": 1,
+      "different_addbacks_same_amount": 1,
+      "permitted_approval_word_addback": 1,
+      "abbreviated_officer_title": 1,
+      "honestly_reported_breach": 1,
+      "average_addbacks": 4.0
+    },
+    "3": {
+      "window_expired": 2,
+      "cure_invalid": 2,
+      "certification_missing": 2,
+      "hidden_breach": 2,
+      "signer_not_officer": 2,
+      "duplicate_addback": 2,
+      "late_delivery": 2,
+      "category_not_permitted": 2,
+      "cap_exceeded": 2,
+      "ratio_arithmetic": 2,
+      "valid_equity_cure": 1,
+      "realized_cost_savings_older_than_window": 1,
+      "different_addbacks_same_amount": 1,
+      "permitted_approval_word_addback": 1,
+      "abbreviated_officer_title": 1,
+      "honestly_reported_breach": 1,
+      "average_addbacks": 4.0
+    },
+    "4": {
+      "category_not_permitted": 2,
+      "ratio_arithmetic": 2,
+      "cap_exceeded": 2,
+      "cure_invalid": 2,
+      "window_expired": 2,
+      "certification_missing": 2,
+      "hidden_breach": 2,
+      "late_delivery": 2,
+      "signer_not_officer": 2,
+      "duplicate_addback": 2,
+      "valid_equity_cure": 1,
+      "realized_cost_savings_older_than_window": 1,
+      "different_addbacks_same_amount": 1,
+      "permitted_approval_word_addback": 1,
+      "abbreviated_officer_title": 1,
+      "honestly_reported_breach": 1,
+      "average_addbacks": 4.0
+    }
+  },
+  "recomputed": {
+    "q1_b01": {
+      "agreement_ebitda": 39720000,
+      "count_bad": true,
+      "consecutive_bad": false
+    },
+    "q1_b02": {
+      "agreement_ebitda": 43761000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q1_b03": {
+      "agreement_ebitda": 47802000,
+      "count_bad": false,
+      "consecutive_bad": true
+    },
+    "q1_b04": {
+      "agreement_ebitda": 54543000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q1_b05": {
+      "agreement_ebitda": 55884000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q1_b06": {
+      "agreement_ebitda": 59925000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q1_b07": {
+      "agreement_ebitda": 63966000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q1_b08": {
+      "agreement_ebitda": 68007000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q1_b09": {
+      "agreement_ebitda": 72048000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q1_b10": {
+      "agreement_ebitda": 76493000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q1_b11": {
+      "agreement_ebitda": 82220000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q1_b12": {
+      "agreement_ebitda": 86280000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q2_b01": {
+      "agreement_ebitda": 43634000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q2_b02": {
+      "agreement_ebitda": 49400000,
+      "count_bad": true,
+      "consecutive_bad": false
+    },
+    "q2_b03": {
+      "agreement_ebitda": 53460000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q2_b04": {
+      "agreement_ebitda": 55335000,
+      "count_bad": false,
+      "consecutive_bad": true
+    },
+    "q2_b05": {
+      "agreement_ebitda": 62276000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q2_b06": {
+      "agreement_ebitda": 63417000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q2_b07": {
+      "agreement_ebitda": 67458000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q2_b08": {
+      "agreement_ebitda": 71499000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q2_b09": {
+      "agreement_ebitda": 75540000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q2_b10": {
+      "agreement_ebitda": 79581000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q2_b11": {
+      "agreement_ebitda": 83622000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q2_b12": {
+      "agreement_ebitda": 87663000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q3_b01": {
+      "agreement_ebitda": 46704000,
+      "count_bad": true,
+      "consecutive_bad": false
+    },
+    "q3_b02": {
+      "agreement_ebitda": 50745000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q3_b03": {
+      "agreement_ebitda": 54786000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q3_b04": {
+      "agreement_ebitda": 59339000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q3_b05": {
+      "agreement_ebitda": 65300000,
+      "count_bad": false,
+      "consecutive_bad": true
+    },
+    "q3_b06": {
+      "agreement_ebitda": 72460000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q3_b07": {
+      "agreement_ebitda": 70950000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q3_b08": {
+      "agreement_ebitda": 74991000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q3_b09": {
+      "agreement_ebitda": 79032000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q3_b10": {
+      "agreement_ebitda": 83073000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q3_b11": {
+      "agreement_ebitda": 87114000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q3_b12": {
+      "agreement_ebitda": 91155000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q4_b01": {
+      "agreement_ebitda": 50196000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q4_b02": {
+      "agreement_ebitda": 54237000,
+      "count_bad": true,
+      "consecutive_bad": false
+    },
+    "q4_b03": {
+      "agreement_ebitda": 58278000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q4_b04": {
+      "agreement_ebitda": 62319000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q4_b05": {
+      "agreement_ebitda": 66360000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q4_b06": {
+      "agreement_ebitda": 70401000,
+      "count_bad": false,
+      "consecutive_bad": true
+    },
+    "q4_b07": {
+      "agreement_ebitda": 78344000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q4_b08": {
+      "agreement_ebitda": 81200000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q4_b09": {
+      "agreement_ebitda": 85260000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q4_b10": {
+      "agreement_ebitda": 86565000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q4_b11": {
+      "agreement_ebitda": 90606000,
+      "count_bad": false,
+      "consecutive_bad": false
+    },
+    "q4_b12": {
+      "agreement_ebitda": 94647000,
+      "count_bad": false,
+      "consecutive_bad": false
+    }
+  }
+}

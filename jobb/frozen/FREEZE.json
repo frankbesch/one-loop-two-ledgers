@@ -1,0 +1,55 @@
+{
+ "frozen_at": "2026-10-08T17:18Z",
+ "ruling": "Frank in chat, 10-08: \"set the floors and freeze\"",
+ "floors_by_backend": {
+  "claude": "floors-claude.runner.json",
+  "jev": "floors-jev.runner.json"
+ },
+ "floors": {
+  "claude": {
+   "Q2": 0.6,
+   "Q6": 0.6,
+   "Q7": 0.8,
+   "Q9": 0.8
+  },
+  "jev": {
+   "Q2": 0.6,
+   "Q6": 0.6,
+   "Q7": 0.6,
+   "Q9": 0.6
+  }
+ },
+ "models": {
+  "claude": "claude-sonnet-5-5",
+  "jev": "jev-1.13.0",
+  "claude_cli_at_freeze": "2.1.294 (Claude Code)"
+ },
+ "vocab": "standard",
+ "split_for_result": "scored",
+ "marks": {
+  "M1": "silent misses (unsupported or contradicted ending supported or no_claim) <= 2 per set",
+  "M2": "false alarms on supported lines (any outcome but supported) <= 10%",
+  "M3": "value over code: of lines the code-only arm gets wrong, model plus code right >= 80%",
+  "min_targets": 15,
+  "below_min": "INCONCLUSIVE"
+ },
+ "hashes": {
+  "../codelayer.py": "7e918c7cbdc609426395d943be3bfb52568c9989ad4907a0abf939bd523c5d38",
+  "../questions.py": "4e3a56fa46f193a1456e49453e091be982e7c0988bdbf2fb03f500803ee15fcc",
+  "../run_b.py": "ae9d17c37689ef919c31492e7da25bab7c223c28201f1398b83bccdefd30b86c",
+  "../units.py": "08c7ea97ee54cb9592ff4d91f83dd13c0267af0315ab944f49a6edb442eb062c",
+  "../score_b.py": "4d609ae364df98d31914b77e12b7713a4ce8d7ba3e562bf3a7bbed246faa8c58",
+  "../rescore.py": "407b2ede21acde86b3e6bf2afc47e93c1f7799a9577546c96d85ab7efdac2d7e",
+  "../set_floors.py": "6688082f781e36ec15b1577bfbfaa8c83427ceff8a46790001b737169b1e4ff6",
+  "floors-claude.runner.json": "1639bcd92d62d425fe304e9b319672a408f18602deca7464c08060f312847234",
+  "floors-jev.runner.json": "3f53bb5b866f888a080d3a47ce8b1622274b63e1785a3ee371452d5d2de87d63",
+  "floors-claude.json": "fdd767876d090cb1e998cf4eb71e142912069342097ee4bcf479dea5cab9e94d",
+  "floors-jev.json": "fbd64af6134c621388c70e6dde505440e1b3bf50b49765478e81f95b3dce1cc4",
+  "../LABEL-SWAP-PREREG.md": "739070f009f3338ebd074178ef5795226b95b45ed2c9cb4d732587d9ca6cc16b",
+  "../../synth-jobb/frozen-b.json": "4d5517b9a68af677b1b0384ad1bb81a625405d0c7ae94eb18111b67763a2e855",
+  "../../synth-jobb/truth_b.json": "15778a60212abee487463520d1799675eaa2223e3e5748a33afbad82149d3bb3",
+  "../../synth-jobb/reference/afe_register.json": "526f3cc2be9b8296a4424e8b7d0c6f7009b1cc1ad46b72cadfe17a5c091a4698",
+  "../../../../../publishing/one-loop-two-ledgers/02-question-set.md": "ae16b475c5fb8f9a9e3c887f86845921db90ea30785757d0d743c8635005bb00",
+  "../../typed/jev_backend.py": "7d794c20d5ac58f035db7ad785270b22d0aca1ab176a50fd9d3282f216437674"
+ }
+}

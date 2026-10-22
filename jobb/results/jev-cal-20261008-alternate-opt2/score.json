@@ -1,0 +1,86 @@
+{
+ "arm": "jev-live-calibration-alternate-20261008T170617Z+rescore",
+ "backend": "jev",
+ "mode": "live",
+ "vocab": "alternate",
+ "lines": 210,
+ "correct": 188,
+ "needs_review": 21,
+ "sent_to_person": 130,
+ "marks": [
+  {
+   "mark": "M1 silent misses",
+   "targets": 99,
+   "value": 1,
+   "rule": "<= 2",
+   "verdict": "PASS"
+  },
+  {
+   "mark": "M2 false alarms on supported",
+   "targets": 45,
+   "value": "4/45 = 8.9%",
+   "rule": "<= 10%",
+   "verdict": "PASS"
+  },
+  {
+   "mark": "M3 value over code",
+   "targets": 75,
+   "value": "68/75 = 90.7% (right or routed: 74)",
+   "rule": ">= 80% right",
+   "verdict": "PASS"
+  }
+ ],
+ "per_question": {
+  "Q2": {
+   "asked": 210,
+   "needs_review": 9,
+   "errors": 0,
+   "q17_fail": 5,
+   "answered": 201,
+   "right": 195
+  },
+  "Q6": {
+   "asked": 18,
+   "needs_review": 0,
+   "errors": 0,
+   "q17_fail": 0,
+   "answered": 18,
+   "right": 18
+  },
+  "Q7": {
+   "asked": 137,
+   "needs_review": 13,
+   "errors": 0,
+   "q17_fail": 0,
+   "answered": 124,
+   "right": 122
+  },
+  "Q9": {
+   "asked": 98,
+   "needs_review": 0,
+   "errors": 0,
+   "q17_fail": 0
+  }
+ },
+ "confusion": {
+  "contradicted -> contradicted": 18,
+  "no_claim -> needs_review": 10,
+  "no_claim -> no_claim": 38,
+  "other_authority -> other_authority": 18,
+  "supported -> needs_review": 4,
+  "supported -> supported": 41,
+  "unsupported -> needs_review": 7,
+  "unsupported -> no_claim": 1,
+  "unsupported -> unsupported": 73
+ },
+ "cost": {
+  "requests": 511,
+  "live_calls": 511,
+  "spend_usd": 0.013151,
+  "spend_bound_usd": 0.027651,
+  "wall_s": 96.8,
+  "claude_version": null,
+  "claude_auth_method": null,
+  "model": "jev-1.13.0"
+ }
+}

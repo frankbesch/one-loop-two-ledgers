@@ -1,0 +1,3893 @@
+{
+ "note": "Abstention injection test (13-capfix-preregistration.md, H21-H22). No model call.\n\nFeeds the code the key's true answers on every certificate (Q1-Q4, 48 certificates), then replaces one answer\n(single) or two answers (pairs) with needs_review, as the model would by abstaining, and runs the runner's own\ndecision code (run_bank.decide_certificate) under each rule. A silent unit is one the code posts while the key\nholds it. An extra hold is a unit the code holds while the key posts it, other than the doubted addbacks themselves.\nSlots: QC on every addback; QR and QX on cost-savings addbacks. A doubted QC clears QR and QX, as in the live flow,\nwhere they are asked only when QC says cost savings.\n\n  injection_test.py [--out results/INJECTION-20261009.json]\n",
+ "base_mismatch": [],
+ "results": {
+  "single": {
+   "frozen": {
+    "injections": 311,
+    "injections_with_silent": 63,
+    "silent": 63,
+    "silent_addback": 63
+   },
+   "invariant": {
+    "injections": 311,
+    "injections_with_silent": 0
+   }
+  },
+  "pair": {
+   "frozen": {
+    "injections": 902,
+    "silent": 210,
+    "silent_addback": 210,
+    "injections_with_silent": 210,
+    "extra_holds": 18
+   },
+   "invariant": {
+    "injections": 902,
+    "injections_with_silent": 0,
+    "extra_holds": 18
+   }
+  }
+ },
+ "silent_cases": {
+  "single": {
+   "frozen": [
+    {
+     "cert_id": "q1_b01",
+     "picks": [
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b01",
+     "picks": [
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b01",
+     "picks": [
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b10",
+     "picks": [
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b10",
+     "picks": [
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b10",
+     "picks": [
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b06",
+     "picks": [
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b06",
+     "picks": [
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b06",
+     "picks": [
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b06",
+     "picks": [
+      [
+       1,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b06",
+     "picks": [
+      [
+       1,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b06",
+     "picks": [
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b09",
+     "picks": [
+      [
+       1,
+       "category"
+      ]
+     ],
+     "unit": "A3",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b09",
+     "picks": [
+      [
+       1,
+       "realized"
+      ]
+     ],
+     "unit": "A3",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b09",
+     "picks": [
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A3",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b10",
+     "picks": [
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b10",
+     "picks": [
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b10",
+     "picks": [
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    }
+   ],
+   "invariant": []
+  },
+  "pair": {
+   "frozen": [
+    {
+     "cert_id": "q1_b01",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b01",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b01",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b01",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b01",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b01",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b01",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b04",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b07",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b10",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b10",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b10",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b10",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b10",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b10",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q1_b10",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b02",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b06",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b06",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b06",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b06",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b06",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b06",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b06",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b07",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       6,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       6,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       6,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       3,
+       "category"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       3,
+       "category"
+      ],
+      [
+       6,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       3,
+       "realized"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       3,
+       "realized"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       3,
+       "realized"
+      ],
+      [
+       6,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       3,
+       "certified"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q2_b08",
+     "picks": [
+      [
+       3,
+       "certified"
+      ],
+      [
+       6,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       3,
+       "category"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       3,
+       "realized"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       3,
+       "realized"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b01",
+     "picks": [
+      [
+       3,
+       "certified"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b06",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b06",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b06",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b06",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b06",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b06",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b06",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b09",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A3",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b09",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A3",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b09",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A3",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b09",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A3",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b09",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A3",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b09",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A3",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b09",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A3",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b10",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b10",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b10",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b10",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b10",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b10",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q3_b10",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b02",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "realized"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       2,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       2,
+       "realized"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b03",
+     "picks": [
+      [
+       2,
+       "certified"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b04",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       5,
+       "category"
+      ]
+     ],
+     "unit": "A4",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "category"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       1,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "realized"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       2,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       1,
+       "certified"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "realized"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       2,
+       "category"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       3,
+       "category"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       3,
+       "realized"
+      ],
+      [
+       3,
+       "certified"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       3,
+       "realized"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    },
+    {
+     "cert_id": "q4_b08",
+     "picks": [
+      [
+       3,
+       "certified"
+      ],
+      [
+       4,
+       "category"
+      ]
+     ],
+     "unit": "A5",
+     "key_class": "cap_exceeded"
+    }
+   ],
+   "invariant": []
+  }
+ },
+ "claims": {
+  "H21": "PASS",
+  "H21_detector": "PASS",
+  "H22": "PASS",
+  "base_check": "PASS"
+ }
+}

@@ -1,0 +1,711 @@
+{
+  "keys": {
+    "truth_m": "truth_m.json",
+    "truth_blind": "truth-blind/<doc_id>.json"
+  },
+  "comparison": {
+    "line_identity": [
+      "doc_id",
+      "line_no"
+    ],
+    "remark_identity": [
+      "doc_id",
+      "names_line",
+      "text"
+    ],
+    "line_fields": [
+      "month",
+      "page",
+      "property_printed",
+      "property_no",
+      "claim_text",
+      "money_error",
+      "error_dollars",
+      "claim_type",
+      "reference_kind",
+      "placeholder_style",
+      "property_match",
+      "authority_kind",
+      "outcome",
+      "difficulty",
+      "property_print",
+      "disposition"
+    ],
+    "remark_fields": [
+      "remark_id",
+      "remark_role"
+    ],
+    "scope_note": "Compare the re-key schema; original-only source metadata is not a missing label.",
+    "money_rule": "Subtract the corrected owner charge rounded to cents from the printed owner charge.",
+    "claim_text_rule": "Extract the exact approval words; preserve the line locator in full remark text."
+  },
+  "summary": {
+    "documents_compared": 144,
+    "lines_compared": 1260,
+    "remarks_compared": 24,
+    "line_differences": 18,
+    "remark_content_differences": 0,
+    "remark_numbering_only_differences": 0,
+    "differing_field_values": 24,
+    "by_month": [
+      {
+        "month": 1,
+        "billing_month": "2025-03",
+        "differences": 2,
+        "resolved": 2,
+        "unresolved": 0
+      },
+      {
+        "month": 2,
+        "billing_month": "2025-04",
+        "differences": 5,
+        "resolved": 5,
+        "unresolved": 0
+      },
+      {
+        "month": 3,
+        "billing_month": "2025-05",
+        "differences": 2,
+        "resolved": 2,
+        "unresolved": 0
+      },
+      {
+        "month": 4,
+        "billing_month": "2025-06",
+        "differences": 5,
+        "resolved": 5,
+        "unresolved": 0
+      },
+      {
+        "month": 5,
+        "billing_month": "2025-07",
+        "differences": 1,
+        "resolved": 1,
+        "unresolved": 0
+      },
+      {
+        "month": 6,
+        "billing_month": "2025-08",
+        "differences": 3,
+        "resolved": 3,
+        "unresolved": 0
+      }
+    ],
+    "unresolved_total": 0
+  },
+  "entries": [
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 1,
+      "doc_id": "m1_inv_03",
+      "line_no": 8,
+      "page": 2,
+      "differing_fields": [
+        "money_error",
+        "error_dollars",
+        "disposition"
+      ],
+      "truth_m_values": {
+        "money_error": "none",
+        "error_dollars": 0,
+        "disposition": "post"
+      },
+      "truth_blind_values": {
+        "money_error": "wrong_decimal",
+        "error_dollars": 5.47,
+        "disposition": "hold"
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "money_error": "none",
+        "error_dollars": 0,
+        "disposition": "post"
+      },
+      "status": "resolved",
+      "reason": "The printed Tamarack decimal equals the division order’s 0.3125, so no overcharge or hold applies.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_inv_03-2.png",
+        "references": [
+          "rekey_fields_m.md",
+          "reference/doi.json",
+          "reference/properties.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 1,
+      "doc_id": "m1_jib_06",
+      "line_no": 7,
+      "page": 2,
+      "differing_fields": [
+        "error_dollars"
+      ],
+      "truth_m_values": {
+        "error_dollars": 11.3
+      },
+      "truth_blind_values": {
+        "error_dollars": "UNSURE"
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "error_dollars": 11.3
+      },
+      "status": "resolved",
+      "reason": "The division order’s 0.3125 gives $141.37, so $152.67 − $141.37 = $11.30.",
+      "evidence": {
+        "page_image": "page-images/clean/m1_jib_06-2.png",
+        "gross": 452.37,
+        "service_date": "2025-03-03",
+        "authorized_owner_decimal": 0.3125,
+        "printed_net_amount": 152.67,
+        "corrected_net_amount": 141.37,
+        "references": [
+          "rekey_fields_m.md",
+          "reference/doi.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 2,
+      "doc_id": "m2_inv_02",
+      "line_no": 8,
+      "page": 2,
+      "differing_fields": [
+        "error_dollars"
+      ],
+      "truth_m_values": {
+        "error_dollars": 18.35
+      },
+      "truth_blind_values": {
+        "error_dollars": 18.34
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "error_dollars": 18.35
+      },
+      "status": "resolved",
+      "reason": "The division order’s 0.225 gives $165.09, so $183.44 − $165.09 = $18.35.",
+      "evidence": {
+        "page_image": "page-images/clean/m2_inv_02-2.png",
+        "gross": 733.74,
+        "service_date": "2025-04-08",
+        "authorized_owner_decimal": 0.225,
+        "printed_net_amount": 183.44,
+        "corrected_net_amount": 165.09,
+        "references": [
+          "rekey_fields_m.md",
+          "reference/doi.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 2,
+      "doc_id": "m2_inv_04",
+      "line_no": 7,
+      "page": 1,
+      "differing_fields": [
+        "claim_text"
+      ],
+      "truth_m_values": {
+        "claim_text": "AFE BX:7306:K authorizes this maintenance charge."
+      },
+      "truth_blind_values": {
+        "claim_text": "Line 7: AFE BX:7306:K authorizes this maintenance charge."
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "claim_text": "AFE BX:7306:K authorizes this maintenance charge."
+      },
+      "status": "resolved",
+      "reason": "The claim_text definition selects approval words, so the printed “Line 7:” locator belongs only in remark text.",
+      "evidence": {
+        "page_image": "page-images/clean/m2_inv_04-1.png",
+        "references": [
+          "rekey_fields_m.md",
+          "reference/afe_register.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 2,
+      "doc_id": "m2_jib_07",
+      "line_no": 1,
+      "page": 1,
+      "differing_fields": [
+        "claim_text"
+      ],
+      "truth_m_values": {
+        "claim_text": "AFE: Budget identifier awaits entry in the April approval register"
+      },
+      "truth_blind_values": {
+        "claim_text": "Line 1: AFE: Budget identifier awaits entry in the April approval register"
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "claim_text": "AFE: Budget identifier awaits entry in the April approval register"
+      },
+      "status": "resolved",
+      "reason": "The claim_text definition selects approval words, so the printed “Line 1:” locator belongs only in remark text.",
+      "evidence": {
+        "page_image": "page-images/clean/m2_jib_07-1.png",
+        "references": [
+          "rekey_fields_m.md",
+          "reference/afe_register.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 2,
+      "doc_id": "m2_jib_09",
+      "line_no": 4,
+      "page": 1,
+      "differing_fields": [
+        "property_printed"
+      ],
+      "truth_m_values": {
+        "property_printed": "LX/874/P"
+      },
+      "truth_blind_values": {
+        "property_printed": "Sable Crossing 2H"
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "property_printed": "LX/874/P"
+      },
+      "status": "resolved",
+      "reason": "The image prints LX/874/P, which properties.json identifies as Sable Crossing 2H.",
+      "evidence": {
+        "page_image": "page-images/clean/m2_jib_09-1.png",
+        "references": [
+          "rekey_fields_m.md",
+          "reference/properties.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 2,
+      "doc_id": "m2_jib_13",
+      "line_no": 7,
+      "page": 1,
+      "differing_fields": [
+        "error_dollars"
+      ],
+      "truth_m_values": {
+        "error_dollars": 3.93
+      },
+      "truth_blind_values": {
+        "error_dollars": 3.94
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "error_dollars": 3.93
+      },
+      "status": "resolved",
+      "reason": "The contract’s $125 rate gives $21.88, so the printed $25.81 charge exceeds it by $3.93.",
+      "evidence": {
+        "page_image": "page-images/clean/m2_jib_13-1.png",
+        "quantity": 2,
+        "contract_rate": 125,
+        "authorized_owner_decimal": 0.0875,
+        "printed_net_amount": 25.81,
+        "corrected_net_amount": 21.88,
+        "references": [
+          "rekey_fields_m.md",
+          "reference/contract_rates.json",
+          "reference/doi.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 3,
+      "doc_id": "m3_jib_10",
+      "line_no": 3,
+      "page": 1,
+      "differing_fields": [
+        "property_printed"
+      ],
+      "truth_m_values": {
+        "property_printed": "Flint Orchard 4H"
+      },
+      "truth_blind_values": {
+        "property_printed": "LX/840/P"
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "property_printed": "Flint Orchard 4H"
+      },
+      "status": "resolved",
+      "reason": "The image prints Flint Orchard 4H, although properties.json also identifies that property as LX/840/P.",
+      "evidence": {
+        "page_image": "page-images/clean/m3_jib_10-1.png",
+        "references": [
+          "rekey_fields_m.md",
+          "reference/properties.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 3,
+      "doc_id": "m3_jib_13",
+      "line_no": 2,
+      "page": 1,
+      "differing_fields": [
+        "error_dollars"
+      ],
+      "truth_m_values": {
+        "error_dollars": 38.71
+      },
+      "truth_blind_values": {
+        "error_dollars": "UNSURE"
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "error_dollars": 38.71
+      },
+      "status": "resolved",
+      "reason": "The division order’s 0.1125 gives $174.16, so $212.87 − $174.16 = $38.71.",
+      "evidence": {
+        "page_image": "page-images/clean/m3_jib_13-1.png",
+        "gross": 1548.11,
+        "service_date": "2025-05-20",
+        "authorized_owner_decimal": 0.1125,
+        "printed_net_amount": 212.87,
+        "corrected_net_amount": 174.16,
+        "references": [
+          "rekey_fields_m.md",
+          "reference/doi.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 4,
+      "doc_id": "m4_inv_05",
+      "line_no": 4,
+      "page": 1,
+      "differing_fields": [
+        "money_error",
+        "error_dollars",
+        "disposition"
+      ],
+      "truth_m_values": {
+        "money_error": "wrong_decimal",
+        "error_dollars": 43.76,
+        "disposition": "hold"
+      },
+      "truth_blind_values": {
+        "money_error": "none",
+        "error_dollars": 0,
+        "disposition": "post"
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "money_error": "wrong_decimal",
+        "error_dollars": 43.76,
+        "disposition": "hold"
+      },
+      "status": "resolved",
+      "reason": "Sable’s printed 0.1125 exceeds the authorized 0.0875, making $196.93 − round($1750.48 × 0.0875) = $43.76 subject to hold.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_inv_05-1.png",
+        "references": [
+          "rekey_fields_m.md",
+          "reference/doi.json",
+          "reference/properties.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 4,
+      "doc_id": "m4_jib_01",
+      "line_no": 4,
+      "page": 1,
+      "differing_fields": [
+        "property_printed"
+      ],
+      "truth_m_values": {
+        "property_printed": "Copper Thicket 9H"
+      },
+      "truth_blind_values": {
+        "property_printed": "LX/857/P"
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "property_printed": "Copper Thicket 9H"
+      },
+      "status": "resolved",
+      "reason": "The image prints Copper Thicket 9H, although properties.json also identifies that property as LX/857/P.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_01-1.png",
+        "references": [
+          "rekey_fields_m.md",
+          "reference/properties.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 4,
+      "doc_id": "m4_jib_13",
+      "line_no": 7,
+      "page": 2,
+      "differing_fields": [
+        "property_printed",
+        "property_no"
+      ],
+      "truth_m_values": {
+        "property_printed": "Larch Basin 13H",
+        "property_no": "LX/925/P"
+      },
+      "truth_blind_values": {
+        "property_printed": "Flint Orchard 4H",
+        "property_no": "LX/840/P"
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "property_printed": "Larch Basin 13H",
+        "property_no": "LX/925/P"
+      },
+      "status": "resolved",
+      "reason": "The image prints Larch Basin 13H, which properties.json maps to LX/925/P.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_13-2.png",
+        "references": [
+          "rekey_fields_m.md",
+          "reference/properties.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 4,
+      "doc_id": "m4_jib_15",
+      "line_no": 5,
+      "page": 2,
+      "differing_fields": [
+        "error_dollars"
+      ],
+      "truth_m_values": {
+        "error_dollars": 51.78
+      },
+      "truth_blind_values": {
+        "error_dollars": 51.79
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "error_dollars": 51.78
+      },
+      "status": "resolved",
+      "reason": "The division order’s 0.3125 gives $647.34, so $699.12 − $647.34 = $51.78.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_15-2.png",
+        "gross": 2071.48,
+        "service_date": "2025-06-15",
+        "authorized_owner_decimal": 0.3125,
+        "printed_net_amount": 699.12,
+        "corrected_net_amount": 647.34,
+        "references": [
+          "rekey_fields_m.md",
+          "reference/doi.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 4,
+      "doc_id": "m4_jib_15",
+      "line_no": 6,
+      "page": 2,
+      "differing_fields": [
+        "property_printed",
+        "property_no"
+      ],
+      "truth_m_values": {
+        "property_printed": "Tamarack Reach 16H",
+        "property_no": "LX/891/P"
+      },
+      "truth_blind_values": {
+        "property_printed": "Copper Thicket 9H",
+        "property_no": "LX/857/P"
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "property_printed": "Tamarack Reach 16H",
+        "property_no": "LX/891/P"
+      },
+      "status": "resolved",
+      "reason": "The image prints Tamarack Reach 16H, which properties.json maps to LX/891/P.",
+      "evidence": {
+        "page_image": "page-images/clean/m4_jib_15-2.png",
+        "references": [
+          "rekey_fields_m.md",
+          "reference/properties.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 5,
+      "doc_id": "m5_jib_04",
+      "line_no": 3,
+      "page": 1,
+      "differing_fields": [
+        "error_dollars"
+      ],
+      "truth_m_values": {
+        "error_dollars": 58.24
+      },
+      "truth_blind_values": {
+        "error_dollars": 58.25
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "error_dollars": 58.24
+      },
+      "status": "resolved",
+      "reason": "The division order’s 0.1125 gives $262.11, so $320.35 − $262.11 = $58.24.",
+      "evidence": {
+        "page_image": "page-images/clean/m5_jib_04-1.png",
+        "gross": 2329.85,
+        "service_date": "2025-07-14",
+        "authorized_owner_decimal": 0.1125,
+        "printed_net_amount": 320.35,
+        "corrected_net_amount": 262.11,
+        "references": [
+          "rekey_fields_m.md",
+          "reference/doi.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 6,
+      "doc_id": "m6_jib_01",
+      "line_no": 1,
+      "page": 1,
+      "differing_fields": [
+        "error_dollars"
+      ],
+      "truth_m_values": {
+        "error_dollars": 68.7
+      },
+      "truth_blind_values": {
+        "error_dollars": 68.71
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "error_dollars": 68.7
+      },
+      "status": "resolved",
+      "reason": "The division order’s 0.3125 gives $858.82, so $927.52 − $858.82 = $68.70.",
+      "evidence": {
+        "page_image": "page-images/clean/m6_jib_01-1.png",
+        "gross": 2748.22,
+        "service_date": "2025-08-04",
+        "authorized_owner_decimal": 0.3125,
+        "printed_net_amount": 927.52,
+        "corrected_net_amount": 858.82,
+        "references": [
+          "rekey_fields_m.md",
+          "reference/doi.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 6,
+      "doc_id": "m6_jib_17",
+      "line_no": 4,
+      "page": 1,
+      "differing_fields": [
+        "error_dollars"
+      ],
+      "truth_m_values": {
+        "error_dollars": 76.79
+      },
+      "truth_blind_values": {
+        "error_dollars": 76.78
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "error_dollars": 76.79
+      },
+      "status": "resolved",
+      "reason": "The division order’s 0.225 gives $691.02, so $767.81 − $691.02 = $76.79.",
+      "evidence": {
+        "page_image": "page-images/clean/m6_jib_17-1.png",
+        "gross": 3071.22,
+        "service_date": "2025-08-24",
+        "authorized_owner_decimal": 0.225,
+        "printed_net_amount": 767.81,
+        "corrected_net_amount": 691.02,
+        "references": [
+          "rekey_fields_m.md",
+          "reference/doi.json"
+        ]
+      }
+    },
+    {
+      "record_type": "line",
+      "difference_type": "label_or_value",
+      "month": 6,
+      "doc_id": "m6_jib_18",
+      "line_no": 1,
+      "page": 1,
+      "differing_fields": [
+        "error_dollars"
+      ],
+      "truth_m_values": {
+        "error_dollars": 3.93
+      },
+      "truth_blind_values": {
+        "error_dollars": 3.94
+      },
+      "decision": "truth_m",
+      "adjudicated_values": {
+        "error_dollars": 3.93
+      },
+      "status": "resolved",
+      "reason": "The contract’s $125 rate gives $21.88, so the printed $25.81 charge exceeds it by $3.93.",
+      "evidence": {
+        "page_image": "page-images/clean/m6_jib_18-1.png",
+        "quantity": 2,
+        "contract_rate": 125,
+        "authorized_owner_decimal": 0.0875,
+        "printed_net_amount": 25.81,
+        "corrected_net_amount": 21.88,
+        "references": [
+          "rekey_fields_m.md",
+          "reference/contract_rates.json",
+          "reference/doi.json"
+        ]
+      }
+    }
+  ]
+}

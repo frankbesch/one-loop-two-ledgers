@@ -1,0 +1,333 @@
+{
+  "seed": 1014,
+  "drawn_at": "2026-10-14T22:01:45.976926Z",
+  "rule": "For months 3\u20136, draw nested d12, d6, and d3 packets by seeded rejection sampling with error tolerances 2, 1, and 1 and invoice counts within 1 of one quarter of packet size; d24 contains every document.",
+  "sizes": {
+    "d3": {
+      "m3": [
+        "m3_inv_02",
+        "m3_jib_13",
+        "m3_jib_16"
+      ],
+      "m4": [
+        "m4_inv_01",
+        "m4_jib_02",
+        "m4_jib_05"
+      ],
+      "m5": [
+        "m5_jib_01",
+        "m5_jib_06",
+        "m5_jib_12"
+      ],
+      "m6": [
+        "m6_inv_06",
+        "m6_jib_08",
+        "m6_jib_11"
+      ]
+    },
+    "d6": {
+      "m3": [
+        "m3_inv_01",
+        "m3_inv_02",
+        "m3_jib_08",
+        "m3_jib_09",
+        "m3_jib_13",
+        "m3_jib_16"
+      ],
+      "m4": [
+        "m4_inv_01",
+        "m4_jib_02",
+        "m4_jib_05",
+        "m4_jib_06",
+        "m4_jib_09",
+        "m4_jib_17"
+      ],
+      "m5": [
+        "m5_inv_02",
+        "m5_jib_01",
+        "m5_jib_06",
+        "m5_jib_09",
+        "m5_jib_12",
+        "m5_jib_17"
+      ],
+      "m6": [
+        "m6_inv_04",
+        "m6_inv_06",
+        "m6_jib_01",
+        "m6_jib_08",
+        "m6_jib_11",
+        "m6_jib_18"
+      ]
+    },
+    "d12": {
+      "m3": [
+        "m3_inv_01",
+        "m3_inv_02",
+        "m3_inv_05",
+        "m3_inv_06",
+        "m3_jib_02",
+        "m3_jib_03",
+        "m3_jib_08",
+        "m3_jib_09",
+        "m3_jib_11",
+        "m3_jib_13",
+        "m3_jib_15",
+        "m3_jib_16"
+      ],
+      "m4": [
+        "m4_inv_01",
+        "m4_inv_04",
+        "m4_inv_05",
+        "m4_inv_06",
+        "m4_jib_02",
+        "m4_jib_05",
+        "m4_jib_06",
+        "m4_jib_09",
+        "m4_jib_11",
+        "m4_jib_12",
+        "m4_jib_17",
+        "m4_jib_18"
+      ],
+      "m5": [
+        "m5_inv_02",
+        "m5_inv_03",
+        "m5_inv_04",
+        "m5_jib_01",
+        "m5_jib_02",
+        "m5_jib_06",
+        "m5_jib_08",
+        "m5_jib_09",
+        "m5_jib_11",
+        "m5_jib_12",
+        "m5_jib_13",
+        "m5_jib_17"
+      ],
+      "m6": [
+        "m6_inv_01",
+        "m6_inv_02",
+        "m6_inv_04",
+        "m6_inv_06",
+        "m6_jib_01",
+        "m6_jib_06",
+        "m6_jib_08",
+        "m6_jib_11",
+        "m6_jib_14",
+        "m6_jib_15",
+        "m6_jib_17",
+        "m6_jib_18"
+      ]
+    },
+    "d24": {
+      "m3": [
+        "m3_inv_01",
+        "m3_inv_02",
+        "m3_inv_03",
+        "m3_inv_04",
+        "m3_inv_05",
+        "m3_inv_06",
+        "m3_jib_01",
+        "m3_jib_02",
+        "m3_jib_03",
+        "m3_jib_04",
+        "m3_jib_05",
+        "m3_jib_06",
+        "m3_jib_07",
+        "m3_jib_08",
+        "m3_jib_09",
+        "m3_jib_10",
+        "m3_jib_11",
+        "m3_jib_12",
+        "m3_jib_13",
+        "m3_jib_14",
+        "m3_jib_15",
+        "m3_jib_16",
+        "m3_jib_17",
+        "m3_jib_18"
+      ],
+      "m4": [
+        "m4_inv_01",
+        "m4_inv_02",
+        "m4_inv_03",
+        "m4_inv_04",
+        "m4_inv_05",
+        "m4_inv_06",
+        "m4_jib_01",
+        "m4_jib_02",
+        "m4_jib_03",
+        "m4_jib_04",
+        "m4_jib_05",
+        "m4_jib_06",
+        "m4_jib_07",
+        "m4_jib_08",
+        "m4_jib_09",
+        "m4_jib_10",
+        "m4_jib_11",
+        "m4_jib_12",
+        "m4_jib_13",
+        "m4_jib_14",
+        "m4_jib_15",
+        "m4_jib_16",
+        "m4_jib_17",
+        "m4_jib_18"
+      ],
+      "m5": [
+        "m5_inv_01",
+        "m5_inv_02",
+        "m5_inv_03",
+        "m5_inv_04",
+        "m5_inv_05",
+        "m5_inv_06",
+        "m5_jib_01",
+        "m5_jib_02",
+        "m5_jib_03",
+        "m5_jib_04",
+        "m5_jib_05",
+        "m5_jib_06",
+        "m5_jib_07",
+        "m5_jib_08",
+        "m5_jib_09",
+        "m5_jib_10",
+        "m5_jib_11",
+        "m5_jib_12",
+        "m5_jib_13",
+        "m5_jib_14",
+        "m5_jib_15",
+        "m5_jib_16",
+        "m5_jib_17",
+        "m5_jib_18"
+      ],
+      "m6": [
+        "m6_inv_01",
+        "m6_inv_02",
+        "m6_inv_03",
+        "m6_inv_04",
+        "m6_inv_05",
+        "m6_inv_06",
+        "m6_jib_01",
+        "m6_jib_02",
+        "m6_jib_03",
+        "m6_jib_04",
+        "m6_jib_05",
+        "m6_jib_06",
+        "m6_jib_07",
+        "m6_jib_08",
+        "m6_jib_09",
+        "m6_jib_10",
+        "m6_jib_11",
+        "m6_jib_12",
+        "m6_jib_13",
+        "m6_jib_14",
+        "m6_jib_15",
+        "m6_jib_16",
+        "m6_jib_17",
+        "m6_jib_18"
+      ]
+    }
+  },
+  "counts": {
+    "d3": {
+      "m3": {
+        "docs": 3,
+        "lines": 26,
+        "errors": 2,
+        "invoices": 1
+      },
+      "m4": {
+        "docs": 3,
+        "lines": 26,
+        "errors": 4,
+        "invoices": 1
+      },
+      "m5": {
+        "docs": 3,
+        "lines": 27,
+        "errors": 4,
+        "invoices": 0
+      },
+      "m6": {
+        "docs": 3,
+        "lines": 26,
+        "errors": 2,
+        "invoices": 1
+      }
+    },
+    "d6": {
+      "m3": {
+        "docs": 6,
+        "lines": 52,
+        "errors": 6,
+        "invoices": 2
+      },
+      "m4": {
+        "docs": 6,
+        "lines": 53,
+        "errors": 7,
+        "invoices": 1
+      },
+      "m5": {
+        "docs": 6,
+        "lines": 53,
+        "errors": 5,
+        "invoices": 1
+      },
+      "m6": {
+        "docs": 6,
+        "lines": 52,
+        "errors": 6,
+        "invoices": 2
+      }
+    },
+    "d12": {
+      "m3": {
+        "docs": 12,
+        "lines": 104,
+        "errors": 14,
+        "invoices": 4
+      },
+      "m4": {
+        "docs": 12,
+        "lines": 104,
+        "errors": 12,
+        "invoices": 4
+      },
+      "m5": {
+        "docs": 12,
+        "lines": 105,
+        "errors": 10,
+        "invoices": 3
+      },
+      "m6": {
+        "docs": 12,
+        "lines": 104,
+        "errors": 13,
+        "invoices": 4
+      }
+    },
+    "d24": {
+      "m3": {
+        "docs": 24,
+        "lines": 210,
+        "errors": 24,
+        "invoices": 6
+      },
+      "m4": {
+        "docs": 24,
+        "lines": 210,
+        "errors": 24,
+        "invoices": 6
+      },
+      "m5": {
+        "docs": 24,
+        "lines": 210,
+        "errors": 24,
+        "invoices": 6
+      },
+      "m6": {
+        "docs": 24,
+        "lines": 210,
+        "errors": 24,
+        "invoices": 6
+      }
+    }
+  }
+}

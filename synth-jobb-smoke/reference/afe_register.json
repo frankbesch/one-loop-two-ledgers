@@ -1,0 +1,42 @@
+[
+  {
+    "afe_number": "HZR:00841:00931",
+    "property_no": "PX/381",
+    "scope": "Compressor rebuild",
+    "approved_amount": 87000,
+    "status": "approved",
+    "split": "smoke"
+  },
+  {
+    "afe_number": "HZR:00842:00932",
+    "property_no": "PX/527",
+    "scope": "Tubing replacement",
+    "approved_amount": 63000,
+    "status": "approved",
+    "split": "smoke"
+  },
+  {
+    "afe_number": "HZR:00843:00933",
+    "property_no": "PX/694",
+    "scope": "Separator retrofit",
+    "approved_amount": 48000,
+    "status": "approved",
+    "split": "smoke"
+  },
+  {
+    "afe_number": "HZR:00844:00934",
+    "property_no": "PX/862",
+    "scope": "Pump conversion",
+    "approved_amount": 54000,
+    "status": "declined",
+    "split": "smoke"
+  },
+  {
+    "afe_number": "HZR:00845:00935",
+    "property_no": "PX/381",
+    "scope": "Meter replacement",
+    "approved_amount": 27000,
+    "status": "approved",
+    "split": "smoke"
+  }
+]

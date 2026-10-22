@@ -1,0 +1,30 @@
+[
+  {
+    "vendor": "Wrenstone Field Services LLC",
+    "service": "Tubing pressure test",
+    "unit": "hour",
+    "rate": 125,
+    "effective": "2020-01-01"
+  },
+  {
+    "vendor": "Cairn Hollow Pump Services LLC",
+    "service": "Tubing pressure test",
+    "unit": "hour",
+    "rate": 140,
+    "effective": "2020-01-01"
+  },
+  {
+    "vendor": "Meadowforge Well Maintenance LLC",
+    "service": "Tubing pressure test",
+    "unit": "hour",
+    "rate": 155,
+    "effective": "2020-01-01"
+  },
+  {
+    "vendor": "Cairn Hollow Pump Services LLC",
+    "service": "Tubing pressure test",
+    "unit": "hour",
+    "rate": 152.5,
+    "effective": "2025-06-16"
+  }
+]

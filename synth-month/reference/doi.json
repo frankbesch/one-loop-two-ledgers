@@ -1,0 +1,37 @@
+[
+  {
+    "property_no": "LX/840/P",
+    "owner_decimal": 0.1375,
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/857/P",
+    "owner_decimal": 0.225,
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/874/P",
+    "owner_decimal": 0.0875,
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/891/P",
+    "owner_decimal": 0.3125,
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/908/P",
+    "owner_decimal": 0.1625,
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/925/P",
+    "owner_decimal": 0.1875,
+    "effective": "2020-01-01"
+  },
+  {
+    "property_no": "LX/840/P",
+    "owner_decimal": 0.1125,
+    "effective": "2025-04-15"
+  }
+]

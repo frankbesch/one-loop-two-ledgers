@@ -1,0 +1,35 @@
+{
+  "keys": {
+    "truth_b": "truth_b.json",
+    "truth_blind": "truth-blind/*.json"
+  },
+  "comparison_fields": {
+    "lines": [
+      "property",
+      "claim_text",
+      "claim_type",
+      "reference_kind",
+      "placeholder_style",
+      "property_match",
+      "authority_kind",
+      "outcome",
+      "difficulty"
+    ],
+    "remarks": [
+      "names_line",
+      "text",
+      "remark_role"
+    ]
+  },
+  "differences": [],
+  "counts_per_split": {
+    "smoke": {
+      "lines_compared": 24,
+      "remarks_compared": 8,
+      "differences": 0,
+      "resolved": 0,
+      "unresolved": 0
+    }
+  },
+  "note": "All keyed fields agree across 24 lines and eight remarks; no differences require page-image adjudication."
+}

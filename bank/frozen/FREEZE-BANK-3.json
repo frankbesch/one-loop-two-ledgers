@@ -1,0 +1,40 @@
+{
+ "frozen_at": "2026-10-09T14:55Z",
+ "note": "Step 7c freeze 2026-10-09 ~09:57 CT: fresh set synth-bank-2 built and frozen 09:55 (55 files) under 14-fresh-set-preregistration.md (4e3db47); rule, questions, floors, runner as FREEZE-BANK-2 (decision invariance, 66bb007)",
+ "floors_file": "floors-B.json",
+ "floors": {
+  "QC": 0.8,
+  "QR": 0.85,
+  "QX": 0.95
+ },
+ "hashes": {
+  "../bcode.py": "a8197c9ad5a67e180d7e2dcb70321b68460f6a6346fb503066fab383e9212846",
+  "../bunits.py": "5667895fc63ca5c3e55bb5b0ac23c52dabaea67dd42237cd8624ef92586e5cff",
+  "../bquestions.py": "c7775badf31c13e97a1636d7bdd149f2806e38e992b486396936268efc593171",
+  "../run_bank.py": "f771fcc0e955fa524cdc3daab109671765c848dd0f6bda623c56c6cda775644f",
+  "../arm_a_bank.py": "a9a211fdec6e9d15cb8106c613b4340f5bfacba13636609d3b2cd32e5fa02640",
+  "../arm_b_bank.py": "164d8286413d9a3bd7dc7a89f0431989027af1c910ed33c0530c0582488e5ee6",
+  "../arm_c_bank.py": "4cdb4c83b0bed033f06a7b854f45d2ca27c9ca5736d033259ab1793b8e60138c",
+  "../score_bank.py": "7fa37a4d4aab402f9c376b4268d1535d767983f409ae071f951e2b270b7214ba",
+  "../set_floors_b.py": "9d95a876f0b051b7a2535c6bfaf95ee0fd1313960b5b723a0a0ccc9cf9dbc7c4",
+  "floors-B.json": "c109b8de6a7723143f002a1b4612b5e54928ff5f7441ba1254f876fc00a03a72",
+  "../../jobb/units.py": "08c7ea97ee54cb9592ff4d91f83dd13c0267af0315ab944f49a6edb442eb062c",
+  "../../jobb/run_b.py": "ae9d17c37689ef919c31492e7da25bab7c223c28201f1398b83bccdefd30b86c",
+  "../../jobb/codelayer.py": "7e918c7cbdc609426395d943be3bfb52568c9989ad4907a0abf939bd523c5d38",
+  "../../jobb/questions.py": "4e3a56fa46f193a1456e49453e091be982e7c0988bdbf2fb03f500803ee15fcc",
+  "../../typed/jev_backend.py": "7d794c20d5ac58f035db7ad785270b22d0aca1ab176a50fd9d3282f216437674",
+  "../../month/arm_b.py": "6b8f6acaca92a40b78a8a6bcc441cc4eefdea694e4153d6ade718cfc6b384752",
+  "../../month/calc_mcp.py": "7882ef86262fa93918a5945b651d4abcaf41b2b0863051f8d8023f944ded2404",
+  "../../month/arms_common.py": "3f98eddb5557130c00e8b731dd98f1eb112dd1600f04341580ad2023454fc424",
+  "../../synth-bank/frozen-q.json": "99f98380074bb5dc7b28be862a957d519cdd0f009a2b65f2746d5e0cf6e362fb",
+  "../../synth-bank/truth_q.json": "a5301af48d7b4eefa9aec71c5ea67661be2d263fedfd6fd941a6477236a38bba",
+  "../../../artifacts/one-loop-step7-2026-10-08/inputs/rekey_fields_q.md": "0731a569b65fb53cacc704feefc53c103bc6ba7bd8e97aef176c741604f17b1d",
+  "../../../../../publishing/one-loop-two-ledgers/10-banking-mirror-plan.md": "da01a2dd2f5f9bff9ad88dd8db9f064f90955062b1a95457488a24fa5da01d4f",
+  "../injection_test.py": "6983822e127f0bbcc2364cf000ffd3455a48e94394f4c19653264a26bf52155a",
+  "../replay_rule.py": "9fcac1344dd49c0298087549164d0ebad82a0f20f6950db814cce74edcd728f3",
+  "../../../../../publishing/one-loop-two-ledgers/13-capfix-preregistration.md": "a233af0c0784bcc865a1ba28504d860597ba54d8fd547c158999e5474d2e3ceb",
+  "../../../../../publishing/one-loop-two-ledgers/14-fresh-set-preregistration.md": "e086db7f785918f8bc66f986ec45649f405101f5e93e763707a318dc368ea4f5",
+  "../../synth-bank-2/frozen-q.json": "bd6bab091f8a932cf31e3aa05cf07df7a3d2b4fc444727d582eb50853120e2b3",
+  "../../synth-bank-2/truth_q.json": "9c85fc54cade57ad0f2c1ac54762547b10138148edaa024446d0c0018467b0ea"
+ }
+}

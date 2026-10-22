@@ -1,0 +1,488 @@
+{
+ "months": [
+  3,
+  4,
+  5,
+  6
+ ],
+ "arms": {
+  "BW": {
+   "runs": [
+    {
+     "run": "results/B-worksheet-m3456-w1",
+     "per_month": {
+      "3": {
+       "silent": 0,
+       "held": 37,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "4": {
+       "silent": 0,
+       "held": 37,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "5": {
+       "silent": 0,
+       "held": 36,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "6": {
+       "silent": 0,
+       "held": 38,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      }
+     },
+     "silent": 0,
+     "held": 148,
+     "false_hold": 0,
+     "money": 96
+    },
+    {
+     "run": "results/B-worksheet-m3456-w2",
+     "per_month": {
+      "3": {
+       "silent": 1,
+       "held": 36,
+       "false_hold": 0,
+       "money": 23,
+       "dollars_share": 0.9874
+      },
+      "4": {
+       "silent": 1,
+       "held": 36,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "5": {
+       "silent": 0,
+       "held": 36,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "6": {
+       "silent": 1,
+       "held": 37,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      }
+     },
+     "silent": 3,
+     "held": 145,
+     "false_hold": 0,
+     "money": 95
+    },
+    {
+     "run": "results/B-worksheet-m3456-w3",
+     "per_month": {
+      "3": {
+       "silent": 0,
+       "held": 37,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "4": {
+       "silent": 0,
+       "held": 37,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "5": {
+       "silent": 0,
+       "held": 36,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "6": {
+       "silent": 0,
+       "held": 38,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      }
+     },
+     "silent": 0,
+     "held": 148,
+     "false_hold": 0,
+     "money": 96
+    }
+   ],
+   "summary": {
+    "silent": {
+     "min": 0,
+     "median": 0,
+     "max": 3
+    },
+    "held": {
+     "min": 145,
+     "median": 148,
+     "max": 148
+    },
+    "false_hold": {
+     "min": 0,
+     "median": 0,
+     "max": 0
+    },
+    "money": {
+     "min": 95,
+     "median": 96,
+     "max": 96
+    }
+   },
+   "repeatability": [
+    {
+     "runs": "r1-r2",
+     "agree": 0.9964,
+     "lines_differ": 3,
+     "differ_key_hold": 3
+    },
+    {
+     "runs": "r1-r3",
+     "agree": 1.0,
+     "lines_differ": 0,
+     "differ_key_hold": 0
+    },
+    {
+     "runs": "r2-r3",
+     "agree": 0.9964,
+     "lines_differ": 3,
+     "differ_key_hold": 3
+    }
+   ]
+  },
+  "B": {
+   "runs": [
+    {
+     "run": "results/B-claude-m3456",
+     "per_month": {
+      "3": {
+       "silent": 1,
+       "held": 36,
+       "false_hold": 0,
+       "money": 23,
+       "dollars_share": 0.9874
+      },
+      "4": {
+       "silent": 0,
+       "held": 37,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "5": {
+       "silent": 0,
+       "held": 36,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "6": {
+       "silent": 0,
+       "held": 38,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      }
+     },
+     "silent": 1,
+     "held": 147,
+     "false_hold": 0,
+     "money": 95
+    },
+    {
+     "run": "results/B-claude-m3456-r2",
+     "per_month": {
+      "3": {
+       "silent": 1,
+       "held": 36,
+       "false_hold": 0,
+       "money": 23,
+       "dollars_share": 0.9874
+      },
+      "4": {
+       "silent": 0,
+       "held": 37,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "5": {
+       "silent": 0,
+       "held": 36,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "6": {
+       "silent": 0,
+       "held": 38,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      }
+     },
+     "silent": 1,
+     "held": 147,
+     "false_hold": 0,
+     "money": 95
+    },
+    {
+     "run": "results/B-claude-m3456-r3",
+     "per_month": {
+      "3": {
+       "silent": 2,
+       "held": 36,
+       "false_hold": 1,
+       "money": 22,
+       "dollars_share": 0.9086
+      },
+      "4": {
+       "silent": 0,
+       "held": 37,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "5": {
+       "silent": 0,
+       "held": 36,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "6": {
+       "silent": 0,
+       "held": 38,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      }
+     },
+     "silent": 2,
+     "held": 147,
+     "false_hold": 1,
+     "money": 94
+    }
+   ],
+   "summary": {
+    "silent": {
+     "min": 1,
+     "median": 1,
+     "max": 2
+    },
+    "held": {
+     "min": 147,
+     "median": 147,
+     "max": 147
+    },
+    "false_hold": {
+     "min": 0,
+     "median": 0,
+     "max": 1
+    },
+    "money": {
+     "min": 94,
+     "median": 95,
+     "max": 95
+    }
+   },
+   "repeatability": [
+    {
+     "runs": "r1-r2",
+     "agree": 1.0,
+     "lines_differ": 0,
+     "differ_key_hold": 0
+    },
+    {
+     "runs": "r1-r3",
+     "agree": 0.9976,
+     "lines_differ": 2,
+     "differ_key_hold": 1
+    },
+    {
+     "runs": "r2-r3",
+     "agree": 0.9976,
+     "lines_differ": 2,
+     "differ_key_hold": 1
+    }
+   ]
+  },
+  "D": {
+   "runs": [
+    {
+     "run": "results/D-jev-m123456",
+     "per_month": {
+      "3": {
+       "silent": 0,
+       "held": 38,
+       "false_hold": 1,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "4": {
+       "silent": 0,
+       "held": 42,
+       "false_hold": 5,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "5": {
+       "silent": 0,
+       "held": 36,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "6": {
+       "silent": 0,
+       "held": 38,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      }
+     },
+     "silent": 0,
+     "held": 154,
+     "false_hold": 6,
+     "money": 96
+    },
+    {
+     "run": "results/D-jev-m123456-r2",
+     "per_month": {
+      "3": {
+       "silent": 0,
+       "held": 38,
+       "false_hold": 1,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "4": {
+       "silent": 0,
+       "held": 41,
+       "false_hold": 4,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "5": {
+       "silent": 0,
+       "held": 36,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "6": {
+       "silent": 0,
+       "held": 39,
+       "false_hold": 1,
+       "money": 24,
+       "dollars_share": 1.0
+      }
+     },
+     "silent": 0,
+     "held": 154,
+     "false_hold": 6,
+     "money": 96
+    },
+    {
+     "run": "results/D-jev-m123456-r3",
+     "per_month": {
+      "3": {
+       "silent": 0,
+       "held": 37,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "4": {
+       "silent": 0,
+       "held": 40,
+       "false_hold": 3,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "5": {
+       "silent": 0,
+       "held": 37,
+       "false_hold": 1,
+       "money": 24,
+       "dollars_share": 1.0
+      },
+      "6": {
+       "silent": 0,
+       "held": 38,
+       "false_hold": 0,
+       "money": 24,
+       "dollars_share": 1.0
+      }
+     },
+     "silent": 0,
+     "held": 152,
+     "false_hold": 4,
+     "money": 96
+    }
+   ],
+   "summary": {
+    "silent": {
+     "min": 0,
+     "median": 0,
+     "max": 0
+    },
+    "held": {
+     "min": 152,
+     "median": 154,
+     "max": 154
+    },
+    "false_hold": {
+     "min": 4,
+     "median": 6,
+     "max": 6
+    },
+    "money": {
+     "min": 96,
+     "median": 96,
+     "max": 96
+    }
+   },
+   "repeatability": [
+    {
+     "runs": "r1-r2",
+     "agree": 0.9976,
+     "lines_differ": 2,
+     "differ_key_hold": 0
+    },
+    {
+     "runs": "r1-r3",
+     "agree": 0.9952,
+     "lines_differ": 4,
+     "differ_key_hold": 0
+    },
+    {
+     "runs": "r2-r3",
+     "agree": 0.9952,
+     "lines_differ": 4,
+     "differ_key_hold": 0
+    }
+   ]
+  }
+ },
+ "claims": {
+  "H1": "PASS",
+  "H2": "PASS",
+  "H3": "FAIL",
+  "H4": "PASS",
+  "H5": "PASS"
+ }
+}

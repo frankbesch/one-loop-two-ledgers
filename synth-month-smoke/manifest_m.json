@@ -1,0 +1,86 @@
+{
+  "spec_sha256": "bc7889ee8ad3306ca60747f0566c55e5ea4c567d2debd72bf970517528ca46d4",
+  "seed": 937260481,
+  "page_size_points": [
+    792,
+    612
+  ],
+  "margin_points": 28.8,
+  "column_width_percent": {
+    "line_no": 5,
+    "property": 10,
+    "account": 6,
+    "description": 12,
+    "reference": 13,
+    "vendor": 11,
+    "invoice_no": 8,
+    "service_date": 8,
+    "quantity": 4,
+    "unit_rate": 5,
+    "gross": 6,
+    "decimal": 6,
+    "net": 7
+  },
+  "documents": [
+    {
+      "doc_id": "m1_jib_01",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_01.html",
+      "pdf": "clean/m1_jib_01.pdf",
+      "source_sha256": "9bc00204c1b2ddc30d60b718833be81ec488558d3c8e803399778d621a16edb2",
+      "gross_total": "3600",
+      "net_total": "553.5"
+    },
+    {
+      "doc_id": "m1_jib_02",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m1_jib_02.html",
+      "pdf": "clean/m1_jib_02.pdf",
+      "source_sha256": "8b4a68464e099391cb9849be0992afa2e0542d0b058c1033e3d7175dd25381b3",
+      "gross_total": "2875",
+      "net_total": "405.00"
+    },
+    {
+      "doc_id": "m1_jib_03",
+      "month": 1,
+      "type": "jib_statement",
+      "format": "A",
+      "pages": 2,
+      "source": "sources/m1_jib_03.html",
+      "pdf": "clean/m1_jib_03.pdf",
+      "source_sha256": "0fb4539600723a201379d5866e3fd289380b787b328ad27d0d518336611a5d3f",
+      "gross_total": "2710",
+      "net_total": "408.35"
+    },
+    {
+      "doc_id": "m1_inv_01",
+      "month": 1,
+      "type": "vendor_invoice",
+      "format": "A",
+      "pages": 1,
+      "source": "sources/m1_inv_01.html",
+      "pdf": "clean/m1_inv_01.pdf",
+      "source_sha256": "23ccd456b5d313fc9472c21580f1bc26efda7f5bcec332a8b992f56b19c51b6c",
+      "gross_total": "2480",
+      "net_total": "384.85"
+    },
+    {
+      "doc_id": "m4_jib_01",
+      "month": 4,
+      "type": "jib_statement",
+      "format": "B",
+      "pages": 2,
+      "source": "sources/m4_jib_01.html",
+      "pdf": "clean/m4_jib_01.pdf",
+      "source_sha256": "b6bdf79e23693e6cd010fefae3046c11172bcf5a28dc30ff7478e36bed37ce54",
+      "gross_total": "2560",
+      "net_total": "376.4"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+ "summary": {
+  "lines": 24,
+  "q16_correct": 24,
+  "code_only_correct": 10,
+  "lines_needing_a_model": 14,
+  "defects": [],
+  "by_outcome": {
+   "contradicted | rows ok=True | code-only ok=True": 1,
+   "no_claim | rows ok=True | code-only ok=True": 4,
+   "other_authority | rows ok=True | code-only ok=False": 2,
+   "supported | rows ok=True | code-only ok=True": 3,
+   "unsupported | rows ok=True | code-only ok=False": 12,
+   "unsupported | rows ok=True | code-only ok=True": 2
+  }
+ },
+ "rows": [
+  {
+   "doc_id": "smk_jib_01",
+   "line_no": 1,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_jib_01",
+   "line_no": 2,
+   "truth": "no_claim",
+   "reference_kind": "none",
+   "q16": "no_claim",
+   "reason": "",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": true
+  },
+  {
+   "doc_id": "smk_jib_01",
+   "line_no": 3,
+   "truth": "supported",
+   "reference_kind": "exact",
+   "q16": "supported",
+   "reason": "exact",
+   "q16_ok": true,
+   "code_only": "supported",
+   "code_only_ok": true
+  },
+  {
+   "doc_id": "smk_jib_01",
+   "line_no": 4,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_jib_01",
+   "line_no": 5,
+   "truth": "other_authority",
+   "reference_kind": "none",
+   "q16": "other_authority",
+   "reason": "q6",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_jib_01",
+   "line_no": 6,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_jib_01",
+   "line_no": 7,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "unsupported",
+   "code_only_ok": true
+  },
+  {
+   "doc_id": "smk_jib_01",
+   "line_no": 8,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_jib_02",
+   "line_no": 1,
+   "truth": "unsupported",
+   "reference_kind": "unknown_number",
+   "q16": "unsupported",
+   "reason": "unknown_number",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_jib_02",
+   "line_no": 2,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_jib_02",
+   "line_no": 3,
+   "truth": "no_claim",
+   "reference_kind": "none",
+   "q16": "no_claim",
+   "reason": "",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": true
+  },
+  {
+   "doc_id": "smk_jib_02",
+   "line_no": 4,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_jib_02",
+   "line_no": 5,
+   "truth": "supported",
+   "reference_kind": "reformatted",
+   "q16": "supported",
+   "reason": "reformatted",
+   "q16_ok": true,
+   "code_only": "supported",
+   "code_only_ok": true
+  },
+  {
+   "doc_id": "smk_jib_02",
+   "line_no": 6,
+   "truth": "no_claim",
+   "reference_kind": "none",
+   "q16": "no_claim",
+   "reason": "",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": true
+  },
+  {
+   "doc_id": "smk_jib_02",
+   "line_no": 7,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_jib_02",
+   "line_no": 8,
+   "truth": "unsupported",
+   "reference_kind": "exact",
+   "q16": "unsupported",
+   "reason": "afe_other_property",
+   "q16_ok": true,
+   "code_only": "unsupported",
+   "code_only_ok": true
+  },
+  {
+   "doc_id": "smk_inv_01",
+   "line_no": 1,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_inv_01",
+   "line_no": 2,
+   "truth": "contradicted",
+   "reference_kind": "reworded",
+   "q16": "contradicted",
+   "reason": "afe_declined",
+   "q16_ok": true,
+   "code_only": "contradicted",
+   "code_only_ok": true
+  },
+  {
+   "doc_id": "smk_inv_01",
+   "line_no": 3,
+   "truth": "unsupported",
+   "reference_kind": "no_number",
+   "q16": "unsupported",
+   "reason": "no_number",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_inv_01",
+   "line_no": 4,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_inv_01",
+   "line_no": 5,
+   "truth": "no_claim",
+   "reference_kind": "none",
+   "q16": "no_claim",
+   "reason": "",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": true
+  },
+  {
+   "doc_id": "smk_inv_01",
+   "line_no": 6,
+   "truth": "other_authority",
+   "reference_kind": "none",
+   "q16": "other_authority",
+   "reason": "q6",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  },
+  {
+   "doc_id": "smk_inv_01",
+   "line_no": 7,
+   "truth": "supported",
+   "reference_kind": "reworded",
+   "q16": "supported",
+   "reason": "exact",
+   "q16_ok": true,
+   "code_only": "supported",
+   "code_only_ok": true
+  },
+  {
+   "doc_id": "smk_inv_01",
+   "line_no": 8,
+   "truth": "unsupported",
+   "reference_kind": "placeholder",
+   "q16": "unsupported",
+   "reason": "placeholder",
+   "q16_ok": true,
+   "code_only": "no_claim",
+   "code_only_ok": false
+  }
+ ]
+}

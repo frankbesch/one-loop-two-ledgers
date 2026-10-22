@@ -1,0 +1,30 @@
+[
+  {
+    "vendor": "Cairnford Mechanical Services LLC",
+    "service": "Pump inspection labor",
+    "unit": "hour",
+    "rate": 125,
+    "effective": "2024-01-01"
+  },
+  {
+    "vendor": "Mossquarry Well Services LLC",
+    "service": "Pump inspection labor",
+    "unit": "hour",
+    "rate": 80,
+    "effective": "2024-01-01"
+  },
+  {
+    "vendor": "Rillhaven Equipment Repair LLC",
+    "service": "Pump inspection labor",
+    "unit": "hour",
+    "rate": 110,
+    "effective": "2024-01-01"
+  },
+  {
+    "vendor": "Cairnford Mechanical Services LLC",
+    "service": "Pump inspection labor",
+    "unit": "hour",
+    "rate": 140,
+    "effective": "2027-03-01"
+  }
+]

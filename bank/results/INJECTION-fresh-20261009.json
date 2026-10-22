@@ -1,0 +1,42 @@
+{
+ "note": "Abstention injection test (13-capfix-preregistration.md, H21-H22). No model call.\n\nFeeds the code the key's true answers on every certificate (Q1-Q4, 48 certificates), then replaces one answer\n(single) or two answers (pairs) with needs_review, as the model would by abstaining, and runs the runner's own\ndecision code (run_bank.decide_certificate) under each rule. A silent unit is one the code posts while the key\nholds it. An extra hold is a unit the code holds while the key posts it, other than the doubted addbacks themselves.\nSlots: QC on every addback; QR and QX on cost-savings addbacks. A doubted QC clears QR and QX, as in the live flow,\nwhere they are asked only when QC says cost savings.\n\n  injection_test.py [--out results/INJECTION-20261009.json]\n",
+ "base_mismatch": [],
+ "results": {
+  "single": {
+   "frozen": {
+    "injections": 256,
+    "injections_with_silent": 0
+   },
+   "invariant": {
+    "injections": 256,
+    "injections_with_silent": 0
+   }
+  },
+  "pair": {
+   "frozen": {
+    "injections": 512,
+    "injections_with_silent": 0
+   },
+   "invariant": {
+    "injections": 512,
+    "injections_with_silent": 0
+   }
+  }
+ },
+ "silent_cases": {
+  "single": {
+   "frozen": [],
+   "invariant": []
+  },
+  "pair": {
+   "frozen": [],
+   "invariant": []
+  }
+ },
+ "claims": {
+  "H21": "PASS",
+  "H21_detector": "FAIL",
+  "H22": "PASS",
+  "base_check": "PASS"
+ }
+}

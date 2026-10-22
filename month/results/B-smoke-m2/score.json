@@ -1,0 +1,27 @@
+{
+ "arm": "B-claude-live-m2-20261008T204922Z",
+ "backend": "claude",
+ "mode": "live",
+ "months": {
+  "m2": {
+   "lines": 210,
+   "held": 36,
+   "silent": 0,
+   "false_hold": 0,
+   "drift_held": 0,
+   "right": 210,
+   "money_targets": 24,
+   "money_caught": 24,
+   "money_right_reason": 24,
+   "claim_targets": 14,
+   "claim_held": 14,
+   "supported_clean": 6,
+   "supported_clean_held": 0,
+   "money_dollars_caught": 2025.88,
+   "money_dollars_total": 2025.88,
+   "dollars_caught_share": 1.0,
+   "audit_n": null,
+   "audit_estimate_silent": null
+  }
+ }
+}

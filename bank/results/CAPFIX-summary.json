@@ -1,0 +1,285 @@
+{
+ "quarters": [
+  3,
+  4
+ ],
+ "arms": {
+  "D": {
+   "runs": [
+    {
+     "run": "runs/bank/D2-q1234-r1",
+     "per_quarter": {
+      "3": {
+       "units": 99,
+       "held": 21,
+       "silent": 0,
+       "false_hold": 0,
+       "owner_n": 21,
+       "owner_ok": 21,
+       "hidden": 2,
+       "hidden_caught": 2,
+       "planted": 20,
+       "planted_caught": 20,
+       "per_class": {
+        "ratio_arithmetic": "2/2",
+        "hidden_breach": "2/2",
+        "cap_exceeded": "2/2",
+        "window_expired": "2/2",
+        "category_not_permitted": "2/2",
+        "certification_missing": "2/2",
+        "signer_not_officer": "2/2",
+        "late_delivery": "2/2",
+        "cure_invalid": "2/2",
+        "duplicate_addback": "2/2"
+       }
+      },
+      "4": {
+       "units": 99,
+       "held": 22,
+       "silent": 0,
+       "false_hold": 1,
+       "owner_n": 21,
+       "owner_ok": 21,
+       "hidden": 2,
+       "hidden_caught": 2,
+       "planted": 20,
+       "planted_caught": 20,
+       "per_class": {
+        "ratio_arithmetic": "2/2",
+        "hidden_breach": "2/2",
+        "cap_exceeded": "2/2",
+        "window_expired": "2/2",
+        "category_not_permitted": "2/2",
+        "certification_missing": "2/2",
+        "signer_not_officer": "2/2",
+        "late_delivery": "2/2",
+        "cure_invalid": "2/2",
+        "duplicate_addback": "2/2"
+       }
+      }
+     },
+     "units": 198,
+     "held": 43,
+     "silent": 0,
+     "false_hold": 1,
+     "planted": 40,
+     "planted_caught": 40,
+     "hidden": 4,
+     "hidden_caught": 4,
+     "false_breach": 0,
+     "owner_n": 42,
+     "owner_ok": 42,
+     "meta": {
+      "arm": "D-bank-claude-live-q1234-20261009T134315Z",
+      "model": "claude-sonnet-5-5",
+      "wall_s": 1645.6,
+      "spend_usd": null,
+      "live_calls": 258
+     }
+    },
+    {
+     "run": "runs/bank/D2-q1234-r2-repeat",
+     "per_quarter": {
+      "3": {
+       "units": 99,
+       "held": 22,
+       "silent": 0,
+       "false_hold": 1,
+       "owner_n": 21,
+       "owner_ok": 21,
+       "hidden": 2,
+       "hidden_caught": 2,
+       "planted": 20,
+       "planted_caught": 20,
+       "per_class": {
+        "ratio_arithmetic": "2/2",
+        "hidden_breach": "2/2",
+        "cap_exceeded": "2/2",
+        "window_expired": "2/2",
+        "category_not_permitted": "2/2",
+        "certification_missing": "2/2",
+        "signer_not_officer": "2/2",
+        "late_delivery": "2/2",
+        "cure_invalid": "2/2",
+        "duplicate_addback": "2/2"
+       }
+      },
+      "4": {
+       "units": 99,
+       "held": 22,
+       "silent": 0,
+       "false_hold": 1,
+       "owner_n": 21,
+       "owner_ok": 21,
+       "hidden": 2,
+       "hidden_caught": 2,
+       "planted": 20,
+       "planted_caught": 20,
+       "per_class": {
+        "ratio_arithmetic": "2/2",
+        "hidden_breach": "2/2",
+        "cap_exceeded": "2/2",
+        "window_expired": "2/2",
+        "category_not_permitted": "2/2",
+        "certification_missing": "2/2",
+        "signer_not_officer": "2/2",
+        "late_delivery": "2/2",
+        "cure_invalid": "2/2",
+        "duplicate_addback": "2/2"
+       }
+      }
+     },
+     "units": 198,
+     "held": 44,
+     "silent": 0,
+     "false_hold": 2,
+     "planted": 40,
+     "planted_caught": 40,
+     "hidden": 4,
+     "hidden_caught": 4,
+     "false_breach": 0,
+     "owner_n": 42,
+     "owner_ok": 42,
+     "meta": {
+      "arm": "D-bank-claude-live-q1234-20261009T135227Z",
+      "model": "claude-sonnet-5-5",
+      "wall_s": 1599.2,
+      "spend_usd": null,
+      "live_calls": 258
+     }
+    },
+    {
+     "run": "runs/bank/D2-q1234-r3",
+     "per_quarter": {
+      "3": {
+       "units": 99,
+       "held": 21,
+       "silent": 0,
+       "false_hold": 0,
+       "owner_n": 21,
+       "owner_ok": 21,
+       "hidden": 2,
+       "hidden_caught": 2,
+       "planted": 20,
+       "planted_caught": 20,
+       "per_class": {
+        "ratio_arithmetic": "2/2",
+        "hidden_breach": "2/2",
+        "cap_exceeded": "2/2",
+        "window_expired": "2/2",
+        "category_not_permitted": "2/2",
+        "certification_missing": "2/2",
+        "signer_not_officer": "2/2",
+        "late_delivery": "2/2",
+        "cure_invalid": "2/2",
+        "duplicate_addback": "2/2"
+       }
+      },
+      "4": {
+       "units": 99,
+       "held": 21,
+       "silent": 0,
+       "false_hold": 0,
+       "owner_n": 21,
+       "owner_ok": 21,
+       "hidden": 2,
+       "hidden_caught": 2,
+       "planted": 20,
+       "planted_caught": 20,
+       "per_class": {
+        "ratio_arithmetic": "2/2",
+        "hidden_breach": "2/2",
+        "cap_exceeded": "2/2",
+        "window_expired": "2/2",
+        "category_not_permitted": "2/2",
+        "certification_missing": "2/2",
+        "signer_not_officer": "2/2",
+        "late_delivery": "2/2",
+        "cure_invalid": "2/2",
+        "duplicate_addback": "2/2"
+       }
+      }
+     },
+     "units": 198,
+     "held": 42,
+     "silent": 0,
+     "false_hold": 0,
+     "planted": 40,
+     "planted_caught": 40,
+     "hidden": 4,
+     "hidden_caught": 4,
+     "false_breach": 0,
+     "owner_n": 42,
+     "owner_ok": 42,
+     "meta": {
+      "arm": "D-bank-claude-live-q1234-20261009T134319Z",
+      "model": "claude-sonnet-5-5",
+      "wall_s": 1624.2,
+      "spend_usd": null,
+      "live_calls": 266
+     }
+    }
+   ],
+   "summary": {
+    "silent": {
+     "min": 0,
+     "median": 0,
+     "max": 0
+    },
+    "held": {
+     "min": 42,
+     "median": 43,
+     "max": 44
+    },
+    "false_hold": {
+     "min": 0,
+     "median": 1,
+     "max": 2
+    },
+    "planted_caught": {
+     "min": 40,
+     "median": 40,
+     "max": 40
+    },
+    "hidden_caught": {
+     "min": 4,
+     "median": 4,
+     "max": 4
+    },
+    "false_breach": {
+     "min": 0,
+     "median": 0,
+     "max": 0
+    }
+   },
+   "repeatability": [
+    {
+     "runs": "r1-r2",
+     "agree": 0.9949,
+     "differ": 1,
+     "differ_key_hold": 0
+    },
+    {
+     "runs": "r1-r3",
+     "agree": 0.9949,
+     "differ": 1,
+     "differ_key_hold": 0
+    },
+    {
+     "runs": "r2-r3",
+     "agree": 0.9899,
+     "differ": 2,
+     "differ_key_hold": 0
+    }
+   ]
+  }
+ },
+ "claims": {
+  "H12": "PASS",
+  "H13": "PASS",
+  "H14": "PASS",
+  "H16": "PASS",
+  "H20": "PASS",
+  "mark_false_breach": "PASS"
+ }
+}

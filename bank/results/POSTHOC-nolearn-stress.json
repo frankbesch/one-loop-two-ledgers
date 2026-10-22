@@ -1,0 +1,40 @@
+{
+ "note": "POST-HOC (not pre-registered; step 7d): replay runs' logged answers on the scored quarters with the learning step\noff, floors held at the frozen start (floors-B.json), under both rules. No model call.\n\n  posthoc_nolearn.py --corpus ../synth-bank-3 ../runs/bank/D4-stress-r1 [...] [--out file.json]\n",
+ "floors": {
+  "QC": 0.8,
+  "QR": 0.85,
+  "QX": 0.95
+ },
+ "runs": {
+  "D4-stress-r1:invariant": {
+   "silent": 0,
+   "held": 59,
+   "false_holds": 13
+  },
+  "D4-stress-r1:frozen": {
+   "silent": 5,
+   "held": 54,
+   "false_holds": 13
+  },
+  "D4-stress-r2-repeat:invariant": {
+   "silent": 0,
+   "held": 58,
+   "false_holds": 12
+  },
+  "D4-stress-r2-repeat:frozen": {
+   "silent": 6,
+   "held": 52,
+   "false_holds": 12
+  },
+  "D4-stress-r3:invariant": {
+   "silent": 0,
+   "held": 61,
+   "false_holds": 15
+  },
+  "D4-stress-r3:frozen": {
+   "silent": 7,
+   "held": 54,
+   "false_holds": 15
+  }
+ }
+}

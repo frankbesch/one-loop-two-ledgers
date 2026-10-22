@@ -1,0 +1,130 @@
+[
+  {
+    "afe_number": "RWM/31000/OC",
+    "property_no": "PR6812",
+    "scope": "Field operating and maintenance costs",
+    "approved_amount": 185000,
+    "status": "approved",
+    "split": "calibration"
+  },
+  {
+    "afe_number": "RWM/31400/OC",
+    "property_no": "PR6812",
+    "scope": "Field operating and maintenance costs",
+    "approved_amount": 0,
+    "status": "declined",
+    "split": "calibration"
+  },
+  {
+    "afe_number": "RWM/31001/OC",
+    "property_no": "PR4937",
+    "scope": "Field operating and maintenance costs",
+    "approved_amount": 185000,
+    "status": "approved",
+    "split": "calibration"
+  },
+  {
+    "afe_number": "RWM/31401/OC",
+    "property_no": "PR4937",
+    "scope": "Field operating and maintenance costs",
+    "approved_amount": 0,
+    "status": "declined",
+    "split": "calibration"
+  },
+  {
+    "afe_number": "RWM/31002/OC",
+    "property_no": "PR7524",
+    "scope": "Field operating and maintenance costs",
+    "approved_amount": 185000,
+    "status": "approved",
+    "split": "calibration"
+  },
+  {
+    "afe_number": "RWM/31402/OC",
+    "property_no": "PR7524",
+    "scope": "Field operating and maintenance costs",
+    "approved_amount": 0,
+    "status": "declined",
+    "split": "calibration"
+  },
+  {
+    "afe_number": "RWM/31003/OC",
+    "property_no": "PR2689",
+    "scope": "Field operating and maintenance costs",
+    "approved_amount": 185000,
+    "status": "approved",
+    "split": "calibration"
+  },
+  {
+    "afe_number": "RWM/31403/OC",
+    "property_no": "PR2689",
+    "scope": "Field operating and maintenance costs",
+    "approved_amount": 0,
+    "status": "declined",
+    "split": "calibration"
+  },
+  {
+    "afe_number": "RWM/58260/OC",
+    "property_no": "PR6812",
+    "scope": "Production equipment upkeep, field services, inspection, and related site support",
+    "approved_amount": 180000,
+    "status": "approved",
+    "split": "scored"
+  },
+  {
+    "afe_number": "RWM/58261/OC",
+    "property_no": "PR4937",
+    "scope": "Production equipment upkeep, field services, inspection, and related site support",
+    "approved_amount": 180000,
+    "status": "approved",
+    "split": "scored"
+  },
+  {
+    "afe_number": "RWM/58262/OC",
+    "property_no": "PR7524",
+    "scope": "Production equipment upkeep, field services, inspection, and related site support",
+    "approved_amount": 180000,
+    "status": "approved",
+    "split": "scored"
+  },
+  {
+    "afe_number": "RWM/58263/OC",
+    "property_no": "PR2689",
+    "scope": "Production equipment upkeep, field services, inspection, and related site support",
+    "approved_amount": 180000,
+    "status": "approved",
+    "split": "scored"
+  },
+  {
+    "afe_number": "RWM/58760/OC",
+    "property_no": "PR6812",
+    "scope": "Production equipment upkeep, field services, inspection, and related site support",
+    "approved_amount": 0,
+    "status": "declined",
+    "split": "scored"
+  },
+  {
+    "afe_number": "RWM/58761/OC",
+    "property_no": "PR4937",
+    "scope": "Production equipment upkeep, field services, inspection, and related site support",
+    "approved_amount": 0,
+    "status": "declined",
+    "split": "scored"
+  },
+  {
+    "afe_number": "RWM/58762/OC",
+    "property_no": "PR7524",
+    "scope": "Production equipment upkeep, field services, inspection, and related site support",
+    "approved_amount": 0,
+    "status": "declined",
+    "split": "scored"
+  },
+  {
+    "afe_number": "RWM/58763/OC",
+    "property_no": "PR2689",
+    "scope": "Production equipment upkeep, field services, inspection, and related site support",
+    "approved_amount": 0,
+    "status": "declined",
+    "split": "scored"
+  }
+]

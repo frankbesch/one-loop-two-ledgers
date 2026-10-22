@@ -1,0 +1,84 @@
+{
+ "arm": "claude-live-calibration-standard-20261008T144720Z",
+ "backend": "claude",
+ "mode": "live",
+ "vocab": "standard",
+ "lines": 210,
+ "correct": 195,
+ "needs_review": 15,
+ "sent_to_person": 118,
+ "marks": [
+  {
+   "mark": "M1 silent misses",
+   "targets": 99,
+   "value": 0,
+   "rule": "<= 2",
+   "verdict": "PASS"
+  },
+  {
+   "mark": "M2 false alarms on supported",
+   "targets": 45,
+   "value": "1/45 = 2.2%",
+   "rule": "<= 10%",
+   "verdict": "PASS"
+  },
+  {
+   "mark": "M3 value over code",
+   "targets": 75,
+   "value": "65/75 = 86.7% (right or routed: 75)",
+   "rule": ">= 80% right",
+   "verdict": "PASS"
+  }
+ ],
+ "per_question": {
+  "Q2": {
+   "asked": 210,
+   "needs_review": 7,
+   "errors": 0,
+   "q17_fail": 5,
+   "answered": 203,
+   "right": 198
+  },
+  "Q6": {
+   "asked": 18,
+   "needs_review": 0,
+   "errors": 0,
+   "q17_fail": 0,
+   "answered": 18,
+   "right": 18
+  },
+  "Q7": {
+   "asked": 129,
+   "needs_review": 1,
+   "errors": 0,
+   "q17_fail": 1,
+   "answered": 128,
+   "right": 128
+  },
+  "Q9": {
+   "asked": 102,
+   "needs_review": 0,
+   "errors": 0,
+   "q17_fail": 1
+  }
+ },
+ "confusion": {
+  "contradicted -> contradicted": 18,
+  "no_claim -> no_claim": 48,
+  "other_authority -> other_authority": 18,
+  "supported -> needs_review": 1,
+  "supported -> supported": 44,
+  "unsupported -> needs_review": 14,
+  "unsupported -> unsupported": 67
+ },
+ "cost": {
+  "requests": 507,
+  "live_calls": 507,
+  "spend_usd": null,
+  "spend_bound_usd": null,
+  "wall_s": 2929.2,
+  "claude_version": "2.1.294 (Claude Code)",
+  "claude_auth_method": "claude.ai",
+  "model": "claude-sonnet-5-5"
+ }
+}

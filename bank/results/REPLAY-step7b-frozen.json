@@ -1,0 +1,41 @@
+{
+ "rule": "frozen",
+ "runs": {
+  "runs/bank/D2-q1234-r1": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 21,
+    "4": 22
+   },
+   "silent_total": 0,
+   "held_total": 43
+  },
+  "runs/bank/D2-q1234-r2-repeat": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 22,
+    "4": 22
+   },
+   "silent_total": 0,
+   "held_total": 44
+  },
+  "runs/bank/D2-q1234-r3": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 21,
+    "4": 21
+   },
+   "silent_total": 0,
+   "held_total": 42
+  }
+ }
+}

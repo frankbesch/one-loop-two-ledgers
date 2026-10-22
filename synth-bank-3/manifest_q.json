@@ -1,0 +1,437 @@
+{
+  "spec_sha256": "ce5c51fd4d64696eafe00eca0e8d76789a1cb646476a2d1c4e340f8c9b0d06f3",
+  "certificates": [
+    {
+      "cert_id": "q1_b01",
+      "quarter": 1,
+      "borrower_id": "b01",
+      "split": "calibration",
+      "source": "sources/q1_b01.html",
+      "pdf": "clean/q1_b01.pdf",
+      "source_sha256": "c7236ceb8c7261a16537316f15e6858ba2376f18818bf8e1dc17af8722879a6c"
+    },
+    {
+      "cert_id": "q1_b02",
+      "quarter": 1,
+      "borrower_id": "b02",
+      "split": "calibration",
+      "source": "sources/q1_b02.html",
+      "pdf": "clean/q1_b02.pdf",
+      "source_sha256": "8693319a19acddfddef55d1ce8fab1b3100c08e2e820b8ee6a4e816027256462"
+    },
+    {
+      "cert_id": "q1_b03",
+      "quarter": 1,
+      "borrower_id": "b03",
+      "split": "calibration",
+      "source": "sources/q1_b03.html",
+      "pdf": "clean/q1_b03.pdf",
+      "source_sha256": "e02dc0fc50fe7e03c4e719634f836bac4fb68fd2095e1f37c98e6a4a4e52e3a4"
+    },
+    {
+      "cert_id": "q1_b04",
+      "quarter": 1,
+      "borrower_id": "b04",
+      "split": "calibration",
+      "source": "sources/q1_b04.html",
+      "pdf": "clean/q1_b04.pdf",
+      "source_sha256": "83144f51eb07b0e805d7b09cdb56c92d81eb4f3521200d9e9a8fc314419ccfa0"
+    },
+    {
+      "cert_id": "q1_b05",
+      "quarter": 1,
+      "borrower_id": "b05",
+      "split": "calibration",
+      "source": "sources/q1_b05.html",
+      "pdf": "clean/q1_b05.pdf",
+      "source_sha256": "1ff0debde37d2096543a6e87cb22d6ddf5f10af3b8bae13b0b49c1dce1809509"
+    },
+    {
+      "cert_id": "q1_b06",
+      "quarter": 1,
+      "borrower_id": "b06",
+      "split": "calibration",
+      "source": "sources/q1_b06.html",
+      "pdf": "clean/q1_b06.pdf",
+      "source_sha256": "5852ccc18403fc9a8dc502ad6cfff26bc30f99f8e7a27ce949e52ea5f270a07f"
+    },
+    {
+      "cert_id": "q1_b07",
+      "quarter": 1,
+      "borrower_id": "b07",
+      "split": "calibration",
+      "source": "sources/q1_b07.html",
+      "pdf": "clean/q1_b07.pdf",
+      "source_sha256": "c1249c2bcafe7c9f6039a99247f2c624e5bc835c6fbd7e1d8bb2643330b9bbd1"
+    },
+    {
+      "cert_id": "q1_b08",
+      "quarter": 1,
+      "borrower_id": "b08",
+      "split": "calibration",
+      "source": "sources/q1_b08.html",
+      "pdf": "clean/q1_b08.pdf",
+      "source_sha256": "ca3a76161c74b3008988ff281bb1e91b00eba28b05be85f53438c08306413108"
+    },
+    {
+      "cert_id": "q1_b09",
+      "quarter": 1,
+      "borrower_id": "b09",
+      "split": "calibration",
+      "source": "sources/q1_b09.html",
+      "pdf": "clean/q1_b09.pdf",
+      "source_sha256": "fed8b6440391c7029733fda27cf437a7e8a61db6384bb32eaba548e6986bc183"
+    },
+    {
+      "cert_id": "q1_b10",
+      "quarter": 1,
+      "borrower_id": "b10",
+      "split": "calibration",
+      "source": "sources/q1_b10.html",
+      "pdf": "clean/q1_b10.pdf",
+      "source_sha256": "e07f915fc37e2850288e2e6c638a2d45f90d42af339fbd7d7dcd9046c64cca16"
+    },
+    {
+      "cert_id": "q1_b11",
+      "quarter": 1,
+      "borrower_id": "b11",
+      "split": "calibration",
+      "source": "sources/q1_b11.html",
+      "pdf": "clean/q1_b11.pdf",
+      "source_sha256": "bc7d93173383b09e6bc4a53721320e1ae448a995c774ea13de2b5258cd2f2efd"
+    },
+    {
+      "cert_id": "q1_b12",
+      "quarter": 1,
+      "borrower_id": "b12",
+      "split": "calibration",
+      "source": "sources/q1_b12.html",
+      "pdf": "clean/q1_b12.pdf",
+      "source_sha256": "47d1cb2b8c83b9572398bfbddb8daf595843c5c06e2eb245b94aadddc105d055"
+    },
+    {
+      "cert_id": "q2_b01",
+      "quarter": 2,
+      "borrower_id": "b01",
+      "split": "calibration",
+      "source": "sources/q2_b01.html",
+      "pdf": "clean/q2_b01.pdf",
+      "source_sha256": "b9dcb0c184ff6b2f6cbf468cfa594a9bbd97c99155f198339a2cdb5f773ffb06"
+    },
+    {
+      "cert_id": "q2_b02",
+      "quarter": 2,
+      "borrower_id": "b02",
+      "split": "calibration",
+      "source": "sources/q2_b02.html",
+      "pdf": "clean/q2_b02.pdf",
+      "source_sha256": "00761f15afaf99e9e2d5cd24e246758090514fc2ff8ca0c4a55608b81206e38a"
+    },
+    {
+      "cert_id": "q2_b03",
+      "quarter": 2,
+      "borrower_id": "b03",
+      "split": "calibration",
+      "source": "sources/q2_b03.html",
+      "pdf": "clean/q2_b03.pdf",
+      "source_sha256": "c6099af870f514f2408f8a22605c463a85d82846393209fb28c0aec110e2c6f2"
+    },
+    {
+      "cert_id": "q2_b04",
+      "quarter": 2,
+      "borrower_id": "b04",
+      "split": "calibration",
+      "source": "sources/q2_b04.html",
+      "pdf": "clean/q2_b04.pdf",
+      "source_sha256": "ab82f7abfeddd5c897be8c2de1de0eb23ae4d1569424c41869e1772b6a928fce"
+    },
+    {
+      "cert_id": "q2_b05",
+      "quarter": 2,
+      "borrower_id": "b05",
+      "split": "calibration",
+      "source": "sources/q2_b05.html",
+      "pdf": "clean/q2_b05.pdf",
+      "source_sha256": "d28a2aac888f7221fd877a5a0a7122d8566ffc728d119f05b3b20b884b0932b5"
+    },
+    {
+      "cert_id": "q2_b06",
+      "quarter": 2,
+      "borrower_id": "b06",
+      "split": "calibration",
+      "source": "sources/q2_b06.html",
+      "pdf": "clean/q2_b06.pdf",
+      "source_sha256": "2c873901e6f0e9cae32df97d526236244fc26abc34d9f5a911d840bbc36db8a2"
+    },
+    {
+      "cert_id": "q2_b07",
+      "quarter": 2,
+      "borrower_id": "b07",
+      "split": "calibration",
+      "source": "sources/q2_b07.html",
+      "pdf": "clean/q2_b07.pdf",
+      "source_sha256": "50adc94d118438963cf72ed27dd3f22731fa10632fc0eb1b2771f6a5ec3dd782"
+    },
+    {
+      "cert_id": "q2_b08",
+      "quarter": 2,
+      "borrower_id": "b08",
+      "split": "calibration",
+      "source": "sources/q2_b08.html",
+      "pdf": "clean/q2_b08.pdf",
+      "source_sha256": "62e4ff7d0f1fdba7cd7781face98cd9cb6dc01fa847ff48acd76f828858f65cc"
+    },
+    {
+      "cert_id": "q2_b09",
+      "quarter": 2,
+      "borrower_id": "b09",
+      "split": "calibration",
+      "source": "sources/q2_b09.html",
+      "pdf": "clean/q2_b09.pdf",
+      "source_sha256": "6302e0b68951e6085e50fdcf2339439ef3356a82e532f28553e7c5f4b21f5885"
+    },
+    {
+      "cert_id": "q2_b10",
+      "quarter": 2,
+      "borrower_id": "b10",
+      "split": "calibration",
+      "source": "sources/q2_b10.html",
+      "pdf": "clean/q2_b10.pdf",
+      "source_sha256": "b442ddf86a90b810027802062f29652d90db85fec813d7fe863d4f9dc1d0c70f"
+    },
+    {
+      "cert_id": "q2_b11",
+      "quarter": 2,
+      "borrower_id": "b11",
+      "split": "calibration",
+      "source": "sources/q2_b11.html",
+      "pdf": "clean/q2_b11.pdf",
+      "source_sha256": "699853ef4b561f3dfa3d47e003b9784b8269e846cca469e852e75d3936416e82"
+    },
+    {
+      "cert_id": "q2_b12",
+      "quarter": 2,
+      "borrower_id": "b12",
+      "split": "calibration",
+      "source": "sources/q2_b12.html",
+      "pdf": "clean/q2_b12.pdf",
+      "source_sha256": "6422ddf8267640a2da7871f0d8b42e95ac6c63631a111170548703d5c07bc381"
+    },
+    {
+      "cert_id": "q3_b01",
+      "quarter": 3,
+      "borrower_id": "b01",
+      "split": "scored",
+      "source": "sources/q3_b01.html",
+      "pdf": "clean/q3_b01.pdf",
+      "source_sha256": "27e206bde9b3527809e6971c7f083c2ac4b566a99b925aa945dfa1f2e41030ae"
+    },
+    {
+      "cert_id": "q3_b02",
+      "quarter": 3,
+      "borrower_id": "b02",
+      "split": "scored",
+      "source": "sources/q3_b02.html",
+      "pdf": "clean/q3_b02.pdf",
+      "source_sha256": "d557243c04b4f2e9920faa85316c20191369ca42916368b9b81991f0cf44391d"
+    },
+    {
+      "cert_id": "q3_b03",
+      "quarter": 3,
+      "borrower_id": "b03",
+      "split": "scored",
+      "source": "sources/q3_b03.html",
+      "pdf": "clean/q3_b03.pdf",
+      "source_sha256": "f652e33d1ad3d9aabe4d03fb49b98a8a7c9c6e200cf157af427aca67c05af87d"
+    },
+    {
+      "cert_id": "q3_b04",
+      "quarter": 3,
+      "borrower_id": "b04",
+      "split": "scored",
+      "source": "sources/q3_b04.html",
+      "pdf": "clean/q3_b04.pdf",
+      "source_sha256": "e8913abdb2c8d475f7fea9d097855782f03285d33e23654696749eab15e1c395"
+    },
+    {
+      "cert_id": "q3_b05",
+      "quarter": 3,
+      "borrower_id": "b05",
+      "split": "scored",
+      "source": "sources/q3_b05.html",
+      "pdf": "clean/q3_b05.pdf",
+      "source_sha256": "d1e7fcb3b037a5751805a281f40622ba18cdb807f70971d1198776e18e20ebb3"
+    },
+    {
+      "cert_id": "q3_b06",
+      "quarter": 3,
+      "borrower_id": "b06",
+      "split": "scored",
+      "source": "sources/q3_b06.html",
+      "pdf": "clean/q3_b06.pdf",
+      "source_sha256": "3f364f91024f21392702dffc14b55740ff7bf52b51d9c516b4ada304ee1e992b"
+    },
+    {
+      "cert_id": "q3_b07",
+      "quarter": 3,
+      "borrower_id": "b07",
+      "split": "scored",
+      "source": "sources/q3_b07.html",
+      "pdf": "clean/q3_b07.pdf",
+      "source_sha256": "64a32082fc20c37e1ae1f72d25df9fbaea2202d00a2a9ee216fad27af488cccb"
+    },
+    {
+      "cert_id": "q3_b08",
+      "quarter": 3,
+      "borrower_id": "b08",
+      "split": "scored",
+      "source": "sources/q3_b08.html",
+      "pdf": "clean/q3_b08.pdf",
+      "source_sha256": "cc4e02a06f6475abc7eece1f04885c6ba3340d6282f991f9f477e0911c41e7ef"
+    },
+    {
+      "cert_id": "q3_b09",
+      "quarter": 3,
+      "borrower_id": "b09",
+      "split": "scored",
+      "source": "sources/q3_b09.html",
+      "pdf": "clean/q3_b09.pdf",
+      "source_sha256": "41bd75027826eca7facc6b4dccc29442f25d415ca3c291fc1a1d18f95c7df6a1"
+    },
+    {
+      "cert_id": "q3_b10",
+      "quarter": 3,
+      "borrower_id": "b10",
+      "split": "scored",
+      "source": "sources/q3_b10.html",
+      "pdf": "clean/q3_b10.pdf",
+      "source_sha256": "7a6decc69026e38d39e75decce1487f307b898fbcf2e63101c7c88edfde357b6"
+    },
+    {
+      "cert_id": "q3_b11",
+      "quarter": 3,
+      "borrower_id": "b11",
+      "split": "scored",
+      "source": "sources/q3_b11.html",
+      "pdf": "clean/q3_b11.pdf",
+      "source_sha256": "7cd2dc00cc66ae80469e86a4f838661620a9ff0c6a5e07ef81f96956ec548203"
+    },
+    {
+      "cert_id": "q3_b12",
+      "quarter": 3,
+      "borrower_id": "b12",
+      "split": "scored",
+      "source": "sources/q3_b12.html",
+      "pdf": "clean/q3_b12.pdf",
+      "source_sha256": "d44bf391b2fd821fb9d7a8e254d5e1ac387a5ab283c6da7d4cd32428d93cd0fd"
+    },
+    {
+      "cert_id": "q4_b01",
+      "quarter": 4,
+      "borrower_id": "b01",
+      "split": "scored",
+      "source": "sources/q4_b01.html",
+      "pdf": "clean/q4_b01.pdf",
+      "source_sha256": "78628fcdb07c90e9cfea268bc3cc578faae338c3e353b98a777bb13ccd3e9810"
+    },
+    {
+      "cert_id": "q4_b02",
+      "quarter": 4,
+      "borrower_id": "b02",
+      "split": "scored",
+      "source": "sources/q4_b02.html",
+      "pdf": "clean/q4_b02.pdf",
+      "source_sha256": "7294c1a11615724d342486d76ac6aafce5c41848c08a614492d71735d9b1cd61"
+    },
+    {
+      "cert_id": "q4_b03",
+      "quarter": 4,
+      "borrower_id": "b03",
+      "split": "scored",
+      "source": "sources/q4_b03.html",
+      "pdf": "clean/q4_b03.pdf",
+      "source_sha256": "c92ce8775c39233cd4ed1b261a790f773cf96652a6188b5bae7f047aa1850118"
+    },
+    {
+      "cert_id": "q4_b04",
+      "quarter": 4,
+      "borrower_id": "b04",
+      "split": "scored",
+      "source": "sources/q4_b04.html",
+      "pdf": "clean/q4_b04.pdf",
+      "source_sha256": "b187d91508c2e79e1f0c1f726d2846964a05a80f5a584dcb7e95086860bcb7b1"
+    },
+    {
+      "cert_id": "q4_b05",
+      "quarter": 4,
+      "borrower_id": "b05",
+      "split": "scored",
+      "source": "sources/q4_b05.html",
+      "pdf": "clean/q4_b05.pdf",
+      "source_sha256": "3c99612efa0a743a1f991f6925b5ddfc44001ce185ea40a6f2948149802c2812"
+    },
+    {
+      "cert_id": "q4_b06",
+      "quarter": 4,
+      "borrower_id": "b06",
+      "split": "scored",
+      "source": "sources/q4_b06.html",
+      "pdf": "clean/q4_b06.pdf",
+      "source_sha256": "76a85b1c9400ba1aa11f9a95e68594b764f2dfb2e3f2e40dfcbaf9a966ec3242"
+    },
+    {
+      "cert_id": "q4_b07",
+      "quarter": 4,
+      "borrower_id": "b07",
+      "split": "scored",
+      "source": "sources/q4_b07.html",
+      "pdf": "clean/q4_b07.pdf",
+      "source_sha256": "f9c2d7313c869e759c2bdf50f0597bf444814114dd2962d5f50def0e306d5d55"
+    },
+    {
+      "cert_id": "q4_b08",
+      "quarter": 4,
+      "borrower_id": "b08",
+      "split": "scored",
+      "source": "sources/q4_b08.html",
+      "pdf": "clean/q4_b08.pdf",
+      "source_sha256": "f524e99f7635942c1aae223db347ddd9b3d5f7578cbe244c6c67108820b4b89f"
+    },
+    {
+      "cert_id": "q4_b09",
+      "quarter": 4,
+      "borrower_id": "b09",
+      "split": "scored",
+      "source": "sources/q4_b09.html",
+      "pdf": "clean/q4_b09.pdf",
+      "source_sha256": "07665266e3b3baa046aa2c475296fc67ffe00ae1a3e88d783c60dd5a83d4c740"
+    },
+    {
+      "cert_id": "q4_b10",
+      "quarter": 4,
+      "borrower_id": "b10",
+      "split": "scored",
+      "source": "sources/q4_b10.html",
+      "pdf": "clean/q4_b10.pdf",
+      "source_sha256": "7ddf2d69a5d01b86525ad6344284d77ffa2f13da8b847f2e5c6760a691089500"
+    },
+    {
+      "cert_id": "q4_b11",
+      "quarter": 4,
+      "borrower_id": "b11",
+      "split": "scored",
+      "source": "sources/q4_b11.html",
+      "pdf": "clean/q4_b11.pdf",
+      "source_sha256": "0f6aa136fa15a36834f4182fbc8c21b2258609b247442e4fce205712cc1cec44"
+    },
+    {
+      "cert_id": "q4_b12",
+      "quarter": 4,
+      "borrower_id": "b12",
+      "split": "scored",
+      "source": "sources/q4_b12.html",
+      "pdf": "clean/q4_b12.pdf",
+      "source_sha256": "2bc43e8a1d446d2f63b062097cf993968d600ee54f0346adb737f90d03a83dc9"
+    }
+  ]
+}

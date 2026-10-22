@@ -1,0 +1,133 @@
+{
+  "doc_id": "cal_inv_06",
+  "lines": [
+    {
+      "doc_id": "cal_inv_06",
+      "page": 1,
+      "line_no": 1,
+      "property": "PR6812",
+      "claim_text": "The signed cost authorization RWM/31000/OC applies to this charge.",
+      "claim_type": "claims_afe",
+      "reference_kind": "reworded",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_inv_06",
+      "page": 1,
+      "line_no": 2,
+      "property": "PR4937",
+      "claim_text": "AFE approval authorizes this work.",
+      "claim_type": "claims_afe",
+      "reference_kind": "no_number",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "unsupported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_inv_06",
+      "page": 1,
+      "line_no": 3,
+      "property": "PR7524",
+      "claim_text": "AFE RWM/31402/OC is approved for this charge.",
+      "claim_type": "claims_afe",
+      "reference_kind": "reworded",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "contradicted",
+      "difficulty": "hard"
+    },
+    {
+      "doc_id": "cal_inv_06",
+      "page": 1,
+      "line_no": 4,
+      "property": "PR6812",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_inv_06",
+      "page": 1,
+      "line_no": 5,
+      "property": "PR2689",
+      "claim_text": "AFE approval authorizes this work.",
+      "claim_type": "claims_afe",
+      "reference_kind": "no_number",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "unsupported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_inv_06",
+      "page": 1,
+      "line_no": 6,
+      "property": "PR2689",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_inv_06",
+      "page": 1,
+      "line_no": 7,
+      "property": "PR7524",
+      "claim_text": "Authorized AFE rwm/31002/oc",
+      "claim_type": "claims_afe",
+      "reference_kind": "reformatted",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "cal_inv_06",
+      "page": 1,
+      "line_no": 8,
+      "property": "PR7524",
+      "claim_text": "AFE RWM/31402/OC is approved for this charge.",
+      "claim_type": "claims_afe",
+      "reference_kind": "exact",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "contradicted",
+      "difficulty": "plain"
+    }
+  ],
+  "remarks": [
+    {
+      "doc_id": "cal_inv_06",
+      "remark_id": 1,
+      "names_line": 3,
+      "text": "Line 3: AFE RWM/31402/OC is approved for this charge.",
+      "remark_role": "claim"
+    },
+    {
+      "doc_id": "cal_inv_06",
+      "remark_id": 2,
+      "names_line": 6,
+      "text": "Line 6: Work ticket copy is attached for service-date verification.",
+      "remark_role": "no_claim"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "doc_id": "sco_jib_16",
+  "lines": [
+    {
+      "doc_id": "sco_jib_16",
+      "page": 1,
+      "line_no": 1,
+      "property": "PR6812",
+      "claim_text": "AFE approved allocation: RWM/58260/OC",
+      "claim_type": "claims_afe",
+      "reference_kind": "exact",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "page": 1,
+      "line_no": 2,
+      "property": "PR7524",
+      "claim_text": "Posting this expense against AFE RWM/58262/OC follows its signed spending release.",
+      "claim_type": "claims_afe",
+      "reference_kind": "reworded",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "hard"
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "page": 1,
+      "line_no": 3,
+      "property": "PR4937",
+      "claim_text": "AFE spending release: RWM/58761/OC",
+      "claim_type": "claims_afe",
+      "reference_kind": "exact",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "contradicted",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "page": 1,
+      "line_no": 4,
+      "property": "PR2689",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "page": 1,
+      "line_no": 5,
+      "property": "PR6812",
+      "claim_text": "AFE RWM/58760/OC has a released allocation available for this billed service.",
+      "claim_type": "claims_afe",
+      "reference_kind": "reworded",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "contradicted",
+      "difficulty": "hard"
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "page": 2,
+      "line_no": 6,
+      "property": "PR4937",
+      "claim_text": "The approved allocation in AFE RWM/58263/OC permits posting this debit.",
+      "claim_type": "claims_afe",
+      "reference_kind": "reworded",
+      "placeholder_style": "n_a",
+      "property_match": "mismatch",
+      "authority_kind": "n_a",
+      "outcome": "unsupported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "page": 2,
+      "line_no": 7,
+      "property": "PR7524",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "page": 2,
+      "line_no": 8,
+      "property": "PR6812",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "page": 2,
+      "line_no": 9,
+      "property": "PR4937",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    }
+  ],
+  "remarks": [
+    {
+      "doc_id": "sco_jib_16",
+      "remark_id": 1,
+      "names_line": 2,
+      "text": "Line 2: Posting this expense against AFE RWM/58262/OC follows its signed spending release.",
+      "remark_role": "claim"
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "remark_id": 2,
+      "names_line": 5,
+      "text": "Line 5: AFE RWM/58760/OC has a released allocation available for this billed service.",
+      "remark_role": "claim"
+    },
+    {
+      "doc_id": "sco_jib_16",
+      "remark_id": 1,
+      "names_line": 6,
+      "text": "Line 6: The crew used a portable lighting unit.",
+      "remark_role": "no_claim"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+ "months": [
+  3,
+  4,
+  5,
+  6
+ ],
+ "arms": {
+  "A": {
+   "lines": 840,
+   "held": 365,
+   "right": 449,
+   "silent": 87,
+   "false_hold": 304,
+   "claim_targets": 56,
+   "claim_held": 27,
+   "dollars_share": 0.3849,
+   "per_class": {
+    "wrong_decimal": "6/16",
+    "wrong_rate": "6/16",
+    "nonconsent_property": "4/16",
+    "afe_overrun": "6/16",
+    "duplicate": "6/16",
+    "date_window": "6/16"
+   },
+   "months_over_silent_mark": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "spend_usd": 0.0,
+   "wall_s": null,
+   "run": "A-audit45-m3456-20261008T205159Z",
+   "expected_mean": {
+    "silent": 80.823,
+    "reviewed": 383.004
+   }
+  },
+  "B": {
+   "lines": 840,
+   "held": 147,
+   "right": 839,
+   "silent": 1,
+   "false_hold": 0,
+   "claim_targets": 56,
+   "claim_held": 56,
+   "dollars_share": 0.998,
+   "per_class": {
+    "wrong_decimal": "15/16",
+    "wrong_rate": "16/16",
+    "nonconsent_property": "16/16",
+    "afe_overrun": "16/16",
+    "duplicate": "16/16",
+    "date_window": "16/16"
+   },
+   "months_over_silent_mark": [],
+   "spend_usd": 0.0,
+   "wall_s": 186.1,
+   "run": "B-claude-live-m3456-20261008T205201Z"
+  },
+  "C": {
+   "lines": 840,
+   "held": 120,
+   "right": 812,
+   "silent": 28,
+   "false_hold": 0,
+   "claim_targets": 56,
+   "claim_held": 56,
+   "dollars_share": 0.8147,
+   "per_class": {
+    "wrong_decimal": "14/16",
+    "wrong_rate": "16/16",
+    "nonconsent_property": "16/16",
+    "afe_overrun": "0/16",
+    "duplicate": "6/16",
+    "date_window": "16/16"
+   },
+   "months_over_silent_mark": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "spend_usd": 0.035388,
+   "wall_s": 912.8,
+   "run": "C-cascade-live-m3456-20261008T210427Z"
+  },
+  "D": {
+   "lines": 840,
+   "held": 154,
+   "right": 834,
+   "silent": 0,
+   "false_hold": 6,
+   "claim_targets": 56,
+   "claim_held": 56,
+   "dollars_share": 1.0,
+   "per_class": {
+    "wrong_decimal": "16/16",
+    "wrong_rate": "16/16",
+    "nonconsent_property": "16/16",
+    "afe_overrun": "16/16",
+    "duplicate": "16/16",
+    "date_window": "16/16"
+   },
+   "months_over_silent_mark": [],
+   "spend_usd": 0.040906,
+   "wall_s": 345.4,
+   "run": "D-jev-live-m123456-20261008T212050Z"
+  }
+ }
+}

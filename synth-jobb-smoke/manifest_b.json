@@ -1,0 +1,53 @@
+{
+  "synthetic": true,
+  "seed": 731984206,
+  "spec_sha256": "483dea7eb2ecbba1b910f22154cbb1afeabba4e4ec6aff14caafa3c89fe892de",
+  "rounding": "Decimal ROUND_HALF_EVEN to cents per line; totals sum printed line amounts.",
+  "scan": "Not generated (D-286).",
+  "documents": [
+    {
+      "doc_id": "smk_jib_01",
+      "split": "smoke",
+      "type": "jib_statement",
+      "pages": 1,
+      "source": "src/smk_jib_01.html",
+      "clean": "clean/smk_jib_01.pdf",
+      "source_sha256": "aee54d4766e6898f2b95dfcd0d5498bbd78d0fc3f874c2e93d5756baff5ce509",
+      "line_count": 8,
+      "remark_count": 3,
+      "gross_total": "48879.69",
+      "net_total": "9164.94"
+    },
+    {
+      "doc_id": "smk_jib_02",
+      "split": "smoke",
+      "type": "jib_statement",
+      "pages": 1,
+      "source": "src/smk_jib_02.html",
+      "clean": "clean/smk_jib_02.pdf",
+      "source_sha256": "97587448d846c4d5c614f237a6fee291918f61d52f1188c19f4f7d566018b666",
+      "line_count": 8,
+      "remark_count": 2,
+      "gross_total": "68756.35",
+      "net_total": "12891.82"
+    },
+    {
+      "doc_id": "smk_inv_01",
+      "split": "smoke",
+      "type": "vendor_invoice",
+      "pages": 1,
+      "source": "src/smk_inv_01.html",
+      "clean": "clean/smk_inv_01.pdf",
+      "source_sha256": "d84206673481133f83f59d23d06b5440a2397ae8ce688ae8d07f91496ec4040f",
+      "line_count": 8,
+      "remark_count": 3,
+      "gross_total": "79949.66",
+      "net_total": "14990.57"
+    }
+  ],
+  "truth": "truth_b.json",
+  "references": [
+    "reference/afe_register.json",
+    "reference/doi.json"
+  ]
+}

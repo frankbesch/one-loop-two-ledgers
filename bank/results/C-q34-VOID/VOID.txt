@@ -1,0 +1,1 @@
+VOID 2026-10-08 19:25 CT: one general-model call (q4_b06) returned unparseable JSON ('model returned no JSON'); 7 units failed closed. Void rule (05-replication-plan.md, applied by 10-banking-mirror-plan.md §8): a call error that fails closed voids the run; repeated as C-q34-run2. Jev spend of this run: $0.008014 [measured].

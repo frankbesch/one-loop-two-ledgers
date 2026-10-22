@@ -1,0 +1,298 @@
+[
+  {
+    "afe_number": "BX:7301:K",
+    "property_no": "LX/840/P",
+    "scope": "Routine well servicing and production maintenance",
+    "approved_amount": 175000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7302:K",
+    "property_no": "LX/857/P",
+    "scope": "Routine well servicing and production maintenance",
+    "approved_amount": 175000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7303:K",
+    "property_no": "LX/874/P",
+    "scope": "Routine well servicing and production maintenance",
+    "approved_amount": 175000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7304:K",
+    "property_no": "LX/891/P",
+    "scope": "Routine well servicing and production maintenance",
+    "approved_amount": 175000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7305:K",
+    "property_no": "LX/908/P",
+    "scope": "Routine well servicing and production maintenance",
+    "approved_amount": 175000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7306:K",
+    "property_no": "LX/925/P",
+    "scope": "Routine well servicing and production maintenance",
+    "approved_amount": 175000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7401:K",
+    "property_no": "LX/840/P",
+    "scope": "Proposed pump conversion; authorization declined",
+    "approved_amount": 175000,
+    "status": "declined",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7402:K",
+    "property_no": "LX/857/P",
+    "scope": "Proposed pump conversion; authorization declined",
+    "approved_amount": 175000,
+    "status": "declined",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7403:K",
+    "property_no": "LX/874/P",
+    "scope": "Proposed pump conversion; authorization declined",
+    "approved_amount": 175000,
+    "status": "declined",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7404:K",
+    "property_no": "LX/891/P",
+    "scope": "Proposed pump conversion; authorization declined",
+    "approved_amount": 175000,
+    "status": "declined",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7405:K",
+    "property_no": "LX/908/P",
+    "scope": "Proposed pump conversion; authorization declined",
+    "approved_amount": 175000,
+    "status": "declined",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7406:K",
+    "property_no": "LX/925/P",
+    "scope": "Proposed pump conversion; authorization declined",
+    "approved_amount": 175000,
+    "status": "declined",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7501:K",
+    "property_no": "LX/874/P",
+    "scope": "Additional tubing integrity campaign",
+    "approved_amount": 175000,
+    "status": "approved",
+    "approved_on": "2025-05-12"
+  },
+  {
+    "afe_number": "BX:7610:K",
+    "property_no": "LX/857/P",
+    "scope": "Separate isolation-valve renewal package 1.1",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7611:K",
+    "property_no": "LX/874/P",
+    "scope": "Separate isolation-valve renewal package 1.2",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7612:K",
+    "property_no": "LX/891/P",
+    "scope": "Separate isolation-valve renewal package 1.3",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7613:K",
+    "property_no": "LX/840/P",
+    "scope": "Separate isolation-valve renewal package 1.4",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7620:K",
+    "property_no": "LX/874/P",
+    "scope": "Separate isolation-valve renewal package 2.1",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7621:K",
+    "property_no": "LX/891/P",
+    "scope": "Separate isolation-valve renewal package 2.2",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7622:K",
+    "property_no": "LX/840/P",
+    "scope": "Separate isolation-valve renewal package 2.3",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7623:K",
+    "property_no": "LX/857/P",
+    "scope": "Separate isolation-valve renewal package 2.4",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7630:K",
+    "property_no": "LX/891/P",
+    "scope": "Separate isolation-valve renewal package 3.1",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7631:K",
+    "property_no": "LX/840/P",
+    "scope": "Separate isolation-valve renewal package 3.2",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7632:K",
+    "property_no": "LX/857/P",
+    "scope": "Separate isolation-valve renewal package 3.3",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7633:K",
+    "property_no": "LX/874/P",
+    "scope": "Separate isolation-valve renewal package 3.4",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7640:K",
+    "property_no": "LX/840/P",
+    "scope": "Separate isolation-valve renewal package 4.1",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7641:K",
+    "property_no": "LX/857/P",
+    "scope": "Separate isolation-valve renewal package 4.2",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7642:K",
+    "property_no": "LX/874/P",
+    "scope": "Separate isolation-valve renewal package 4.3",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7643:K",
+    "property_no": "LX/891/P",
+    "scope": "Separate isolation-valve renewal package 4.4",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7650:K",
+    "property_no": "LX/857/P",
+    "scope": "Separate isolation-valve renewal package 5.1",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7651:K",
+    "property_no": "LX/874/P",
+    "scope": "Separate isolation-valve renewal package 5.2",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7652:K",
+    "property_no": "LX/891/P",
+    "scope": "Separate isolation-valve renewal package 5.3",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7653:K",
+    "property_no": "LX/840/P",
+    "scope": "Separate isolation-valve renewal package 5.4",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7660:K",
+    "property_no": "LX/874/P",
+    "scope": "Separate isolation-valve renewal package 6.1",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7661:K",
+    "property_no": "LX/891/P",
+    "scope": "Separate isolation-valve renewal package 6.2",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7662:K",
+    "property_no": "LX/840/P",
+    "scope": "Separate isolation-valve renewal package 6.3",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  },
+  {
+    "afe_number": "BX:7663:K",
+    "property_no": "LX/857/P",
+    "scope": "Separate isolation-valve renewal package 6.4",
+    "approved_amount": 1000,
+    "status": "approved",
+    "approved_on": "2025-02-01"
+  }
+]

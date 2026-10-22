@@ -1,0 +1,41 @@
+{
+ "rule": "frozen",
+ "runs": {
+  "runs/bank/D4-stress-r1": {
+   "silent": {
+    "3": 1,
+    "4": 0
+   },
+   "held": {
+    "3": 23,
+    "4": 23
+   },
+   "silent_total": 1,
+   "held_total": 46
+  },
+  "runs/bank/D4-stress-r2-repeat": {
+   "silent": {
+    "3": 1,
+    "4": 0
+   },
+   "held": {
+    "3": 25,
+    "4": 23
+   },
+   "silent_total": 1,
+   "held_total": 48
+  },
+  "runs/bank/D4-stress-r3": {
+   "silent": {
+    "3": 1,
+    "4": 1
+   },
+   "held": {
+    "3": 25,
+    "4": 23
+   },
+   "silent_total": 2,
+   "held_total": 48
+  }
+ }
+}

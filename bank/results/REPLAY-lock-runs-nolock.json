@@ -1,0 +1,41 @@
+{
+ "rule": "invariant",
+ "runs": {
+  "runs/bank/D5-lock-r1": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 23,
+    "4": 23
+   },
+   "silent_total": 0,
+   "held_total": 46
+  },
+  "runs/bank/D5-lock-r2": {
+   "silent": {
+    "3": 0,
+    "4": 0
+   },
+   "held": {
+    "3": 26,
+    "4": 24
+   },
+   "silent_total": 0,
+   "held_total": 50
+  },
+  "runs/bank/D5-lock-r3": {
+   "silent": {
+    "3": 0,
+    "4": 1
+   },
+   "held": {
+    "3": 25,
+    "4": 23
+   },
+   "silent_total": 1,
+   "held_total": 48
+  }
+ }
+}

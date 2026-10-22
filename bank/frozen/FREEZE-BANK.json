@@ -1,0 +1,34 @@
+{
+ "frozen_at": "2026-10-09T00:14Z",
+ "note": "Step 7 freeze 2026-10-08 ~19:15 CT: banking data frozen 19:03 (frozen-q.json, 55 files); arm D calibrated on Q1-Q2 (claude-sonnet-5-5; 0 silent, 42 held = key); floors by the step 6 sweep policy; arm B smoke Q1 0 silent. Arms A-D code, rules, reader, scorer, and the pre-registration hashed.",
+ "floors_file": "floors-B.json",
+ "floors": {
+  "QC": 0.8,
+  "QR": 0.85,
+  "QX": 0.95
+ },
+ "hashes": {
+  "../bcode.py": "6753a06a0983c3add519f72797aab66bd5f8d14636f0159b4a3f967eba5d0824",
+  "../bunits.py": "5667895fc63ca5c3e55bb5b0ac23c52dabaea67dd42237cd8624ef92586e5cff",
+  "../bquestions.py": "c7775badf31c13e97a1636d7bdd149f2806e38e992b486396936268efc593171",
+  "../run_bank.py": "df8457e1dd25e1b6a2f6df657857a20c231f2e88194179b8db98252d5782033d",
+  "../arm_a_bank.py": "a9a211fdec6e9d15cb8106c613b4340f5bfacba13636609d3b2cd32e5fa02640",
+  "../arm_b_bank.py": "164d8286413d9a3bd7dc7a89f0431989027af1c910ed33c0530c0582488e5ee6",
+  "../arm_c_bank.py": "4cdb4c83b0bed033f06a7b854f45d2ca27c9ca5736d033259ab1793b8e60138c",
+  "../score_bank.py": "7fa37a4d4aab402f9c376b4268d1535d767983f409ae071f951e2b270b7214ba",
+  "../set_floors_b.py": "9d95a876f0b051b7a2535c6bfaf95ee0fd1313960b5b723a0a0ccc9cf9dbc7c4",
+  "floors-B.json": "c109b8de6a7723143f002a1b4612b5e54928ff5f7441ba1254f876fc00a03a72",
+  "../../jobb/units.py": "08c7ea97ee54cb9592ff4d91f83dd13c0267af0315ab944f49a6edb442eb062c",
+  "../../jobb/run_b.py": "ae9d17c37689ef919c31492e7da25bab7c223c28201f1398b83bccdefd30b86c",
+  "../../jobb/codelayer.py": "7e918c7cbdc609426395d943be3bfb52568c9989ad4907a0abf939bd523c5d38",
+  "../../jobb/questions.py": "4e3a56fa46f193a1456e49453e091be982e7c0988bdbf2fb03f500803ee15fcc",
+  "../../typed/jev_backend.py": "7d794c20d5ac58f035db7ad785270b22d0aca1ab176a50fd9d3282f216437674",
+  "../../month/arm_b.py": "6b8f6acaca92a40b78a8a6bcc441cc4eefdea694e4153d6ade718cfc6b384752",
+  "../../month/calc_mcp.py": "7882ef86262fa93918a5945b651d4abcaf41b2b0863051f8d8023f944ded2404",
+  "../../month/arms_common.py": "3f98eddb5557130c00e8b731dd98f1eb112dd1600f04341580ad2023454fc424",
+  "../../synth-bank/frozen-q.json": "99f98380074bb5dc7b28be862a957d519cdd0f009a2b65f2746d5e0cf6e362fb",
+  "../../synth-bank/truth_q.json": "a5301af48d7b4eefa9aec71c5ea67661be2d263fedfd6fd941a6477236a38bba",
+  "../../../artifacts/one-loop-step7-2026-10-08/inputs/rekey_fields_q.md": "0731a569b65fb53cacc704feefc53c103bc6ba7bd8e97aef176c741604f17b1d",
+  "../../../../../publishing/one-loop-two-ledgers/10-banking-mirror-plan.md": "da01a2dd2f5f9bff9ad88dd8db9f064f90955062b1a95457488a24fa5da01d4f"
+ }
+}

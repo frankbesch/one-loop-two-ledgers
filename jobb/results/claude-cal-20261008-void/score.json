@@ -1,0 +1,64 @@
+{
+ "arm": "claude-live-calibration-standard-20261008T154017Z",
+ "backend": "claude",
+ "mode": "live",
+ "vocab": "standard",
+ "lines": 210,
+ "correct": 3,
+ "needs_review": 197,
+ "sent_to_person": 197,
+ "marks": [
+  {
+   "mark": "M1 silent misses",
+   "targets": 99,
+   "value": 4,
+   "rule": "<= 2",
+   "verdict": "FAIL"
+  },
+  {
+   "mark": "M2 false alarms on supported",
+   "targets": 45,
+   "value": "45/45 = 100.0%",
+   "rule": "<= 10%",
+   "verdict": "FAIL"
+  },
+  {
+   "mark": "M3 value over code",
+   "targets": 75,
+   "value": "0/75 = 0.0% (right or routed: 72)",
+   "rule": ">= 80% right",
+   "verdict": "FAIL"
+  }
+ ],
+ "per_question": {
+  "Q2": {
+   "asked": 210,
+   "needs_review": 194,
+   "errors": 0,
+   "q17_fail": 0,
+   "answered": 16,
+   "right": 5
+  }
+ },
+ "confusion": {
+  "contradicted -> needs_review": 18,
+  "no_claim -> needs_review": 45,
+  "no_claim -> no_claim": 3,
+  "other_authority -> needs_review": 17,
+  "other_authority -> no_claim": 1,
+  "supported -> needs_review": 40,
+  "supported -> no_claim": 5,
+  "unsupported -> needs_review": 77,
+  "unsupported -> no_claim": 4
+ },
+ "cost": {
+  "requests": 258,
+  "live_calls": 258,
+  "spend_usd": null,
+  "spend_bound_usd": null,
+  "wall_s": 1547.0,
+  "claude_version": "2.1.294 (Claude Code)",
+  "claude_auth_method": "claude.ai",
+  "model": "claude-sonnet-5-5"
+ }
+}

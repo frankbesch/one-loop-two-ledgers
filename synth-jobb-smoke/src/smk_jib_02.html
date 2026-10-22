@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page { size: Letter; margin: 0; }
+* { box-sizing:border-box; }
+body { margin:0; color:#19252a; font-family:Arial,sans-serif; font-size:12px; }
+.page { width:8.5in; height:11in; padding:0.55in 0.55in 0.5in; position:relative; break-after:page; overflow:hidden; }
+.page:last-child { break-after:auto; }
+.eyebrow { font-size:10px; letter-spacing:2px; color:#526269; border-bottom:3px solid #344d59; padding-bottom:10px; }
+h1 { font-size:25px; margin:22px 0 15px; font-weight:500; }
+h2 { font-size:14px; margin:24px 0 12px; }
+.fields { margin:16px 0; }
+.field { display:flex; padding:5px 0; border-bottom:1px solid #d6dddf; min-height:25px; }
+.label { width:180px; flex-shrink:0; color:#42545b; }
+.value { font-weight:600; }
+p { line-height:1.65; }
+table { width:100%; border-collapse:collapse; margin:16px 0; font-size:11px; }
+th { background:#e4ebed; text-align:left; font-weight:600; padding:9px 5px; }
+td { padding:10px 5px; border-bottom:1px solid #c1cdd1; white-space:nowrap; }
+.compact td,.compact th { font-size:10px; padding:10px 4px; }
+.note { border-left:3px solid #a5b6bd; padding:12px; margin:20px 0; background:#f1f4f4; }
+.letter { font-family:Georgia,serif; font-size:14px; }
+.stamp { display:inline-block; border:3px double #795e64; color:#795e64; transform:rotate(-7deg); padding:7px 20px; font-size:19px; margin:8px 0; }
+.signature { margin-top:25px; padding-top:16px; border-top:1px solid #b5c1c6; }
+footer { position:absolute; bottom:0.33in; left:0.55in; right:0.55in; border-top:1px solid #abb9bf; padding-top:8px; color:#64747b; font-size:9px; }
+
+/* Job B: preserve complete sentences and keep each billing row together. */
+.page { overflow:visible; }
+h1 { margin:15px 0 12px; }
+.fields { display:grid; grid-template-columns:1fr 1fr; gap:0 22px; margin:12px 0; }
+.field { padding:4px 0; min-height:23px; }
+.label { width:120px; }
+table { table-layout:fixed; margin:12px 0; font-size:10px; }
+td,th { padding:7px 4px; vertical-align:top; }
+td { white-space:normal; line-height:1.35; overflow-wrap:break-word; }
+tr, .remark { break-inside:avoid; page-break-inside:avoid; }
+.number { text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+.property-name { display:block; font-size:9px; color:#526269; margin-top:3px; }
+.totals { display:flex; justify-content:flex-end; gap:28px; padding:10px 0; border-top:2px solid #344d59; }
+.note { margin:12px 0; padding:9px 12px; }
+.remark { margin:4px 0; line-height:1.45; font-size:11px; }
+</style></head><body><section class="page" data-page="1"><div class="eyebrow">OPERATIONS / OWNER RECORD</div><h1>Joint Interest Billing</h1><div class="fields"><div class="field"><span class="label">Document:</span><span class="value">smk_jib_02</span></div><div class="field"><span class="label">Accounting month:</span><span class="value">2027-03</span></div><div class="field"><span class="label">Operating company:</span><span class="value">Xelmuric</span></div><div class="field"><span class="label">Interest holder:</span><span class="value">Branthyxa</span></div><div class="field"><span class="label">Owner decimal:</span><span class="value">0.187500</span></div><div class="field"><span class="label">County:</span><span class="value">Uldravex</span></div></div><table><colgroup><col style="width:4%"><col style="width:9%"><col style="width:9%"><col style="width:25%"><col style="width:25%"><col style="width:10%"><col style="width:8%"><col style="width:10%"></colgroup><thead><tr><th>Line</th><th>Property</th><th>Vendor</th><th>Description</th><th>Reference</th><th>Gross</th><th>Decimal</th><th>Net</th></tr></thead><tbody><tr data-line="1" data-page="1"><td data-field="line_no">1</td><td data-field="property_no">PX/527<span class="property-name">Yavrix</span></td><td data-field="vendor">Jomvexa</td><td data-field="description">Separator gasket replacement</td><td data-field="reference">The authorized budget HZR:00719:00628 covers this labor.</td><td data-field="gross" class="number">11,802.79</td><td data-field="owner_decimal" class="number">0.187500</td><td data-field="net" class="number">2,213.02</td></tr><tr data-line="2" data-page="1"><td data-field="line_no">2</td><td data-field="property_no">PX/694<span class="property-name">Kelduma</span></td><td data-field="vendor">Pyrdunel</td><td data-field="description">Pump alignment labor</td><td data-field="reference"></td><td data-field="gross" class="number">5,125.26</td><td data-field="owner_decimal" class="number">0.187500</td><td data-field="net" class="number">960.99</td></tr><tr data-line="3" data-page="1"><td data-field="line_no">3</td><td data-field="property_no">PX/862<span class="property-name">Wespryn</span></td><td data-field="vendor">Jomvexa</td><td data-field="description">Authorized Budget binder scanning labor</td><td data-field="reference"></td><td data-field="gross" class="number">5,543.80</td><td data-field="owner_decimal" class="number">0.187500</td><td data-field="net" class="number">1,039.46</td></tr><tr data-line="4" data-page="1"><td data-field="line_no">4</td><td data-field="property_no">PX/381<span class="property-name">Istrum</span></td><td data-field="vendor">Pyrdunel</td><td data-field="description">Tubing inspection labor; The endorsed expenditure budget covers this work.</td><td data-field="reference">Identifier awaits retrieval from archives</td><td data-field="gross" class="number">15,517.52</td><td data-field="owner_decimal" class="number">0.187500</td><td data-field="net" class="number">2,909.54</td></tr><tr data-line="5" data-page="1"><td data-field="line_no">5</td><td data-field="property_no">PX/527<span class="property-name">Yavrix</span></td><td data-field="vendor">Jomvexa</td><td data-field="description">Separator gasket replacement; The endorsed budget includes this maintenance.</td><td data-field="reference">hzr:842:932</td><td data-field="gross" class="number">6,367.16</td><td data-field="owner_decimal" class="number">0.187500</td><td data-field="net" class="number">1,193.84</td></tr><tr data-line="6" data-page="1"><td data-field="line_no">6</td><td data-field="property_no">PX/527<span class="property-name">Yavrix</span></td><td data-field="vendor">Pyrdunel</td><td data-field="description">Pump alignment labor</td><td data-field="reference"></td><td data-field="gross" class="number">4,248.47</td><td data-field="owner_decimal" class="number">0.187500</td><td data-field="net" class="number">796.59</td></tr><tr data-line="7" data-page="1"><td data-field="line_no">7</td><td data-field="property_no">PX/862<span class="property-name">Wespryn</span></td><td data-field="vendor">Jomvexa</td><td data-field="description">Compressor maintenance labor</td><td data-field="reference">This work falls under the sanctioned budget. Identifier will appear in the supplemental schedule.</td><td data-field="gross" class="number">13,750.52</td><td data-field="owner_decimal" class="number">0.187500</td><td data-field="net" class="number">2,578.22</td></tr><tr data-line="8" data-page="1"><td data-field="line_no">8</td><td data-field="property_no">PX/694<span class="property-name">Kelduma</span></td><td data-field="vendor">Pyrdunel</td><td data-field="description">Tubing inspection labor; The sanctioned budget funds these repairs.</td><td data-field="reference">HZR:00845:00935</td><td data-field="gross" class="number">6,400.83</td><td data-field="owner_decimal" class="number">0.187500</td><td data-field="net" class="number">1,200.16</td></tr></tbody></table><div class="totals"><span data-total="gross_total">Gross total: <b>68,756.35</b></span><span data-total="net_total">Net total: <b>12,891.82</b></span></div><div class="note"><p class="remark" data-remark="1">Line 2: This charge uses the authorized expenditure budget. Identifier will be supplied after indexing.</p><p class="remark" data-remark="2">Line 5: Supporting photographs occupy attachment 2.</p></div><footer>SYNTHETIC STUDY DOCUMENT - NOT VALID FOR PAYMENT</footer></section></body></html>

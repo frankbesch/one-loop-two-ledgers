@@ -1,0 +1,37 @@
+[
+  {
+    "property_no": "WQ814",
+    "owner_decimal": 0.125,
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ927",
+    "owner_decimal": 0.2,
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ365",
+    "owner_decimal": 0.075,
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ482",
+    "owner_decimal": 0.18,
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ156",
+    "owner_decimal": 0.16,
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ739",
+    "owner_decimal": 0.1,
+    "effective": "2024-01-01"
+  },
+  {
+    "property_no": "WQ814",
+    "owner_decimal": 0.14,
+    "effective": "2027-04-01"
+  }
+]

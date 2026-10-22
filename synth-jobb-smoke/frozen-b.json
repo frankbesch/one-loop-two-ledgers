@@ -1,0 +1,8 @@
+{
+ "truth_b.json": "d00e1f2db76c4a1d76072d6c2c8e534ceeaff86376156d8fb324a0e76063bfa9",
+ "reference/afe_register.json": "8a08a4650b8183c8540aa0d5889ac69689327ff70b9e851c647099459b011d64",
+ "reference/doi.json": "10213b4baae426ce6ed726303fa8aa8333f246420eb1b0736fd38f18dc7cbf8d",
+ "clean/smk_inv_01.pdf": "7261a8ae81d1b3e33331239dc610cf50fe56b1430aef2345489384c3ad778167",
+ "clean/smk_jib_01.pdf": "7e7f1c2b09ff7f91f0334115598862a38e1e8279770733c4fe344cd580d518e9",
+ "clean/smk_jib_02.pdf": "8ea2b1d9fa1d9d68ea5a804ee0cbaabec664b17545e101083d1998f6f6b7b442"
+}

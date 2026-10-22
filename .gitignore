@@ -1,0 +1,9 @@
+runs/
+__pycache__/
+.DS_Store
+.env
+.venv*
+*.log
+month/_loop/
+month/frozen/_scratch/
+scratch/

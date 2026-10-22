@@ -1,0 +1,1 @@
+VOID 2026-10-09: one general-model call (Q4, q4_b10 addback 1, QC) returned truncated JSON ('model returned no JSON'); the answer failed closed to needs_review. Void rule (15-stress-set-preregistration.md §4, as in steps 7b and 7c): a call error that fails closed voids the run. The run was allowed to finish and is reported as void, not scored. Repeated as D4-stress-r2-repeat.

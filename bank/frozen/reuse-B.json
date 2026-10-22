@@ -1,0 +1,304 @@
+{
+ "components": 25,
+ "counts": {
+  "unchanged": 4,
+  "configured": 11,
+  "rewritten": 9,
+  "not used": 1
+ },
+ "share_unchanged": 0.16,
+ "share_unchanged_or_configured": 0.6,
+ "loc": {
+  "unchanged": 994,
+  "configured": 1626,
+  "rewritten": 1482,
+  "not used": 190
+ },
+ "loc_note": "lines of the step 6 files behind each class; a file behind several components counts in each, so the classes overlap",
+ "rows": [
+  {
+   "n": 1,
+   "component": "Freeze tooling",
+   "step6": [
+    "month/freeze_abc.py"
+   ],
+   "bank": "bank/freeze_bank.py",
+   "cls": "configured",
+   "how": "same hash-manifest method, new file list",
+   "loc": 31
+  },
+  {
+   "n": 2,
+   "component": "PDF word-box reader",
+   "step6": [
+    "jobb/units.py"
+   ],
+   "bank": "bank/bunits.py",
+   "cls": "unchanged",
+   "how": "imports page_words, visual_lines",
+   "loc": 165
+  },
+  {
+   "n": 3,
+   "component": "Format-map table parser",
+   "step6": [
+    "month/munits.py"
+   ],
+   "bank": "bank/bunits.py",
+   "cls": "rewritten",
+   "how": "certificate sections, not bill columns",
+   "loc": 152
+  },
+  {
+   "n": 4,
+   "component": "Typed-question adapter, general model",
+   "step6": [
+    "jobb/questions.py",
+    "month/mquestions.py"
+   ],
+   "bank": "bank/bquestions.py",
+   "cls": "configured",
+   "how": "same prompt contract, new questions and options",
+   "loc": 186
+  },
+  {
+   "n": 5,
+   "component": "Typed-question adapter, small model",
+   "step6": [
+    "jobb/questions.py"
+   ],
+   "bank": "bank/arm_c_bank.py",
+   "cls": "configured",
+   "how": "choice-question body, new options",
+   "loc": 128
+  },
+  {
+   "n": 6,
+   "component": "Decide-and-floor rule",
+   "step6": [
+    "jobb/questions.py"
+   ],
+   "bank": "bank/bquestions.py",
+   "cls": "configured",
+   "how": "same rule, new option sets",
+   "loc": 128
+  },
+  {
+   "n": 7,
+   "component": "Quote (evidence) check",
+   "step6": [
+    "jobb/codelayer.py"
+   ],
+   "bank": "bank/bquestions.py",
+   "cls": "configured",
+   "how": "imports _squash; number-in-quote rule added",
+   "loc": 138
+  },
+  {
+   "n": 8,
+   "component": "CLI call wrapper",
+   "step6": [
+    "jobb/run_b.py"
+   ],
+   "bank": "bank/run_bank.py",
+   "cls": "unchanged",
+   "how": "imports ask_claude",
+   "loc": 311
+  },
+  {
+   "n": 9,
+   "component": "Small-model HTTP backend",
+   "step6": [
+    "typed/jev_backend.py"
+   ],
+   "bank": "bank/arm_c_bank.py",
+   "cls": "unchanged",
+   "how": "imports jev_backend",
+   "loc": 243
+  },
+  {
+   "n": 10,
+   "component": "Replay",
+   "step6": [
+    "month/run_month.py"
+   ],
+   "bank": "bank/run_bank.py",
+   "cls": "rewritten",
+   "how": "keyed by certificate and addback",
+   "loc": 356
+  },
+  {
+   "n": 11,
+   "component": "Reference in force by date",
+   "step6": [
+    "month/mcode.py"
+   ],
+   "bank": null,
+   "cls": "not used",
+   "how": "credit agreements carry no dated versions here",
+   "loc": 190
+  },
+  {
+   "n": 12,
+   "component": "Domain money rules",
+   "step6": [
+    "month/mcode.py"
+   ],
+   "bank": "bank/bcode.py",
+   "cls": "rewritten",
+   "how": "covenant, addback, cure, signer, delivery rules",
+   "loc": 190
+  },
+  {
+   "n": 13,
+   "component": "Claim-outcome table",
+   "step6": [
+    "month/mcode.py"
+   ],
+   "bank": "bank/bcode.py",
+   "cls": "rewritten",
+   "how": "addback permitted / cap / window tests",
+   "loc": 190
+  },
+  {
+   "n": 14,
+   "component": "Hold/post policy",
+   "step6": [
+    "month/mcode.py"
+   ],
+   "bank": "bank/bcode.py",
+   "cls": "rewritten",
+   "how": "hold on error or breach, plus the owner rule",
+   "loc": 190
+  },
+  {
+   "n": 15,
+   "component": "Ledger state across periods",
+   "step6": [
+    "month/mcode.py"
+   ],
+   "bank": "bank/run_bank.py",
+   "cls": "rewritten",
+   "how": "cure history from the bank records",
+   "loc": 190
+  },
+  {
+   "n": 16,
+   "component": "Close step with audit sample",
+   "step6": [
+    "month/run_month.py"
+   ],
+   "bank": "bank/run_bank.py",
+   "cls": "configured",
+   "how": "same 5% audit, units instead of lines",
+   "loc": 356
+  },
+  {
+   "n": 17,
+   "component": "Learning-step challenger and promotion",
+   "step6": [
+    "month/loop.py"
+   ],
+   "bank": "bank/run_bank.py",
+   "cls": "configured",
+   "how": "same promotion rule, new replay",
+   "loc": 63
+  },
+  {
+   "n": 18,
+   "component": "Floor sweep",
+   "step6": [
+    "month/set_floors_m.py"
+   ],
+   "bank": "bank/set_floors_b.py",
+   "cls": "configured",
+   "how": "same policy and grid, one model",
+   "loc": 95
+  },
+  {
+   "n": 19,
+   "component": "Per-period scorer",
+   "step6": [
+    "month/score_month.py"
+   ],
+   "bank": "bank/score_bank.py",
+   "cls": "rewritten",
+   "how": "unit key, breach and owner metrics",
+   "loc": 60
+  },
+  {
+   "n": 20,
+   "component": "Cross-arm table",
+   "step6": [
+    "month/compare_arms.py"
+   ],
+   "bank": "bank/score_bank.py",
+   "cls": "rewritten",
+   "how": "folded into the bank scorer",
+   "loc": 79
+  },
+  {
+   "n": 21,
+   "component": "Replication summary",
+   "step6": [
+    "month/replicate_summary.py"
+   ],
+   "bank": "bank/score_bank.py",
+   "cls": "rewritten",
+   "how": "folded into the bank scorer",
+   "loc": 75
+  },
+  {
+   "n": 22,
+   "component": "Arm A sampler",
+   "step6": [
+    "month/arm_a.py"
+   ],
+   "bank": "bank/arm_a_bank.py",
+   "cls": "configured",
+   "how": "certificates instead of properties",
+   "loc": 79
+  },
+  {
+   "n": 23,
+   "component": "Arm B runner with calculator tool",
+   "step6": [
+    "month/arm_b.py",
+    "month/calc_mcp.py"
+   ],
+   "bank": "bank/arm_b_bank.py",
+   "cls": "unchanged",
+   "how": "imports claude_stream, calc_args; calc_mcp run as is",
+   "loc": 275
+  },
+  {
+   "n": 24,
+   "component": "Arm C cascade runner",
+   "step6": [
+    "month/arm_c.py"
+   ],
+   "bank": "bank/arm_c_bank.py",
+   "cls": "configured",
+   "how": "same flow, new options and arithmetic",
+   "loc": 224
+  },
+  {
+   "n": 25,
+   "component": "Codex data-build runner",
+   "step6": [
+    "jobb/run_jobb.py",
+    "month/run_build.py"
+   ],
+   "bank": "bank/run_build.py",
+   "cls": "configured",
+   "how": "run_jobb plumbing imported unchanged; stage inputs configured",
+   "loc": 198
+  }
+ ],
+ "problems": [],
+ "new_banking_only": [
+  "check_reader.py",
+  "check_spec_q.py",
+  "reuse_count.py"
+ ]
+}

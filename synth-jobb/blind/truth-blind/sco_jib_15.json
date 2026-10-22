@@ -1,0 +1,147 @@
+{
+  "doc_id": "sco_jib_15",
+  "lines": [
+    {
+      "doc_id": "sco_jib_15",
+      "page": 1,
+      "line_no": 1,
+      "property": "PR2689",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_15",
+      "page": 1,
+      "line_no": 2,
+      "property": "PR2689",
+      "claim_text": "AFE approved allocation: RWM/59314/OC",
+      "claim_type": "claims_afe",
+      "reference_kind": "unknown_number",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "unsupported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_15",
+      "page": 1,
+      "line_no": 3,
+      "property": "PR7524",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_15",
+      "page": 1,
+      "line_no": 4,
+      "property": "PR2689",
+      "claim_text": "AFE consent recorded: RWM/58263/OC",
+      "claim_type": "claims_afe",
+      "reference_kind": "exact",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_15",
+      "page": 1,
+      "line_no": 5,
+      "property": "PR4937",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_15",
+      "page": 2,
+      "line_no": 6,
+      "property": "PR6812",
+      "claim_text": "Permission to incur this cost was recorded when AFE RWM/58260/OC received approval.",
+      "claim_type": "claims_afe",
+      "reference_kind": "reworded",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_15",
+      "page": 2,
+      "line_no": 7,
+      "property": "PR6812",
+      "claim_text": null,
+      "claim_type": "no_claim",
+      "reference_kind": "none",
+      "placeholder_style": "n_a",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "no_claim",
+      "difficulty": "plain"
+    },
+    {
+      "doc_id": "sco_jib_15",
+      "page": 2,
+      "line_no": 8,
+      "property": "PR7524",
+      "claim_text": "The approved allocation in AFE RWM/58262/OC permits posting this debit.",
+      "claim_type": "claims_afe",
+      "reference_kind": "reworded",
+      "placeholder_style": "n_a",
+      "property_match": "match",
+      "authority_kind": "n_a",
+      "outcome": "supported",
+      "difficulty": "hard"
+    },
+    {
+      "doc_id": "sco_jib_15",
+      "page": 2,
+      "line_no": 9,
+      "property": "PR7524",
+      "claim_text": "Charge the approved AFE; the records clerk must still fill its identifying field.",
+      "claim_type": "claims_afe",
+      "reference_kind": "placeholder",
+      "placeholder_style": "paraphrased",
+      "property_match": "n_a",
+      "authority_kind": "n_a",
+      "outcome": "unsupported",
+      "difficulty": "plain"
+    }
+  ],
+  "remarks": [
+    {
+      "doc_id": "sco_jib_15",
+      "remark_id": 1,
+      "names_line": 1,
+      "text": "Line 1: The field copy records the arrival time.",
+      "remark_role": "no_claim"
+    },
+    {
+      "doc_id": "sco_jib_15",
+      "remark_id": 1,
+      "names_line": 8,
+      "text": "Line 8: The approved allocation in AFE RWM/58262/OC permits posting this debit.",
+      "remark_role": "claim"
+    }
+  ]
+}

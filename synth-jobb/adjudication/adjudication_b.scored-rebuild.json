@@ -1,0 +1,653 @@
+{
+  "keys": {
+    "truth_b": "truth_b.json",
+    "truth_blind": "truth-blind/<doc_id>.json"
+  },
+  "comparison": {
+    "line_identity": [
+      "doc_id",
+      "line_no"
+    ],
+    "remark_identity": [
+      "doc_id",
+      "names_line",
+      "text"
+    ],
+    "difference_unit": "one differing field per entry",
+    "scope": "All shared record fields; source-only fields are not label disagreements.",
+    "remark_numbering": "Page-local order from 1, as defined in rekey_fields_b.md.",
+    "documents_compared": 24,
+    "lines_compared": 216,
+    "remarks_compared": 44,
+    "unmatched_lines": 0,
+    "unmatched_remarks": 0
+  },
+  "counts_per_split": {
+    "scored": {
+      "differences": 26,
+      "content_differences": 11,
+      "numbering_only_differences": 15,
+      "affected_lines": 7,
+      "affected_remarks": 15,
+      "truth_b_decisions": 11,
+      "truth_blind_decisions": 15,
+      "unresolved_differences": 0
+    }
+  },
+  "unresolved_per_split": {
+    "scored": 0
+  },
+  "differences": [
+    {
+      "difference_id": "sco_inv_01:line:9:property",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_inv_01",
+      "page": 2,
+      "line_no": 9,
+      "field": "property",
+      "truth_b_value": "PR6812",
+      "truth_blind_value": "PR2689",
+      "decision": "truth_b",
+      "adjudicated_value": "PR6812",
+      "resolved": true,
+      "reason": "Page 2, line 9, prints property PR6812, matching truth_b.json.",
+      "evidence": {
+        "image": "page-images/clean/sco_inv_01-2.png",
+        "printed_property": "PR6812"
+      }
+    },
+    {
+      "difference_id": "sco_inv_03:line:1:property",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_inv_03",
+      "page": 1,
+      "line_no": 1,
+      "field": "property",
+      "truth_b_value": "PR7524",
+      "truth_blind_value": "PR2689",
+      "decision": "truth_b",
+      "adjudicated_value": "PR7524",
+      "resolved": true,
+      "reason": "Page 1, line 1, prints property PR7524, matching truth_b.json.",
+      "evidence": {
+        "image": "page-images/clean/sco_inv_03-1.png",
+        "printed_property": "PR7524"
+      }
+    },
+    {
+      "difference_id": "sco_jib_03:line:2:property",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_jib_03",
+      "page": 1,
+      "line_no": 2,
+      "field": "property",
+      "truth_b_value": "PR4937",
+      "truth_blind_value": "PR6812",
+      "decision": "truth_b",
+      "adjudicated_value": "PR4937",
+      "resolved": true,
+      "reason": "Page 1, line 2, prints property PR4937, matching truth_b.json.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_03-1.png",
+        "printed_property": "PR4937"
+      }
+    },
+    {
+      "difference_id": "sco_jib_05:line:1:property",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_jib_05",
+      "page": 1,
+      "line_no": 1,
+      "field": "property",
+      "truth_b_value": "PR4937",
+      "truth_blind_value": "PR6812",
+      "decision": "truth_b",
+      "adjudicated_value": "PR4937",
+      "resolved": true,
+      "reason": "Page 1, line 1, prints property PR4937, matching truth_b.json.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_05-1.png",
+        "printed_property": "PR4937"
+      }
+    },
+    {
+      "difference_id": "sco_jib_06:line:4:property",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_jib_06",
+      "page": 1,
+      "line_no": 4,
+      "field": "property",
+      "truth_b_value": "PR6812",
+      "truth_blind_value": "PR2689",
+      "decision": "truth_b",
+      "adjudicated_value": "PR6812",
+      "resolved": true,
+      "reason": "Page 1, line 4, prints property PR6812, matching truth_b.json.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_06-1.png",
+        "printed_property": "PR6812"
+      }
+    },
+    {
+      "difference_id": "sco_jib_06:line:4:property_match",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_jib_06",
+      "page": 1,
+      "line_no": 4,
+      "field": "property_match",
+      "truth_b_value": "mismatch",
+      "truth_blind_value": "match",
+      "decision": "truth_b",
+      "adjudicated_value": "mismatch",
+      "resolved": true,
+      "reason": "The line prints PR6812, but the register approves RWM/58263/OC for PR2689, making the claim mismatched.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_06-1.png",
+        "printed_property": "PR6812",
+        "printed_afe": "RWM/58263/OC",
+        "register_afe": "RWM/58263/OC",
+        "register_property": "PR2689",
+        "register_status": "approved"
+      }
+    },
+    {
+      "difference_id": "sco_jib_06:line:4:outcome",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_jib_06",
+      "page": 1,
+      "line_no": 4,
+      "field": "outcome",
+      "truth_b_value": "unsupported",
+      "truth_blind_value": "supported",
+      "decision": "truth_b",
+      "adjudicated_value": "unsupported",
+      "resolved": true,
+      "reason": "The line prints PR6812, but the register approves RWM/58263/OC for PR2689, making the claim unsupported.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_06-1.png",
+        "printed_property": "PR6812",
+        "printed_afe": "RWM/58263/OC",
+        "register_afe": "RWM/58263/OC",
+        "register_property": "PR2689",
+        "register_status": "approved"
+      }
+    },
+    {
+      "difference_id": "sco_jib_15:line:6:property",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_jib_15",
+      "page": 2,
+      "line_no": 6,
+      "field": "property",
+      "truth_b_value": "PR2689",
+      "truth_blind_value": "PR6812",
+      "decision": "truth_b",
+      "adjudicated_value": "PR2689",
+      "resolved": true,
+      "reason": "Page 2, line 6, prints property PR2689, matching truth_b.json.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_15-2.png",
+        "printed_property": "PR2689"
+      }
+    },
+    {
+      "difference_id": "sco_jib_15:line:6:property_match",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_jib_15",
+      "page": 2,
+      "line_no": 6,
+      "field": "property_match",
+      "truth_b_value": "mismatch",
+      "truth_blind_value": "match",
+      "decision": "truth_b",
+      "adjudicated_value": "mismatch",
+      "resolved": true,
+      "reason": "The line prints PR2689, but the register approves RWM/58260/OC for PR6812, making the claim mismatched.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_15-2.png",
+        "printed_property": "PR2689",
+        "printed_afe": "RWM/58260/OC",
+        "register_afe": "RWM/58260/OC",
+        "register_property": "PR6812",
+        "register_status": "approved"
+      }
+    },
+    {
+      "difference_id": "sco_jib_15:line:6:outcome",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_jib_15",
+      "page": 2,
+      "line_no": 6,
+      "field": "outcome",
+      "truth_b_value": "unsupported",
+      "truth_blind_value": "supported",
+      "decision": "truth_b",
+      "adjudicated_value": "unsupported",
+      "resolved": true,
+      "reason": "The line prints PR2689, but the register approves RWM/58260/OC for PR6812, making the claim unsupported.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_15-2.png",
+        "printed_property": "PR2689",
+        "printed_afe": "RWM/58260/OC",
+        "register_afe": "RWM/58260/OC",
+        "register_property": "PR6812",
+        "register_status": "approved"
+      }
+    },
+    {
+      "difference_id": "sco_jib_18:line:6:property",
+      "split": "scored",
+      "record_type": "line",
+      "difference_type": "content",
+      "doc_id": "sco_jib_18",
+      "page": 2,
+      "line_no": 6,
+      "field": "property",
+      "truth_b_value": "PR2689",
+      "truth_blind_value": "PR7524",
+      "decision": "truth_b",
+      "adjudicated_value": "PR2689",
+      "resolved": true,
+      "reason": "Page 2, line 6, prints property PR2689, matching truth_b.json.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_18-2.png",
+        "printed_property": "PR2689"
+      }
+    },
+    {
+      "difference_id": "sco_inv_01:remark:page:1:line:2:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_inv_01",
+      "page": 1,
+      "names_line": 2,
+      "text": "Line 2: The meter reading was taken at departure.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 1, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_inv_01-1.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_inv_04:remark:page:1:line:5:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_inv_04",
+      "page": 1,
+      "names_line": 5,
+      "text": "Line 5: The onsite contact recorded the departure time.",
+      "remark_ids": {
+        "truth_b": 3,
+        "truth_blind": 2
+      },
+      "field": "remark_id",
+      "truth_b_value": 3,
+      "truth_blind_value": 2,
+      "decision": "truth_blind",
+      "adjudicated_value": 2,
+      "resolved": true,
+      "reason": "This identical remark appears second on page 1, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_inv_04-1.png",
+        "page_order": 2
+      }
+    },
+    {
+      "difference_id": "sco_inv_04:remark:page:2:line:7:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_inv_04",
+      "page": 2,
+      "names_line": 7,
+      "text": "Line 7: Posting this expense against AFE RWM/58763/OC follows its signed spending release.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 2, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_inv_04-2.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_jib_01:remark:page:1:line:2:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_01",
+      "page": 1,
+      "names_line": 2,
+      "text": "Line 2: Crew arrived through the east entrance.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 1, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_01-1.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_jib_07:remark:page:1:line:3:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_07",
+      "page": 1,
+      "names_line": 3,
+      "text": "Line 3: The driver used the south access gate.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 1, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_07-1.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_jib_08:remark:page:2:line:6:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_08",
+      "page": 2,
+      "names_line": 6,
+      "text": "Line 6: Delivery packaging remained onsite.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 2, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_08-2.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_jib_10:remark:page:1:line:4:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_10",
+      "page": 1,
+      "names_line": 4,
+      "text": "Line 4: The inspection occurred during daylight hours.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 1, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_10-1.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_jib_11:remark:page:2:line:6:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_11",
+      "page": 2,
+      "names_line": 6,
+      "text": "Line 6: Payment rests on the owner participation election accepted before work began.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 2, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_11-2.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_jib_11:remark:page:2:line:7:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_11",
+      "page": 2,
+      "names_line": 7,
+      "text": "Line 7: The equipment serial plate was legible.",
+      "remark_ids": {
+        "truth_b": 3,
+        "truth_blind": 2
+      },
+      "field": "remark_id",
+      "truth_b_value": 3,
+      "truth_blind_value": 2,
+      "decision": "truth_blind",
+      "adjudicated_value": 2,
+      "resolved": true,
+      "reason": "This identical remark appears second on page 2, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_11-2.png",
+        "page_order": 2
+      }
+    },
+    {
+      "difference_id": "sco_jib_12:remark:page:1:line:5:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_12",
+      "page": 1,
+      "names_line": 5,
+      "text": "Line 5: The supervisor retained the packing slip.",
+      "remark_ids": {
+        "truth_b": 3,
+        "truth_blind": 2
+      },
+      "field": "remark_id",
+      "truth_b_value": 3,
+      "truth_blind_value": 2,
+      "decision": "truth_blind",
+      "adjudicated_value": 2,
+      "resolved": true,
+      "reason": "This identical remark appears second on page 1, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_12-1.png",
+        "page_order": 2
+      }
+    },
+    {
+      "difference_id": "sco_jib_12:remark:page:2:line:9:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_12",
+      "page": 2,
+      "names_line": 9,
+      "text": "Line 9: The AFE spending release permits payment of the invoiced service.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 2, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_12-2.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_jib_14:remark:page:2:line:6:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_14",
+      "page": 2,
+      "names_line": 6,
+      "text": "Line 6: The transport vehicle carried two pallets.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 2, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_14-2.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_jib_15:remark:page:1:line:1:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_15",
+      "page": 1,
+      "names_line": 1,
+      "text": "Line 1: The field copy records the arrival time.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 1, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_15-1.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_jib_16:remark:page:2:line:6:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_16",
+      "page": 2,
+      "names_line": 6,
+      "text": "Line 6: The crew used a portable lighting unit.",
+      "remark_ids": {
+        "truth_b": 3,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 3,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 2, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_16-2.png",
+        "page_order": 1
+      }
+    },
+    {
+      "difference_id": "sco_jib_17:remark:page:1:line:5:remark_id",
+      "split": "scored",
+      "record_type": "remark",
+      "difference_type": "numbering_only",
+      "doc_id": "sco_jib_17",
+      "page": 1,
+      "names_line": 5,
+      "text": "Line 5: A paper service log remains at the field office.",
+      "remark_ids": {
+        "truth_b": 2,
+        "truth_blind": 1
+      },
+      "field": "remark_id",
+      "truth_b_value": 2,
+      "truth_blind_value": 1,
+      "decision": "truth_blind",
+      "adjudicated_value": 1,
+      "resolved": true,
+      "reason": "This identical remark appears first on page 1, so truth-blind follows the specified page-order numbering.",
+      "evidence": {
+        "image": "page-images/clean/sco_jib_17-1.png",
+        "page_order": 1
+      }
+    }
+  ]
+}

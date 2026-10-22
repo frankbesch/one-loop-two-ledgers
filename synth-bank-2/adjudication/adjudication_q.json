@@ -1,0 +1,64 @@
+{
+  "keys": {
+    "truth_q": "truth_q.json",
+    "truth_blind": "truth-blind/<cert_id>.json"
+  },
+  "comparison_key": [
+    "cert_id",
+    "unit_id"
+  ],
+  "units_compared": 396,
+  "differences": [
+    {
+      "cert_id": "q3_b01",
+      "unit_id": "ICR",
+      "quarter": 3,
+      "field": "cash_interest",
+      "truth_q_value": 12454400,
+      "truth_blind_value": 12445400,
+      "decision": "truth_q",
+      "adjudicated_value": 12454400,
+      "reason": "Schedule 2 prints cash interest of $12,454,400, which the reference definitions require as the keyed input.",
+      "page_image": "page-images/clean/q3_b01-2.png",
+      "reference": "rekey_fields_q.md#units"
+    },
+    {
+      "cert_id": "q3_b12",
+      "unit_id": "SIGNER",
+      "quarter": 3,
+      "field": "signer_name",
+      "truth_q_value": "Victor Elsden",
+      "truth_blind_value": "Victor Eldsen",
+      "decision": "truth_q",
+      "adjudicated_value": "Victor Elsden",
+      "reason": "The page names Victor Elsden, matching truth_q and the reference requirement to key the printed signer name.",
+      "page_image": "page-images/clean/q3_b12-2.png",
+      "reference": "rekey_fields_q.md#units"
+    },
+    {
+      "cert_id": "q4_b06",
+      "unit_id": "SIGNER",
+      "quarter": 4,
+      "field": "signer_name",
+      "truth_q_value": "Leon Graftell",
+      "truth_blind_value": "Leon Gratfell",
+      "decision": "truth_q",
+      "adjudicated_value": "Leon Graftell",
+      "reason": "The page names Leon Graftell, matching truth_q and the reference requirement to key the printed signer name.",
+      "page_image": "page-images/clean/q4_b06-2.png",
+      "reference": "rekey_fields_q.md#units"
+    }
+  ],
+  "differences_per_quarter": {
+    "Q1": 0,
+    "Q2": 0,
+    "Q3": 2,
+    "Q4": 1
+  },
+  "unresolved_per_quarter": {
+    "Q1": 0,
+    "Q2": 0,
+    "Q3": 0,
+    "Q4": 0
+  }
+}
