@@ -1,0 +1,26 @@
+# Secret scan config: every default gitleaks rule, plus two allowlists for
+# known false positives of one rule, generic-api-key. Nothing else is
+# allowlisted; every other rule and every other line is scanned as default.
+title = "one-loop-two-ledgers"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+
+# 1. The bank freeze manifests key each frozen file by its path and hold its
+#    SHA-256. The rule reads the 64-hex hash on the rekey_fields*.md line as
+#    a key. Both must hold: that path and that line shape.
+[[rules.allowlists]]
+description = "SHA-256 of rekey_fields*.md in bank/frozen/FREEZE-BANK*.json"
+condition = "AND"
+paths = ['''(^|/)bank/frozen/FREEZE-BANK[0-9-]*\.json$''']
+regexTarget = "line"
+regexes = ['''rekey_fields[a-z_]*\.md":\s*"[0-9a-f]{64}"''']
+
+# 2. The 'rekey_fields.md' filename string, quoted.
+[[rules.allowlists]]
+description = "the 'rekey_fields.md' filename string"
+regexTarget = "line"
+regexes = ['''['"]rekey_fields\.md['"]''']
