@@ -1,7 +1,8 @@
-# one-loop-two-ledgers
+# Research: One Loop, Two Ledgers
 
 One decision loop, judged by its worst run, on two synthetic ledgers: oil and gas partner bills and bank loan compliance certificates.
 
+![Type: research study](https://img.shields.io/badge/type-research_study-purple.svg)
 ![Status: beta](https://img.shields.io/badge/status-beta-orange.svg)
 [![Python 3.12, study code stdlib only](https://img.shields.io/badge/Python_3.12-study_code_stdlib_only-blue.svg)](typed/jev_backend.py#L32)
 [![Claude Code CLI, headless](https://img.shields.io/badge/Claude_Code_CLI-headless_claude_--p-blue.svg)](month/arms_common.py#L135)
@@ -52,7 +53,7 @@ Every measured number below comes from a result file in this repo.
 - **Oil and gas, four designs:** 2026-10-08. [Receipt](month/results/STEP5-RESULT-20261008.md).
 - **Replication, three runs each:** 2026-10-08. [Receipt](month/results/REPLICATION-RESULT-20261008.md).
 - **Bank mirror and its fixes:** 2026-10-08 to 2026-10-09. [Receipt](bank/results/BANK-RESULT-20261008.md).
-- **CI:** offline unit check and gate tests, plus a secret scan. Pending its first run.
+- **CI:** offline unit check and gate tests, plus a secret scan. Passed on main, 2026-10-22. [Runs](https://github.com/frankbesch/research-one-loop-two-ledgers/actions/workflows/ci.yml).
 
 ## Measured results
 
