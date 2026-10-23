@@ -1,7 +1,7 @@
 # Secret scan config: every default gitleaks rule, plus two allowlists for
 # known false positives of one rule, generic-api-key. Nothing else is
 # allowlisted; every other rule and every other line is scanned as default.
-title = "one-loop-two-ledgers"
+title = "research-one-loop-two-ledgers"
 
 [extend]
 useDefault = true
