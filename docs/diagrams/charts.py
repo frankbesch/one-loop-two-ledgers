@@ -38,7 +38,7 @@ LOOP_DESC = ("The typed-question loop. The text of a partner bill or a complianc
              "frozen confidence floor. Each line is posted, or held for a named owner.")
 WORST_DESC = ("Silent errors, the planted errors posted with no person looking, in each design's worst "
               "run. Oil and gas bills, months 3 to 6, 840 lines: the loop 0 (worst of 3 runs), one agent "
-              "2 (worst of 3), confidence handoff 28 (1 run), sampled audit 87 (seeded run). Loan "
+              "2 (worst of 3), confidence handoff 28 (1 run), sampled audit 87 (seeded run). Bank "
               "certificates, two scored quarters, 198 units: the loop 1 (worst of 3), one agent 0 "
               "(worst of 3), confidence handoff 2 (1 run), sampled audit 23 (seeded run).")
 
